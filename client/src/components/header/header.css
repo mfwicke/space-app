@@ -1,0 +1,20 @@
+nav {
+    width: 100%;
+    max-width: 1024px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3px 10px;
+    margin: 0px 10px;
+    background-color: var(--color-light-3);
+    border-radius: 5px;
+}
