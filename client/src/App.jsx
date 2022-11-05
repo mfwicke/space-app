@@ -45,7 +45,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <AliceCarousel mouseTracking items={items} />
-      <Mercury planet={"Mercury"} />
+      {/* <Mercury planet={"Mercury"} /> */}
     </div>
   );
 }
