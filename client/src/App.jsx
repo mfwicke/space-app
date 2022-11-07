@@ -17,7 +17,7 @@ function App() {
   const responsive = {
     0: { items: 1 },
     568: { items: 1 },
-    1024: { items: 1.5 },
+    1024: { items: 4 },
   };
 
   const items = [

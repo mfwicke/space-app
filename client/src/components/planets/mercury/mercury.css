@@ -73,7 +73,7 @@ body label.menu .preview {
   box-shadow: 0 -13px 10px 2px black inset;
 }
 
-/* .solar-system {
+.solar-system {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,4 +94,4 @@ body label.menu .preview {
   top: auto;
   bottom: -920px;
   animation: planet 60s 3.9s infinite linear;
-} */
+}
