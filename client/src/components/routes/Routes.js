@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import Bio from '../bio/Bio';
-import Bios from '../bios/Bios';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import React, { Component } from "react";
+import Bio from "../components/bio/Bio";
+import Bios from "../components/bios/Bios";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 class Routes extends Component {
   render() {
-      const getBio = props => {
+    const getBio = (props) => {
       const name = props.match.params.bioName;
       const bioData = this.props.bios.find(
-        d => d.name.toLowerCase() === name.toLowerCase()
+        (d) => d.name.toLowerCase() === name.toLowerCase()
       );
       if (!bioData) {
-        return <Redirect to='/contacts' />;
+        return <Redirect to="/contacts" />;
       }
       return <Bio {...bioData} {...props} />;
     };
@@ -19,13 +19,13 @@ class Routes extends Component {
       <Switch>
         <Route
           exact
-          path='/contacts'
-          render={routerProps => (
+          path="/contacts"
+          render={(routerProps) => (
             <Bios bios={this.props.bios} {...routerProps} />
           )}
         />
-        <Route exact path='/contacts/:bioName' render={getBio} />
-        <Redirect to='/contacts' />
+        <Route exact path="/contacts/:bioName" render={getBio} />
+        <Redirect to="/contacts" />
       </Switch>
     );
   }
