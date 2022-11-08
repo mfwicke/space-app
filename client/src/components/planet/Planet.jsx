@@ -6,10 +6,12 @@ export const Planet = ({ planet }) => {
     <>
       <div className={"planet_description"}>
         <div className="solar">
-          <h1>{`${planet.name}`}</h1>
           <p className={""}>{planet.description}</p>
+          <h1>{`${planet.name}`}</h1>
           <div className={"solar_system rotate"}>
-            <div className={"planet " + planet.name}></div>
+            <div className={"planet"}>
+              <div className={"bg " + planet.name}></div>
+            </div>
           </div>
         </div>
       </div>

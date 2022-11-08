@@ -1,29 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+/* 
+body {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: yellowgreen;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}  */
+
 .mercury {
-  background: url("https://www.solarsystemscope.com/images/textures/full/2k_makemake_fictional.jpg") !important;
+  background: url("https://www.solarsystemscope.com/images/textures/full/2k_makemake_fictional.jpg")
+    repeat-x !important;
 }
 .venus {
-  background: url("https://nasa3d.arc.nasa.gov/shared_assets/images/ven0aaa2/ven0aaa2-copy-428-321.jpg") !important;
+  background: url("https://nasa3d.arc.nasa.gov/shared_assets/images/ven0aaa2/ven0aaa2-copy-428-321.jpg")
+    repeat-x !important;
 }
 .earth {
-  background: url("https://img00.deviantart.net/04ef/i/2009/114/3/e/new_earth_texture_map_by_lightondesigns.jpg") !important;
+  background: url("https://img00.deviantart.net/04ef/i/2009/114/3/e/new_earth_texture_map_by_lightondesigns.jpg")
+    repeat-x !important;
 }
 .mars {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_texture.jpg") !important;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_texture.jpg")
+    repeat-x !important;
 }
 .jupiter {
-  background: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA07782_hires.jpg") !important;
+  background: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA07782_hires.jpg")
+    repeat-x !important;
 }
 .saturn {
-  background: url("https://www.solarsystemscope.com/images/textures/full/2k_saturn.jpg") !important;
+  background: url("https://www.solarsystemscope.com/images/textures/full/2k_saturn.jpg")
+    repeat-x !important;
 }
 .uranus {
-  background: url("https://img00.deviantart.net/957c/i/2017/165/4/9/uranus_texture_map_by_jcpag2010-db7yjwb.png") !important;
+  background: url("https://img00.deviantart.net/957c/i/2017/165/4/9/uranus_texture_map_by_jcpag2010-db7yjwb.png")
+    repeat-x !important;
 }
 .neptune {
-  background: url("https://img00.deviantart.net/f068/i/2017/165/b/c/neptune_texture_map_by_jcpag2010-dbcjcv5.png") !important;
+  background: url("https://img00.deviantart.net/f068/i/2017/165/b/c/neptune_texture_map_by_jcpag2010-dbcjcv5.png")
+    repeat-x !important;
 }
 .pluto {
-  background: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/pluto_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png") !important;
+  background: url("https://pre00.deviantart.net/4677/th/pre/f/2015/314/4/e/pluto_map__2015_nov_10__by_snowfall_the_cat-d918tlb.png")
+    repeat-x !important;
 }
 
 .solar {
@@ -32,27 +55,61 @@
 }
 
 .planet {
+  overflow: hidden;
   border-radius: 100%;
   width: 400px;
   height: 400px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
   margin: 0 auto;
   box-shadow: 0 0 10px 5px rgba(161, 159, 159, 0.387);
-  animation: spin 100s ease infinite;
+}
+
+.bg {
+  width: 1000px;
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: planet 6s 3.9s infinite linear;
+}
+
+/* @-webkit-keyframes planet {
+  from {
+    background-position-y: 0px;
+  }
+  to {
+    background-position-y: -1000px;
+  }
+} */
+@keyframes planet {
+  from {
+    transform: translate3d(0, 0, 0);
+    /* background-position-y: 0px; */
+  }
+  to {
+    transform: translate3d(-600px, 0, 0);
+    /* background-position-y: -1000px; */
+  }
 }
 
 /* .rotate {
-  animation: linear 2s infinite linear;
-} */
+      animation: linear 2s infinite linear;
+    } */
 
-@keyframes spin {
-  0% {
-    background-position: 0% top;
-  }
-  100% {
-    background-position: -200% top;
-  }
-}
+/* @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(90deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      75% {
+        transform: rotate(270deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    } */

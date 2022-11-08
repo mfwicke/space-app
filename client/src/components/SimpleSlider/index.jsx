@@ -13,7 +13,7 @@ export const SimpleSlider = () => {
     className: "center",
     centerMode: true,
     padding: "60px",
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 2.5,
@@ -64,8 +64,6 @@ export const SimpleSlider = () => {
   return (
     <>
       <div>
-        <h2>Center Mode</h2>
-
         <Slider {...settings}>
           {planets.map((planet) => (
             <Planet planet={planet} />
