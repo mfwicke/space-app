@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./bio.css";
 
 export const Bio = () => {
+  //  all the classes are in bootstrap is not so clear to me
   return (
     <>
       <div className="BioDetails row justify-content-center mt-5">

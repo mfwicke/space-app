@@ -12,7 +12,7 @@ export const SimpleSlider = () => {
   const settings = {
     className: "responsive",
     centerMode: true,
-    padding: "60px",
+    //padding: "30px",
     //autoplay: true,
     //dots: true,
     infinite: true,
@@ -25,8 +25,6 @@ export const SimpleSlider = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-
-          //dots: true,
         },
       },
       {
@@ -34,7 +32,6 @@ export const SimpleSlider = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          // initialSlide: 1,
         },
       },
       {
@@ -42,31 +39,10 @@ export const SimpleSlider = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 3,
-          //   // initialSlide: 1,
         },
       },
     ],
   };
-  // const settings1 = {
-  //   className: "center",
-  //   centerMode: true,
-  //   padding: "60px",
-  //   //dots: true,
-  //   infinite: true,
-  //   speed: 1000,
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  // };
-  // const settings2 = {
-  //   className: "center",
-  //   centerMode: true,
-  //   padding: "60px",
-  //   //dots: true,
-  //   infinite: true,
-  //   speed: 1000,
-  //   slidesToShow: 5,
-  //   slidesToScroll: 1,
-  // };
 
   const planets = [
     {
@@ -112,6 +88,7 @@ export const SimpleSlider = () => {
   return (
     <>
       <div>
+        <h1>STELLAR TRIPS - Space is the Limit!</h1>
         <Slider {...settings} className={"single_planet"}>
           {planets.map((planet) => (
             <Planet planet={planet} />
@@ -121,5 +98,3 @@ export const SimpleSlider = () => {
     </>
   );
 };
-
-// export SimpleSlider;

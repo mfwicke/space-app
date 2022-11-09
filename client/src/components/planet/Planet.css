@@ -1,16 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
-/* 
-body {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 1.5rem;
-  color: #fff;
-  background-color: yellowgreen;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}  */
+
+
+
 
 .mercury {
   background: url("https://www.solarsystemscope.com/images/textures/full/2k_makemake_fictional.jpg")
@@ -87,7 +77,7 @@ body {
   }
 }
 
-/* @merdia only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .display_planet {
     display: none !important;
   }

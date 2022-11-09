@@ -9,8 +9,6 @@ import Header from "./components/header/Header";
 import About from "./pages/about/About";
 import Contacts from "./pages/contacts/Contacts";
 import Planet from "./components/planetDetail/Planet.jsx";
-// import Mercury from "./components/planets/mercury/Mercury";
-// import Mars from "./components/planets/Mars/Mars";
 
 function App() {
   return (
