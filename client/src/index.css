@@ -1,1 +1,12 @@
-
+body {
+  background: url("./assets/Images/fondo_de_pantalla.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  /* I am just playing here! */
+}
