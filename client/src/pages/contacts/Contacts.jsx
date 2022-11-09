@@ -1,8 +1,8 @@
 // import React from "react";
 // import Routes from "../../routes/Routes.jsx";
 
-// class Contacts extends React.Component {
-//   static defaultProps = {
+// export const Contacts = () => {
+//  const = defaultProps = {
 //     bios: [
 //       {
 //         name: "STELLAR TRIPS Inc.",
@@ -23,11 +23,11 @@
 //         image: "Photo",
 //         age: 41,
 //         facts: [
-//           "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+//           {`"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
 //           "Exercitationem reiciendis aliquid, necessitatibus ullam",
 //           "ut est possimus a facilis quae dicta vitae voluptatibus",
-//           "amet, at eaque hic perspiciatis molestias, eum fugiat.",
-//         ],
+//           "amet, at eaque hic perspiciatis molestias, eum fugiat."`,
+//         }],
 //         email: "mwicke@gmail.com",
 //       },
 //       {
@@ -58,13 +58,13 @@
 //       },
 //     ],
 //   };
-//   render() {
+  
 //     return (
 //       <div className="container">
 //         <Routes bios={this.props.bios} />
 //       </div>
 //     );
 //   }
-// }
 
-// export default Contacts;
+
+

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Planet.css";
 //import styled from "styled-components";
 
@@ -23,10 +24,13 @@ export const Planet = ({ planet }) => {
     <>
       <div className={"slide"}>
         <p className={"planet_description"}>{planet.description}</p>
+
         <h1>{`${planet.name}`}</h1>
-        <div className={"planet"}>
-          <div className={"bg " + planet.name}></div>
-        </div>
+        <Link to={`/planet/${planet.name.toLowerCase()}`}>
+          <div className={"planet"}>
+            <div className={"bg " + planet.name}></div>
+          </div>
+        </Link>
       </div>
     </>
   );

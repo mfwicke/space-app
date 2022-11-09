@@ -56,6 +56,7 @@ body {
 .slide {
   width: 300px;
   /* padding: 30px; */
+  margin: 250px auto;
 }
 
 .planet {

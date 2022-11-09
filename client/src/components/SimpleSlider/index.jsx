@@ -13,34 +13,36 @@ export const SimpleSlider = () => {
     className: "responsive",
     centerMode: true,
     padding: "60px",
+    //autoplay: true,
     //dots: true,
     infinite: true,
     speed: 1000,
-    //slidesToShow: 1,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
+
           //dots: true,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           // initialSlide: 1,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 400,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToScroll: 3,
+          //   // initialSlide: 1,
         },
       },
     ],
@@ -115,16 +117,6 @@ export const SimpleSlider = () => {
             <Planet planet={planet} />
           ))}
         </Slider>
-        {/* <Slider {...settings} className={"three_planet"}>
-          {planets.map((planet) => (
-            <Planet planet={planet} />
-          ))}
-        </Slider>
-        <Slider {...settings} className={"multiple_planet"}>
-          {planets.map((planet) => (
-            <Planet planet={planet} />
-          ))}
-        </Slider> */}
       </div>
     </>
   );
