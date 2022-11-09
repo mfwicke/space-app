@@ -8,5 +8,6 @@
 }
 
 body {
-  background-image: url("./assets/Images/brett-ritchie-1vKTnwLMdqs-unsplash.jpg");
+  background: url("./assets/Images/brett-ritchie-1vKTnwLMdqs-unsplash.jpg")
+    no-repeat center center fixed;
 }
