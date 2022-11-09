@@ -10,15 +10,61 @@ import "slick-carousel/slick/slick-theme.css";
 
 export const SimpleSlider = () => {
   const settings = {
-    className: "center",
+    className: "responsive",
     centerMode: true,
     padding: "60px",
     //dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 3,
+    //slidesToShow: 1,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          infinite: true,
+          //dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          // initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
+  // const settings1 = {
+  //   className: "center",
+  //   centerMode: true,
+  //   padding: "60px",
+  //   //dots: true,
+  //   infinite: true,
+  //   speed: 1000,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  // };
+  // const settings2 = {
+  //   className: "center",
+  //   centerMode: true,
+  //   padding: "60px",
+  //   //dots: true,
+  //   infinite: true,
+  //   speed: 1000,
+  //   slidesToShow: 5,
+  //   slidesToScroll: 1,
+  // };
 
   const planets = [
     {
@@ -64,7 +110,12 @@ export const SimpleSlider = () => {
   return (
     <>
       <div>
-        <Slider {...settings} className={"display_planet"}>
+        <Slider {...settings} className={"single_planet"}>
+          {planets.map((planet) => (
+            <Planet planet={planet} />
+          ))}
+        </Slider>
+        {/* <Slider {...settings} className={"three_planet"}>
           {planets.map((planet) => (
             <Planet planet={planet} />
           ))}
@@ -73,12 +124,7 @@ export const SimpleSlider = () => {
           {planets.map((planet) => (
             <Planet planet={planet} />
           ))}
-        </Slider>
-        <Slider {...settings} className={"single_planet"}>
-          {planets.map((planet) => (
-            <Planet planet={planet} />
-          ))}
-        </Slider>
+        </Slider> */}
       </div>
     </>
   );
