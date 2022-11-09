@@ -49,9 +49,9 @@ body {
     repeat-x !important;
 }
 
-.solar {
-  margin: 2rem auto;
-  padding: 5rem;
+.slide {
+  margin: 30px;
+  padding: 30px;
 }
 
 .planet {
@@ -70,46 +70,33 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  animation: planet 6s 3.9s infinite linear;
+  animation: planet 60s 3.9s infinite linear;
 }
 
-/* @-webkit-keyframes planet {
-  from {
-    background-position-y: 0px;
-  }
-  to {
-    background-position-y: -1000px;
-  }
-} */
 @keyframes planet {
   from {
     transform: translate3d(0, 0, 0);
-    /* background-position-y: 0px; */
   }
   to {
     transform: translate3d(-600px, 0, 0);
-    /* background-position-y: -1000px; */
   }
 }
 
-/* .rotate {
-      animation: linear 2s infinite linear;
-    } */
+@merdia only screen and (max-width: 768px) {
+  .planet {
+    width: 300px;
+    height: 300px;
+  }
+}
 
-/* @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-      25% {
-        transform: rotate(90deg);
-      }
-      50% {
-        transform: rotate(180deg);
-      }
-      75% {
-        transform: rotate(270deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    } */
+.display_planet {
+  opacity: 0;
+}
+
+.multiple_planet {
+  visibility: hidden;
+}
+
+.single_planet {
+  opacity: 0;
+}

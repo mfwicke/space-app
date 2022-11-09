@@ -13,10 +13,10 @@ export const SimpleSlider = () => {
     className: "center",
     centerMode: true,
     padding: "60px",
-    // dots: true,
+    //dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
   };
 
@@ -64,7 +64,17 @@ export const SimpleSlider = () => {
   return (
     <>
       <div>
-        <Slider {...settings}>
+        <Slider {...settings} className={"display_planet"}>
+          {planets.map((planet) => (
+            <Planet planet={planet} />
+          ))}
+        </Slider>
+        <Slider {...settings} className={"multiple_planet"}>
+          {planets.map((planet) => (
+            <Planet planet={planet} />
+          ))}
+        </Slider>
+        <Slider {...settings} className={"single_planet"}>
           {planets.map((planet) => (
             <Planet planet={planet} />
           ))}
