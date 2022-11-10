@@ -43,7 +43,7 @@ const planets = [
 ];
 
 const Planet = () => {
-  const { name } = useParams();
+  const { name, image } = useParams();
   console.log(name);
   return (
     <>
