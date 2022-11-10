@@ -7,7 +7,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 //import Home from "./pages/home/Home";
 import About from "./pages/about/About";
-import Contacts from "./pages/contacts/Contacts";
+import Contacts from "./components/contacts/Contacts.jsx";
 import Planet from "./components/planetDetail/Planet.jsx";
 
 function App() {

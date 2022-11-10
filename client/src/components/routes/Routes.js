@@ -1,6 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import Bio from "../components/bio/Bio";
 import Bios from "../components/bios/Bios";
+import Contacts from "../contacts/Contacts";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 const Routes = () => {
