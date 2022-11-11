@@ -6,9 +6,9 @@ export const Planet = ({ planet }) => {
   return (
     <>
       <div className={"slide"}>
-        <p className={"planet_description"}>{planet.description}</p>
-
         <h1>{`${planet.name}`}</h1>
+        {/* <p className={"planet_description"}>{planet.description}</p> */}
+
         <Link to={`/planet/${planet.name.toLowerCase()}`}>
           <div className={"planet"}>
             <div className={"bg " + planet.name}></div>

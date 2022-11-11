@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-//import Mars from "../planets/Mars/Mars";
-//import Mercury from "../planets/mercury/Mercury";
+import "./index.css";
 
 import { Planet } from "../planet/Planet";
 
@@ -17,20 +16,20 @@ export const SimpleSlider = () => {
     //dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 3,
+    slidesToShow: 1.8,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 2.5,
+          slidesToShow: 1.5,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1.1,
           slidesToScroll: 1,
         },
       },

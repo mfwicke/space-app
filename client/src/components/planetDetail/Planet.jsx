@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Picture from "../../assets/Images/picture_one.jpg";
+import "./index.css";
 
 const planets = [
   {

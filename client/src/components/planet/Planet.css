@@ -58,15 +58,24 @@ body {
     repeat-x !important;
 }
 
-.planet_description {
-  height: 25rem;
+.slide > h1 {
+  font-size: 3rem;
+  text-align: right;
+  margin: 1rem 0;
 }
 
 .slide {
-  width: 15rem;
-  /* padding: 30px; */
-  margin: 20rem auto;
+  width: 3rem;
+  margin: 3.2rem auto;
+  padding: 2rem;
+  text-align: center;
 }
+
+/* .planet_description {
+  height: 2rem;
+  text-align: center;
+  width: fit-content;
+} */
 
 .planet {
   overflow: hidden;
@@ -74,8 +83,9 @@ body {
   width: 35rem;
   height: 35rem;
   position: relative;
-  margin: 15rem auto;
+  margin: 10rem auto;
   box-shadow: 0 0 10px 5px rgba(161, 159, 159, 0.387);
+  opacity: 0.8;
 }
 
 .bg {
