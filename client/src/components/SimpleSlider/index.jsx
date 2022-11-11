@@ -17,20 +17,20 @@ export const SimpleSlider = () => {
     //dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2.5,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1.5,
           slidesToScroll: 1,
         },
       },
@@ -90,8 +90,8 @@ export const SimpleSlider = () => {
       <div>
         <h1>STELLAR TRIPS - Space is the Limit!</h1>
         <Slider {...settings} className={"single_planet"}>
-          {planets.map((planet) => (
-            <Planet planet={planet} />
+          {planets.map((planet, i) => (
+            <Planet planet={planet} key={i} />
           ))}
         </Slider>
       </div>

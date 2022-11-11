@@ -6,7 +6,7 @@ const contacts = [
   {
     name: "STELLAR TRIPS Inc.",
     id: 0,
-    image: "./images/foto-persona.jpg",
+    image: "./assets/Images/foto-persona.jpg",
     age: "<1",
     info: "lorem ipsum dolor sit amet",
     email: "contactus@stellartrips.com",
@@ -35,14 +35,21 @@ const contacts = [
     info: "lorem ipsum dolor sit amet",
     email: "mwicke@gmail.com",
   },
+  {
+    name: "Tareq Almasri",
+    id: 4,
+    image: "./images/foto-persona.jpg",
+    info: "lorem ipsum dolor sit amet",
+    email: "",
+  },
 ];
 
 const Contacts = () => {
-  const { name } = useParams();
   return (
     <>
       <h1>Contact</h1>
-      <p>{name}</p>
+      <p>{contacts[4].name}</p>
+      <img src={contacts[0].image} width={"2400px"} alt="planet" />
     </>
   );
 };
