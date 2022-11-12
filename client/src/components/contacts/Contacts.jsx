@@ -2,6 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 //import Routes from "../../routes/Routes.jsx";
 
+import "./contacts.css";
+
 const contacts = [
   {
     name: "STELLAR TRIPS Inc.",

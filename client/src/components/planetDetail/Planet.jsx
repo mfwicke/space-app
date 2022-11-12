@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Picture from "../../assets/Images/picture_one.jpg";
+
 import "./index.css";
 
 const planets = [
@@ -8,6 +8,7 @@ const planets = [
     name: "mercury",
     description: "Mercury is the smallest planet in the Solar System.",
     numberOfImages: 0,
+    url: "https://en.wikipedia.org/wiki/Mercury_(planet)",
   },
   {
     name: "mars",
@@ -50,8 +51,8 @@ const planets = [
       "Neptune is the eighth and farthest known planet from the Sun in the Solar System.",
     numberOfImages: 2,
     img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
-    img2: Picture,
-    img3: Picture,
+    img2: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+    img3: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
   },
 ];
 

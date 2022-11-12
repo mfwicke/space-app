@@ -9,20 +9,21 @@ import "slick-carousel/slick/slick-theme.css";
 
 export const SimpleSlider = () => {
   const settings = {
-    className: "responsive",
+    className: "multiple-items",
     centerMode: true,
-    //padding: "30px",
+    padding: "1rem",
     //autoplay: true,
     //dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 1.8,
+    slidesToShow: 2.5,
     slidesToScroll: 1,
+    //fade: true,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1.8,
           slidesToScroll: 1,
         },
       },
@@ -37,7 +38,7 @@ export const SimpleSlider = () => {
         breakpoint: 400,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
         },
       },
     ],
