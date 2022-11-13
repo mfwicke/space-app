@@ -1,5 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import {Login} from "../login/Login.jsx"; 
+import {TripForm} from "../trips/TripForm.jsx"
+import {SignIn} from "../login/Sign-in.jsx"
 //import Routes from "../../routes/Routes.jsx";
 
 const contacts = [
@@ -42,7 +45,9 @@ const Contacts = () => {
   return (
     <>
       <h1>Contact</h1>
-      <p>{name}</p>
+      <p>{name}</p>      
+        <Login />    
+        <SignIn />  
     </>
   );
 };

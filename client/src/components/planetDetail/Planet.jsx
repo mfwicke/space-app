@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
+
 const planets = [
   {
     name: "mercury",
@@ -48,7 +49,7 @@ const Planet = () => {
   return (
     <>
       <h1>Planet: {name}</h1>
-      <p>{planets.find((planet) => planet.name === name).description}</p>
+      <p>{planets.find((planet) => planet.name === name).description}</p>      
     </>
   );
 };
