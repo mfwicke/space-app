@@ -1,5 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import {Login} from "../login/Login.jsx"; 
+import {TripForm} from "../trips/TripForm.jsx"
+import {SignIn} from "../login/Sign-in.jsx"
 //import Routes from "../../routes/Routes.jsx";
 
 import "./contacts.css";
@@ -50,8 +53,11 @@ const Contacts = () => {
   return (
     <>
       <h1>Contact</h1>
-      <p>{contacts[4].name}</p>
-      <img src={contacts[0].image} width={"2400px"} alt="planet" />
+
+      <p>{name}</p>      
+        <Login />    
+        <SignIn />  
+
     </>
   );
 };

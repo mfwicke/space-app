@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/planet/:name" element={<Planet />} />
+        <Route path="/planet/:name" element={<Planet />} />                
       </Routes>
       {/* <img src="./assets/Images/picture_one.jpg" alt="planet" /> */}
     </div>

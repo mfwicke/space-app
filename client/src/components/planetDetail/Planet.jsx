@@ -1,7 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
+
 import "./index.css";
+
 
 const planets = [
   {
@@ -62,6 +64,9 @@ const Planet = () => {
   return (
     <div>
       <h1>Planet: {name}</h1>
+
+    
+
       <p>{planets.find((planet) => planet.name === name).description}</p>
       {planet.numberOfImages === 1 ? (
         <img src={planet.img} alt="planet" />
@@ -72,6 +77,7 @@ const Planet = () => {
         </>
       )}
     </div>
+
   );
 };
 

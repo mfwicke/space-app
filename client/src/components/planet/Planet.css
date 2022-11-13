@@ -85,6 +85,10 @@ body {
   height: 100%;
   margin: auto auto;
   background-size: cover;
+
+  background-size: contain;
+  background-position: center;
+
   background-repeat: no-repeat;
   background-position: center;
   animation: planet 60s 3.9s infinite linear;
