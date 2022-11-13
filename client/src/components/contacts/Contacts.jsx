@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import {Login} from "../login/Login.jsx"; 
-import {TripForm} from "../trips/TripForm.jsx"
-import {SignIn} from "../login/Sign-in.jsx"
+import { Login } from "../login/Login.jsx";
+import { TripForm } from "../trips/TripForm.jsx";
+import { SignIn } from "../login/Sign-in.jsx";
 //import Routes from "../../routes/Routes.jsx";
 
 import "./contacts.css";
@@ -54,10 +54,9 @@ const Contacts = () => {
     <>
       <h1>Contact</h1>
 
-      <p>{name}</p>      
-        <Login />    
-        <SignIn />  
-
+      <p>{}</p>
+      <Login />
+      <SignIn />
     </>
   );
 };

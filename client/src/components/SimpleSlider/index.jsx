@@ -9,28 +9,28 @@ import "slick-carousel/slick/slick-theme.css";
 
 export const SimpleSlider = () => {
   const settings = {
-    className: "multiple-items",
+    className: "responsive",
     centerMode: true,
     padding: "1rem",
     //autoplay: true,
     //dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     //fade: true,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 1.8,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 1.1,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -87,7 +87,7 @@ export const SimpleSlider = () => {
 
   return (
     <>
-      <div>
+      <div className="what">
         <h1>STELLAR TRIPS - Space is the Limit!</h1>
         <Slider {...settings} className={"single_planet"}>
           {planets.map((planet, i) => (
