@@ -1,9 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-
 import "./index.css";
-
 
 const planets = [
   {
@@ -51,7 +49,7 @@ const planets = [
     name: "neptune",
     description:
       "Neptune is the eighth and farthest known planet from the Sun in the Solar System.",
-    numberOfImages: 2,
+    numberOfImages: 3,
     img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
     img2: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
     img3: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
@@ -65,19 +63,16 @@ const Planet = () => {
     <div>
       <h1>Planet: {name}</h1>
 
-    
-
       <p>{planets.find((planet) => planet.name === name).description}</p>
       {planet.numberOfImages === 1 ? (
         <img src={planet.img} alt="planet" />
       ) : (
         <>
-          <img src={planet.img} alt="planet" />
           <img src={planet.img2} alt="planet" />
+          <img src={planet.img3} alt="planet" />
         </>
       )}
     </div>
-
   );
 };
 
