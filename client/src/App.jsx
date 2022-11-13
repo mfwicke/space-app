@@ -21,6 +21,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" />} />
         <Route path="/planet/:name" element={<Planet />} />                
       </Routes>
+      {/* <img src="./assets/Images/picture_one.jpg" alt="planet" /> */}
     </div>
   );
 }
