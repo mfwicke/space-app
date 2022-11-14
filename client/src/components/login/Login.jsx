@@ -7,7 +7,6 @@ export const Login = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(email); 
     }
     return (
     <div className="outer-container">
