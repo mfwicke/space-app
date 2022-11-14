@@ -7,9 +7,7 @@ const planets = [
   {
     name: "mercury",
     description: "Mercury is the smallest planet in the Solar System.",
-    img: [
-      "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
-    ],
+    img: [],
   },
   {
     name: "mars",
