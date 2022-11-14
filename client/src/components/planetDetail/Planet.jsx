@@ -17,6 +17,9 @@ const planets = [
       "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System.",
     img: [
       "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+      "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+      "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+      "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
     ],
   },
   {
@@ -75,13 +78,19 @@ const Planet = () => {
   const planet = planets.find((planet) => planet.name === name);
   console.log(name);
   return (
-    <div>
+    <>
       <h1>{planet.name}</h1>
       <p>{planet.description}</p>
+
       {planet.img.map((img, k) => (
-        <img src={img} alt={planet.name} key={k} />
+        <img
+          className={`photo-${planet.name + k}`}
+          src={img}
+          alt={planet.name}
+          key={k}
+        />
       ))}
-    </div>
+    </>
   );
 };
 
