@@ -9,25 +9,33 @@ export default function Header() {
   };
 
   return (
-    <nav>
-      <ul>
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/about">About</NavLink>
-        </li>
-        <li>
-          <NavLink to="/contacts">Contacts</NavLink>
-        </li>
-        <li>
-          <a href="https://www.google.com" target={"_blank"} rel="noreferrer">
-            Go to google
-          </a>
-        </li>
-
-        <button onClick={handleNavigate}>Send user to about page</button>
-      </ul>
-    </nav>
+    <div className="barContainer">
+      <nav className="barLeft">
+        <ul>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts">Contacts</NavLink>
+          </li>
+        </ul>
+      </nav>
+      <nav className="barRight">
+        <ul>
+            <li>
+              <NavLink to="/Register">Register</NavLink>
+            </li>
+            <li>
+              <NavLink to="/login">Login</NavLink>
+            </li>
+            <li>
+              <NavLink to="/User">Welcome User</NavLink>
+            </li>
+          </ul>
+      </nav>
+    </div>
   );
 }
