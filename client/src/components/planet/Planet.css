@@ -12,11 +12,15 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
   color: 000;
 }
+
+/* .mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune, .pluto {
+  box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);
+  background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+} */
 
 .mercury {
   background: url("https://www.solarsystemscope.com/images/textures/full/2k_makemake_fictional.jpg")
