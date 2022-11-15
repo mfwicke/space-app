@@ -14,10 +14,8 @@ const planets = [
     description:
       "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System.",
     img: [
-      "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
-      "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
-      "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
-      "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MarsPanoramaa.jpg/1920px-MarsPanoramaa.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Curiosity_at_Work_on_Mars_%28Artist%27s_Concept%29.jpg/400px-Curiosity_at_Work_on_Mars_%28Artist%27s_Concept%29.jpg",
     ],
   },
   {

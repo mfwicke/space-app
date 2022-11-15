@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./trips.css";
 
-// const TripForm = (props) => {
+//const TripForm = (props) => {
 //optional: round trip/one way/Multi-planet
 //flying from
 //flying to
