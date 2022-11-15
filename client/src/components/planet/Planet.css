@@ -83,6 +83,7 @@ body {
   box-shadow: 0rem 0rem 10rem 3rem rgba(174, 172, 172, 0.492);
   opacity: 1;
 }
+
 .planet:hover {
   opacity: 1;
   transform: scale(1.3);
