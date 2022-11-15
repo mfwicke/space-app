@@ -1,7 +1,7 @@
 import React, { useState } from "react"; 
 import "./sign-in.css"; 
 
-export const SignIn = () => {
+export const SignIn = (props) => {
     const [email, setEmail] = useState(""); 
     const [password, setPassword] = useState(""); 
 
@@ -23,6 +23,7 @@ export const SignIn = () => {
                 <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="********" id="password" name="password" />
                 <button type="submit" id="button">Sign up</button>
             </form>
+            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Already registered? Proceed to login.</button>
         </div>
     </div>
     )
