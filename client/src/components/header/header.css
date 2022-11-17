@@ -46,6 +46,24 @@ li {
   cursor: pointer;
 } */
 
+.brandBox {
+  display: inline-flex;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.brandName {
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
 a {
   text-decoration: none;
   font-weight: 700;
