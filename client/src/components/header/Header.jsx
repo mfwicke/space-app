@@ -10,33 +10,30 @@ export default function Header() {
   };
 
   return (
-    <div className="barContainer">
-      <nav className="barLeft">
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
+    <header class="header">
+    <NavLink to="/"><img src={process.env.PUBLIC_URL + "/assets/Images/stlogo-green.png"} alt="Logo" className="logo"/></NavLink>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+    <ul class="menu">
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About</NavLink>
+        </li>
+        <li>
             <NavLink to="/contacts">Contacts</NavLink>
-          </li>
-        </ul>
-      </nav>
-      <nav className="barRight">
-        <ul>
-            <li>
-              <NavLink to="/Register">Register</NavLink>
-            </li>
-            <li>
-              <NavLink to="/login">Login</NavLink>
-            </li>
-            <li>
-              <NavLink to="/User">Welcome User</NavLink>
-            </li>
-          </ul>
-      </nav>
-    </div>
+        </li>
+        <li>
+          <NavLink to="/Register">Register</NavLink>
+        </li>
+        <li>
+          <NavLink to="/login">Login</NavLink>
+        </li>
+        <li>
+          <NavLink to="/User">Welcome User</NavLink>
+        </li>
+    </ul>
+</header>
   );
 }
