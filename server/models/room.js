@@ -28,7 +28,7 @@ const roomSchema = new Schema({
   },
   view: {
     type: String,
-    enum: ["CRATERS", "MOUNTAIN", "DESERT", "VULCANOES"],
+    enum: ["CRATERS", "MOUNTAIN", "DESERT", "VOLCANOES"],
     default: "CRATERS",
   },
   price: {
