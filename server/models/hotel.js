@@ -16,9 +16,9 @@ const HotelSchema = new Schema({
         address: String,  //Invented address on Planet
         sateliteWire: Number,
         solasrystemCode: String,
-        required: true,
         planetocentric: String, //IAu-accepted coordinate system for the planets & satelites
-        planetographic: String
+        planetographic: String,
+        required: true,
     },
     description:{
         type: String,
