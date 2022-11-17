@@ -56,12 +56,11 @@ a:visited {
   color: var(--color-light-1);
 }
 a:hover {
-  color: red;
+  color: #1DB702;
 }
 
 .logo {
-  height: 8rem;
-  margin-right: 58rem;
+  height: 5rem;
 }
 
 /* li {
@@ -85,6 +84,7 @@ body {
   backdrop-filter: blur(0.3rem);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 2rem;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -99,7 +99,7 @@ body {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 5px;
   text-decoration: none;
 }
 
@@ -111,7 +111,6 @@ body {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -134,7 +133,7 @@ body {
 }
 
 .header .menu-icon .nav-icon {
-  background: #333;
+  background: var(--color-light-1);
   display: block;
   height: 2px;
   position: relative;
@@ -144,7 +143,7 @@ body {
 
 .header .menu-icon .nav-icon:before,
 .header .menu-icon .nav-icon:after {
-  background: #333;
+  background: var(--color-light-1);
   content: '';
   display: block;
   height: 100%;
@@ -198,7 +197,7 @@ body {
   .header .menu {
     clear: none;
     float: right;
-    max-height: none;
+    max-height: 100%;
   }
   .header .menu-icon {
     display: none;
