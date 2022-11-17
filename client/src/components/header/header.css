@@ -103,10 +103,6 @@ body {
   text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
-}
-
 .header .logo {
   display: block;
   float: left;
