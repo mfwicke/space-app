@@ -51,7 +51,7 @@ export const getHotels = async (req, res) => {
 };
 
 //LIST BY PLANET
-export const countByCity = async (req, res, next) => {
+export const countByCity = async (req, res) => {
     const planets = req.query.planets.split(",");
     try {
       const list = await Promise.all(
@@ -66,5 +66,38 @@ export const countByCity = async (req, res, next) => {
   };
 
 //COUNT BY TYPE
+export const countByTipe = async (req, res) => {
+    try {
+        //returns the number of documents in the collection that match the specified query.
+        const groundStationCount = await hotel.countDocuments({ type: "groundStation"}); 
+        const basicCabin = await hotel.countDocuments({ type: "basicCabin"});
+        const marsVilla = await hotel.countDocuments({ type: "marsVilla"});
+        const orbitalHotel = await hotel.countDocuments({ type: "orbitalHotel"});
+        const spaceCraftVilla = await hotel.countDocuments({ type: "orbitalVilla"}); 
+
+        res.status(200).json([
+            { type: "groundStation", count: groundStationCount },
+            { type: "basicCabin", count: basicCabin},
+            { type: "marsVilla", count: marsVilla},
+            { type: "orbitalHotel", count: orbitalHotel},
+            { type: "orbitalVilla", spaceCraftVilla},
+        ]); 
+    } catch (error) {
+        return res.status(500).json({message:error.message})
+    }
+}; 
 
 //GET HOTEL ROOMS
+export const getHotelRooms = async (req, res) => {
+    try {
+      const hotel = await hotel.findById(req.params.id);
+      const list = await Promise.all(
+        hotel.rooms.map((room) => {
+          return room.findById(room);
+        })
+      );
+      res.status(200).json(list)
+    } catch (error) {
+      return res.status(500).json({message:error.message});
+    }
+  };
