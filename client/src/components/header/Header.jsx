@@ -10,6 +10,7 @@ export default function Header() {
 
   return (
     <header class="header">
+<<<<<<< HEAD
       <NavLink to="/">
         <div className="brandBox">
           <img
@@ -28,6 +29,20 @@ export default function Header() {
         <span class="nav-icon"></span>
       </label>
       <ul class="menu">
+=======
+    <NavLink to="/">
+      <div className="brandBox">
+        <img src={process.env.PUBLIC_URL + "/assets/Images/stlogo-green.png"} alt="Logo" className="logo"/>
+        <div className="brand">
+          <span className="brandName">STELLAR TRIPS</span>
+          <span className="brandMotto">Space is the Limit!</span>
+        </div>
+      </div>
+    </NavLink>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+    <ul class="menu">
+>>>>>>> dea0d0aafb3334702dab65cb88bac4d9e6be8fff
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
