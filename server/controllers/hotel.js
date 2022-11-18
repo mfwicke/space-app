@@ -1,3 +1,4 @@
+import express from "express";
 import hotel from '../models/hotel.js'; 
 import room from '../models/room.js'; 
 
