@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
-import userRoutes from "./routes/userRoutes.js";
+import { userRoutes, hotelRoutes } from "./routes/userRoutes.js";
 // Load .env file
 dotenv.config();
 
@@ -33,6 +33,7 @@ mongoose
 
 // Routes
 app.use("/api/users", userRoutes);
+app.use("/api/hotels", hotelRoutes);
 
 // Start server
 app.listen(port, () => {
