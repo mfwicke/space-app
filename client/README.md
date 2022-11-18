@@ -75,5 +75,6 @@ LinkedIn: [Vincenzo Arena](https://www.linkedin.com/in/vincenzo-arena-032a064b/)
 - [npm](https://www.npmjs.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Trello](https://trello.com/)
 
 ---
