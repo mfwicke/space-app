@@ -1,12 +1,18 @@
 import React, { useState } from "react"; 
 import "./login.css"; 
+import axios from "axios"; 
 
 export const Login = (props) => {
     const [email, setEmail] = useState("");
     const [pass, setPass] = useState(""); 
+    const [errMsg, setErrMsg] = useState('');
+    const [success, setSuccess] = useState(false); //use react router to navigate to a page
+
+    const url = "http://localhost:3000/login/"   
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        axios.post(url, {email, pass})
     }
     return (
     <div className="outer-container">
