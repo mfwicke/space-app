@@ -1,3 +1,4 @@
+
 import "./header.css"
 import { NavLink, useNavigate } from "react-router-dom";
 
@@ -9,8 +10,19 @@ export default function Header() {
   };
 
   return (
-    <nav>
-      <ul>
+    <header class="header">
+    <NavLink to="/">
+      <div className="brandBox">
+        <img src={process.env.PUBLIC_URL + "/assets/Images/stlogo-green.png"} alt="Logo" className="logo"/>
+        <div className="brand">
+          <span className="brandName">STELLAR TRIPS</span>
+          <span className="brandMotto">Space is the Limit!</span>
+        </div>
+      </div>
+    </NavLink>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+    <ul class="menu">
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
@@ -18,16 +30,18 @@ export default function Header() {
           <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/contacts">Contacts</NavLink>
+            <NavLink to="/contacts">Contacts</NavLink>
         </li>
         <li>
-          <a href="https://www.google.com" target={"_blank"} rel="noreferrer">
-            Go to google
-          </a>
+          <NavLink to="/Register">Register</NavLink>
         </li>
-
-        <button onClick={handleNavigate}>Send user to about page</button>
-      </ul>
-    </nav>
+        <li>
+          <NavLink to="/login">Login</NavLink>
+        </li>
+        <li>
+          <NavLink to="/User">Welcome User</NavLink>
+        </li>
+    </ul>
+</header>
   );
 }

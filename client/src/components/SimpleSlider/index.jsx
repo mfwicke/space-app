@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-//import Mars from "../planets/Mars/Mars";
-//import Mercury from "../planets/mercury/Mercury";
+import "./index.css";
 
 import { Planet } from "../planet/Planet";
 
@@ -10,14 +9,40 @@ import "slick-carousel/slick/slick-theme.css";
 
 export const SimpleSlider = () => {
   const settings = {
-    className: "center",
+    className: "responsive",
     centerMode: true,
-    padding: "60px",
-    dots: true,
+    padding: "1rem",
+    //autoplay: true,
+    //dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    //fade: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: "unslick",
+        // {
+        //   slidesToShow: 1,
+        //   slidesToScroll: 1,
+        // },
+      },
+    ],
   };
 
   const planets = [
@@ -63,17 +88,15 @@ export const SimpleSlider = () => {
 
   return (
     <>
-      <div>
-        <h2>Center Mode</h2>
-
-        <Slider {...settings}>
-          {planets.map((planet) => (
-            <Planet planet={planet} />
+      <div className="what">
+              <img className="st-logo" src={process.env.PUBLIC_URL + "/assets/Images/stlogo-bw.png"} alt="" />
+        <h1>STELLAR TRIPS - Space is the Limit!</h1>
+        <Slider {...settings} className={"single_planet"}>
+          {planets.map((planet, i) => (
+            <Planet planet={planet} key={i} />
           ))}
         </Slider>
       </div>
     </>
   );
 };
-
-// export SimpleSlider;

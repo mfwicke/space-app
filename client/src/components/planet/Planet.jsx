@@ -1,17 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Planet.css";
+
+// https://api.nasa.gov/planetary/apod?api_key=byb2SVHItXqFMSKowrZNpHv8Ufy2x2MWAbdvWtSe
+
+//byb2SVHItXqFMSKowrZNpHv8Ufy2x2MWAbdvWtSe
 
 export const Planet = ({ planet }) => {
   return (
     <>
-      <div className={"planet_description"}>
-        <div className="solar">
-          <h1>{`${planet.name}`}</h1>
-          <p className={""}>{planet.description}</p>
-          <div className={"solar_system rotate"}>
-            <div className={"planet " + planet.name}></div>
+      <div className={"slide"}>
+        <h1>{`${planet.name}`}</h1>
+        {/* <p className={"planet_description"}>{planet.description}</p> */}
+
+        <Link to={`/planet/${planet.name.toLowerCase()}`}>
+          <div className={"planet"}>
+            <div className={"bg " + planet.name}></div>
           </div>
-        </div>
+        </Link>
       </div>
     </>
   );
