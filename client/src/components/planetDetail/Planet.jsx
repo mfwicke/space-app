@@ -9,6 +9,7 @@ const Planet = () => {
   const planet = planets.find((planet) => planet.name === name);
   console.log(name);
   // const zipped = (arr1, arr2) => arr1.map((k, i) => [k, arr2[i]]);
+
   return (
     <>
       <h1>{planet.name}</h1>
