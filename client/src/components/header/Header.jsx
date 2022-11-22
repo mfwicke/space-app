@@ -1,5 +1,5 @@
-
-import "./header.css"
+import React from "react";
+import "./header.css";
 import { NavLink, useNavigate } from "react-router-dom";
 
 export default function Header() {
@@ -10,38 +10,46 @@ export default function Header() {
   };
 
   return (
-    <header class="header">
-    <NavLink to="/">
-      <div className="brandBox">
-        <img src={process.env.PUBLIC_URL + "/assets/Images/stlogo-green.png"} alt="Logo" className="logo"/>
-        <div className="brand">
-          <span className="brandName">STELLAR TRIPS</span>
-          <span className="brandMotto">Space is the Limit!</span>
-        </div>
-      </div>
-    </NavLink>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-    <ul class="menu">
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/about">About</NavLink>
-        </li>
-        <li>
+    <>
+      <header class="header">
+        <NavLink to="/">
+          <div className="brandBox">
+            <img
+              src={process.env.PUBLIC_URL + "/assets/Images/stlogo-green.png"}
+              alt="Logo"
+              className="logo"
+            />
+            <div className="brand">
+              <span className="brandName">STELLAR TRIPS</span>
+              <span className="brandMotto">Space is the Limit!</span>
+            </div>
+          </div>
+        </NavLink>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li>
             <NavLink to="/contacts">Contacts</NavLink>
-        </li>
-        <li>
-          <NavLink to="/Register">Register</NavLink>
-        </li>
-        <li>
-          <NavLink to="/login">Login</NavLink>
-        </li>
-        <li>
-          <NavLink to="/User">Welcome User</NavLink>
-        </li>
-    </ul>
-</header>
+          </li>
+          <li>
+            <NavLink to="/Register">Register</NavLink>
+          </li>
+          <li>
+            <NavLink to="/login">Login</NavLink>
+          </li>
+          <li>
+            <NavLink to="/User">Welcome User</NavLink>
+          </li>
+        </ul>
+      </header>
+    </>
   );
 }

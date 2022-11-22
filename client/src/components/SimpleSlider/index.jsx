@@ -89,8 +89,12 @@ export const SimpleSlider = () => {
   return (
     <>
       <div className="what">
-              <img className="st-logo" src={process.env.PUBLIC_URL + "/assets/Images/stlogo-bw.png"} alt="" />
-        <h1>STELLAR TRIPS - Space is the Limit!</h1>
+        <img
+          className="st-logo"
+          src={process.env.PUBLIC_URL + "/assets/Images/stlogo-bw.png"}
+          alt=""
+        />
+
         <Slider {...settings} className={"single_planet"}>
           {planets.map((planet, i) => (
             <Planet planet={planet} key={i} />
