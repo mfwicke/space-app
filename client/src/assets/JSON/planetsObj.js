@@ -4,22 +4,26 @@ const planets = [
     content: [
       {
         text:
-          "Mercury is the smallest planet in our solar system and the closest to the Sun. It is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.",
+          "If you like contrasts Mercury is the best place for you, roasting temperatures of up to 450°C on the Dayside and freezing -170°C on the Night side. Our recently updated mobile Mercury-Station Themis 2.0 is located were the two worlds of darkness and light overlap and create an mystical twilight. The station constantly moves against the spinning direction of the planet on the edge of shadow with the glimmering heat of the Sun flickering on the horizon. We even manage to have our mobile gardens safely positioned moving in front of the station where enough light makes them grow and heat is still bearable. This facility provides our guests with an endless sunset or if you prefer an endless dawn. Our moving hotel facility “Dusk til Dawn” comes with three types of accommodations, Budget, Plus and Deluxe.",
         img:
           "https://s3.amazonaws.com/cms.ipressroom.com/173/files/20146/53d0396e299b5059f6001964_Mercury+%28enhanced+color+image%2C+based+on+MESSENGER+measurements%2C+credit+NASA%29/Mercury+%28enhanced+color+image%2C+based+on+MESSENGER+measurements%2C+credit+NASA%29_1875e677-1471-4a45-ae88-e650fbd5d07a-prv.jpg",
       },
       {
         text:
-          "Mercury lacks an atmosphere to retain heat, so its surface experiences the greatest temperature variations of any planet in the solar system. Daytime temperatures can reach 430 degrees Celsius (800 degrees Fahrenheit).",
-        img: [
+          "The budget level includes crater tours and night walks on the surface.The budget-plus-level includes the free entrance of the Mineral museum and the hot-bubble baths under the sun.",
+        img:
           "https://s3.amazonaws.com/cms.ipressroom.com/173/files/20146/53d03a08bd26f560b700268d_Mercury+image+%28credit%2C+NASA-Johns+Hopkins+University+Applied+Physics+Laboratory-Carnegie+Institution+of+Washington%29/Mercury+image+%28credit%2C+NASA-Johns+Hopkins+University+Applied+Physics+Laboratory-Carnegie+Institution+of+Washington%29_c4cb4245-54f8-4b21-bcd1-b6915e8cd97f-prv.jpg",
-        ],
       },
-      { img: "", text: "hellooo" },
+      {
+        img: "",
+        text:
+          "The Deluxe Level includes a flight over the heated surface, crater tour with guided diamond search, and free entrance to the Mineral-Casino and night walks on the surface.",
+      },
       {
         img:
           "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/msnbc/Components/Photo_StoryLevel/080114/080114-mercury-hmed-10a.jpg",
-        text: "",
+        text:
+          "Warning: for the lack of an atmosphere the constant threat of meteorites and other dangers from space makes it necessary to make your testament before starting the voyage, optionally you can book a full coverage of insurance.",
       },
     ],
   },
@@ -28,13 +32,13 @@ const planets = [
     content: [
       {
         text:
-          "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries a name of the Roman god of war, and is often referred to as the 'Red Planet'.",
+          "What once began as the Mars Desert Research Station (MDRS), a small setup of research facilities on the surface of earth was after a few missions - struck with miss fortune and difficulties - successfully set up in the deserted area of Arcadia Planitia in the northern hemisphere of Mars. It soon transformed to the travel intensive Station that we know and that had become the sweet spot for space adventurers, for space-hikers and rover-enthusiasts and unnecessary to mention the famous free climbing space-cup on Olympus Mons.",
         img:
           "https://www.planet-wissen.de/natur/weltall/mars/intromarsteleskopgjpg100~_v-gseapremiumxl.jpg",
       },
       {
         text:
-          "Mars is a terrestrial planet with a thin atmosphere, having surface features reminiscent both of the impact craters of the Moon and the valleys, deserts, and polar ice caps of Earth.",
+          "The MDRS slowly extended adding to the core-facility a vast area of accommodations and holiday-resort facilities in all budget levels below the surface of Arcadia Planitia. Possibilities on Mars are unique in our solar-system, a trip to the northern hemisphere will give you a vast and plain territory to explore with beautiful dusty and sandy wastelands. The station provides you, your friends and family with a Rover to explore the area to the limits of the amount of oxygen and gear you added to your package. Due to rough weather conditions, outdoor-camping is just recommended on the southern hemisphere, in the north you should spend your nights in the safety of the Rover a drink at hand and the stars above you,  or enjoy the onboard entertainment system and keep an eye to the actual weather-cast of the Mars nano-Orbiter.",
         img: [
           "https://www.planet-wissen.de/natur/weltall/mars/intromarspathfindergjpg100~_v-gseapremiumxl.jpg",
         ],
@@ -42,12 +46,48 @@ const planets = [
       {
         img:
           "https://www.planet-wissen.de/natur/weltall/mars/intromarsteleskopgjpg100~_v-gseapremiumxl.jpg",
-        text: "hellooo",
+        text:
+          "In the Southern Hemisphere you can go for extended hiking trips. In the mountain areas you can take advantage of the calmer zones in the shadows of the huge mountains. You can bring a pressure stabilized tent instead of a compressed air chamber. Beautiful canyons, craters and rusty mountain giants stretching into the dusty sky. Dried-up riverbeds and extinct Volcanoes creating an enchanted landscape open for exploration. ",
       },
       {
         img:
           "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
         text: "",
+      },
+      {
+        img: "",
+        text: [
+          "After your journey in one of our ships to the red mystery that enrolls its beauty beyond the gates of the base station you can choose one of our packages either for the northern or southern hemisphere.",
+          "The Northern Hemisphere package:",
+          "Rover tours into the deserted wastelands.",
+          "Book your seats in our famous Desert-Rover-Races.",
+          "Skiing and Snowboarding trips on the frozen atmospheric carbon dioxide of the north pole in the winter-season  optional cruises in a B456 Snow-Rover.",
+        ],
+      },
+      {
+        img: "",
+        text: [
+          "The Southern Hemisphere package:",
+          "Hiking Trips on extinct volcanos with pressure stabilized tents.",
+          "space gliding tour from olympus mons.",
+          "Crater Bubble bath and spa week in summertime.",
+          "Guided space tours to the Moons Phobos and Deimos in your own orbital spacecraft.",
+        ],
+      },
+      {
+        img: "",
+        text: [
+          "Advices:",
+          "Mars is known as the destination in the solar system for its tourist-friendly and welcoming character. Be aware that the surface gravity on Mars is only about 38% of the surface gravity  on Earth. Overweight people can feel light as a butterfly. Mars is requiring a travel visa, so make sure about that on your home planet.",
+          "Please book enough oxygen before your trips. Mind that in case of strong weather conditions the stay can be prolonged up to three weeks.",
+        ],
+      },
+      {
+        img: "",
+        text: [
+          "Extra for the luxury plus package.",
+          "free fall on mars from the space-ship - including the latest space gear.",
+        ],
       },
     ],
   },

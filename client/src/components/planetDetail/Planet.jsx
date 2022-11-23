@@ -12,7 +12,7 @@ const Planet = () => {
 
   return (
     <>
-      <h1>{planet.name}</h1>
+      <h1>{`Welcome to ${planet.name}`}</h1>
       <div className="style">
         {planet.content.map((item, k) =>
           item.img && item.text ? (

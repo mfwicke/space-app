@@ -46,8 +46,6 @@ const contacts = [
 const Contacts = () => {
   return (
     <>
-      <h1>{`Contact ${contacts.id[3]}`}</h1>
-
       <p>{}</p>
       <Login />
       <SignIn />
