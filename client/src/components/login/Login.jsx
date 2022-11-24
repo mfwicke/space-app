@@ -10,9 +10,14 @@ export const Login = (props) => {
 
     const url = "http://localhost:3000/login/"   
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
+
         e.preventDefault();
-        axios.post(url, {email, pass})
+        try {
+            const response = await axios.post(url, {email, pass})            
+        } catch (error) {
+            console.log(error); 
+        }
     }
     return (
     <div className="outer-container">
