@@ -3,7 +3,7 @@
     {
       "name": "STELLAR TRIPS Inc.",
       "id": 0,
-      "image": "./images/foto-persona.jpg",
+      "image": "../../../",
       "age": "<1",
       "info": "lorem ipsum dolor sit amet",
       "email": "contactus@stellartrips.com"
