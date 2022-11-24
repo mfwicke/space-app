@@ -1,10 +1,5 @@
 import React from "react";
-//import { useParams } from "react-router-dom";
-import { Login } from "../login/Login.jsx";
-//import { TripForm } from "../trips/TripForm.jsx";
-import { SignIn } from "../sign-in/Sign-in.jsx";
-//import Routes from "../../routes/Routes.jsx";
-
+//import { Route, Routes, Navigate } from "react-router-dom";
 import "./contacts.css";
 
 const contacts = [
@@ -46,9 +41,15 @@ const contacts = [
 const Contacts = () => {
   return (
     <>
-      <p>{}</p>
-      <Login />
-      <SignIn />
+      <p>
+        {contacts.map((contact) => (
+          <div className="contact">
+            <h1>{contact.name}</h1>
+            <p>{contact.info}</p>
+            <p>{contact.email}</p>
+          </div>
+        ))}
+      </p>
     </>
   );
 };
