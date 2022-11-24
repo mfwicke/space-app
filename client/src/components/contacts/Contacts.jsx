@@ -11,7 +11,8 @@ const contacts = [
   {
     name: "STELLAR TRIPS Inc.",
     id: 0,
-    image: "./assets/Images/foto-persona.jpg",
+    image: "",
+    description: "We are a travel agency that specializes in space travel.",
     age: "<1",
     info: "lorem ipsum dolor sit amet",
     email: "contactus@stellartrips.com",
@@ -20,7 +21,7 @@ const contacts = [
   {
     name: "Lorenz Schmid",
     id: 1,
-    image: "./images/foto-persona.jpg",
+    image: "",
     info: "lorem ipsum dolor sit amet",
     email: "mighty.lo.schmid@gmail.com",
   },
@@ -28,7 +29,7 @@ const contacts = [
   {
     name: "Vincenzo Arena",
     id: 2,
-    image: "./images/foto-persona.jpg",
+    image: "",
     info: "lorem ipsum dolor sit amet",
     email: "penninoematita@gmail.com",
   },
@@ -36,24 +37,15 @@ const contacts = [
   {
     name: "Miguel Wicke",
     id: 3,
-    image: "./images/foto-persona.jpg",
+    image: "",
     info: "lorem ipsum dolor sit amet",
     email: "mwicke@gmail.com",
-  },
-  {
-    name: "Tareq Almasri",
-    id: 4,
-    image: "./images/foto-persona.jpg",
-    info: "lorem ipsum dolor sit amet",
-    email: "",
   },
 ];
 
 const Contacts = () => {
   return (
     <>
-      <h1>Contact</h1>
-
       <p>{}</p>
       <Login />
       <SignIn />
