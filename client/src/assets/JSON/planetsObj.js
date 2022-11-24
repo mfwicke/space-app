@@ -234,4 +234,3 @@ const planets = [
 ];
 
 export { planets };
-console.log(planets);
