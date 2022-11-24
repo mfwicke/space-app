@@ -1,3 +1,4 @@
+import React from "react";
 import "./header.css";
 import { NavLink, useNavigate } from "react-router-dom";
 
@@ -9,6 +10,7 @@ export default function Header() {
   };
 
   return (
+
     <header class="header">
       <NavLink to="/">
         <div className="brandBox">
@@ -48,5 +50,6 @@ export default function Header() {
         </li>
       </ul>
     </header>
+
   );
 }
