@@ -1,4 +1,4 @@
-/* :root {
+:root {
   font-size: 62.5%;
   box-sizing: border-box;
 }
@@ -17,28 +17,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.barRight {
-  align-items: flex-end;
-  margin-right: -3rem;
-}
-.barLeft {
-  align-items: flex-start;
-}
-li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border: 1px solid white;
-  border-radius: 0.62rem;
-  margin: 0.5rem;
-  backdrop-filter: blur(0.3rem);
-  color: var(--color-light-1);
-  font-size: 1.6rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  cursor: pointer;
-} */
 
 .brandBox {
   display: inline-flex;
@@ -97,10 +75,9 @@ body {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #ffffff;
   margin-bottom: 2rem;
-  position: sticky;
+  position: absolute;
   top: 0;
   z-index: 100;
-
   width: 100%;
 }
 

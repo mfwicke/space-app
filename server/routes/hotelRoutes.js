@@ -1,7 +1,6 @@
 import express from "express";
 import {
   getHotels,
-  getHotel,
   createHotel,
   updateHotel,
   deleteHotel,
@@ -19,7 +18,7 @@ router.patch("/:id", updateHotel);
 router.delete("/:id", deleteHotel);
 
 //GET
-router.get("/:id", getHotel);
+//router.get("/:id", getHotel);
 
 //GET ALL
 router.get("/", getHotels);
