@@ -2,7 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
-import { userRoutes, hotelRoutes } from "./routes/userRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
+import hotelRoutes from "./routes/hotelRoutes.js";
 // Load .env file
 dotenv.config();
 

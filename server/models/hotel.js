@@ -19,7 +19,6 @@ const HotelSchema = new Schema({
     solarSystemCode: String,
     planetoCentric: String, //IAu-accepted coordinate system for the planets & satellites
     planetoGraphic: String,
-    required: true,
   },
   description: {
     type: String,
