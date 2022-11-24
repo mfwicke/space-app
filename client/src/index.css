@@ -1,5 +1,5 @@
 body {
-  background: url("../public/assets/Images/fondo_de_pantalla.jpg");
+  background: url("/assets/Images/fondo_de_pantalla.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
