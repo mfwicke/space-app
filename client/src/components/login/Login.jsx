@@ -1,12 +1,23 @@
 import React, { useState } from "react"; 
 import "./login.css"; 
+import axios from "axios"; 
 
 export const Login = (props) => {
     const [email, setEmail] = useState("");
     const [pass, setPass] = useState(""); 
+    const [errMsg, setErrMsg] = useState('');
+    const [success, setSuccess] = useState(false); //use react router to navigate to a page
 
-    const handleSubmit = (e) => {
+    const url = "http://localhost:3000/login/"   
+
+    const handleSubmit = async (e) => {
+
         e.preventDefault();
+        try {
+            const response = await axios.post(url, {email, pass})            
+        } catch (error) {
+            console.log(error); 
+        }
     }
     return (
     <div className="outer-container">
@@ -25,3 +36,5 @@ export const Login = (props) => {
         
     )
 }
+
+export default Login;

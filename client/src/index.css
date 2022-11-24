@@ -1,5 +1,5 @@
 body {
-  background: url("../public/assets/Images/Images/ideas/fondo_de_pantalla.jpg");
+  background: url("../public/assets/Images/fondo_de_pantalla.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -7,6 +7,6 @@ body {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   width: 98vw;
-  height: 100vh;
+  height: 98vh;
   /* I am just playing here! */
 }
