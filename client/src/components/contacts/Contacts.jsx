@@ -10,6 +10,8 @@ const contacts = [
     description: "We are a travel agency that specializes in space travel.",
     age: "<1",
     info: "lorem ipsum dolor sit amet",
+    github: "",
+    linkedin: "",
     email: "contactus@stellartrips.com",
   },
 
