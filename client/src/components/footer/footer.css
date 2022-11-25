@@ -31,6 +31,10 @@
     margin: 0 8px;
 }
 
+.footerBox .social a:hover {
+    color: #1db702;
+}
+
 .footerList {
     margin-top: 0;
     padding: 0 0 2rem;

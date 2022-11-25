@@ -29,7 +29,7 @@ export default function Footer() {
         <li><NavLink to="/">Privacy Policy</NavLink></li>
       </ul>
       <div className="credits">
-      <h6>Copyright © <span id="year"></span> STELLAR TRIPS Inc. All rights reserved.</h6>
+      <h6>Copyright © 2022 STELLAR TRIPS Inc. All rights reserved.</h6>
       </div>
     </footer>
   );
