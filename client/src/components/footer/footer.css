@@ -11,6 +11,8 @@
     margin-top: 3em;
     padding: 25px 25px;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 
