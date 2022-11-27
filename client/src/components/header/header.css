@@ -171,7 +171,7 @@ body {
   top: 0;
 }
 
-/* 48em = 768px @ 16pt font */
+/* 52.5em = 840px @ 16pt font */
 
 @media (min-width: 52.5em) {
   .header li {
