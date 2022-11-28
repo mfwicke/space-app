@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <footer className="footerBox">
       <div className="social">
-        <NavLink  className="footer-link" to="/"><FaInstagramSquare className="footer-icon"/></NavLink>
+        <NavLink to="/"><FaInstagramSquare /></NavLink>
         <NavLink to="/"><FaSnapchatSquare /></NavLink>
         <NavLink to="/"><FaTwitterSquare /></NavLink>
         <NavLink to="/"><FaFacebookSquare /></NavLink>
