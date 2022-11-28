@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
 import userRoutes from "./routes/userRoutes.js";
-import hotelRoutes from "./routes/hotelRoutes.js";
+
 // Load .env file
 dotenv.config();
 
@@ -34,7 +34,7 @@ mongoose
 
 // Routes
 app.use("/api/users", userRoutes);
-app.use("/api/hotels", hotelRoutes);
+//app.use("/api/hotels", hotelRoutes);
 
 // Start server
 app.listen(port, () => {
