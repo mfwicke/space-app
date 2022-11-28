@@ -1,6 +1,7 @@
 import React from 'react'
 import { Searchbar } from '../../components/searchbar/searchbar'
 
+
 const About = () => {
   return (
     <div>

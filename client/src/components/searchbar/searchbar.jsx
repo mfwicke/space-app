@@ -10,24 +10,31 @@ export const Searchbar = () => {
     const handlePlanetSelect = e => {
         setOption(e.value); 
     };
-
-// const dropdown = planets.map((planet) => planet.name); 
+    // const dropdown = planets.map((planet) => planet.name); 
+    const clone = [...planets]
     
     return (
         
-        <div className='dropdown'>      
-         
+        <div className='dropdown'>         
          <Select 
          className='down' 
-         options={planets} 
+         options={clone} 
          onChange={handlePlanetSelect} 
-         value={planets.filter(function(planet) { 
+         value={clone.map(function(planet) { 
             return planet.name === selectOption;
             })} 
         label="single select" 
-        />
-       
+        />       
         </div>
+        // <>
+        //     <Select 
+        //         options={clone}
+        //         onChange={handlePlanetSelect}
+        //         value={
+        //             clone.reduce((prevValue, currentValue) => prevValue + currentValue.name, 0)
+        //         }
+        //     />
+        // </>
     )
 }
 
