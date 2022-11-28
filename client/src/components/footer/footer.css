@@ -5,9 +5,9 @@
 }
 
 .footerBox {
-    backdrop-filter: blur(0.3rem);
+    /* backdrop-filter: blur(0.3rem);
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #ffffff; */
     margin-top: 3em;
     padding: 5px 5px;
     width: 100%;
