@@ -1,12 +1,20 @@
 import React, { useState } from "react";
 import "./sign-in.css";
-
+import axios from "./../../util/axiosApiInstance.js";
 export const SignIn = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    try {
+      const response = await axios.post(
+        "/api/users/register",
+        { email, password }
+      );
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (

@@ -10,6 +10,8 @@ const contacts = [
     description: "We are a travel agency that specializes in space travel.",
     age: "<1",
     info: "lorem ipsum dolor sit amet",
+    github: "",
+    linkedin: "",
     email: "contactus@stellartrips.com",
   },
 
@@ -18,6 +20,8 @@ const contacts = [
     id: 1,
     image: "",
     info: "lorem ipsum dolor sit amet",
+    github: "https://github.com/Lorenzzschmid",
+    linkedin: "https://www.linkedin.com/in/lorenz-schmid-0a8b8a24b/",
     email: "mighty.lo.schmid@gmail.com",
   },
 
@@ -26,6 +30,8 @@ const contacts = [
     id: 2,
     image: "",
     info: "lorem ipsum dolor sit amet",
+    github: "https://github.com/vincenzoarena/",
+    linkedin: "https://www.linkedin.com/in/vincenzo-arena-032a064b/",
     email: "penninoematita@gmail.com",
   },
 
@@ -34,6 +40,8 @@ const contacts = [
     id: 3,
     image: "",
     info: "lorem ipsum dolor sit amet",
+    github: "https://github.com/mfwicke/",
+    linkedin: "https://www.linkedin.com/in/miguelwickeld/",
     email: "mwicke@gmail.com",
   },
 ];
