@@ -9,12 +9,13 @@ export const Searchbar = () => {
         console.log("handleChange", selectedOption)
     }; 
     const list = options.map((option) => option.name)
+    
     return (
         
         <div className='dropdown'>
        
          
-         return   <Select className='down' display={list.name} onChange={handleChange}/>
+         return   <Select className='down' display={list} onChange={handleChange}/>
        
         </div>
     )
