@@ -1,16 +1,16 @@
 import React from "react";
 import "./footer.css";
 import { NavLink, useNavigate } from "react-router-dom";
-import {FaInstagramSquare} from "@react-icons/all-files/fa/FaInstagramSquare";
-import {FaSnapchatSquare} from "@react-icons/all-files/fa/FaSnapchatSquare";
-import {FaTwitterSquare} from "@react-icons/all-files/fa/FaTwitterSquare";
-import {FaFacebookSquare} from "@react-icons/all-files/fa/FaFacebookSquare";
+import { FaInstagramSquare } from "@react-icons/all-files/fa/FaInstagramSquare";
+import { FaSnapchatSquare } from "@react-icons/all-files/fa/FaSnapchatSquare";
+import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
+import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare";
 
 export default function Footer() {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate("/about", "/contacts", "/register", "/login", "/user");
+    navigate("/");
   };
 
 
