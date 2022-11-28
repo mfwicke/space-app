@@ -10,7 +10,7 @@ export default function Footer() {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate("/about", "/contacts", "/register", "/login", "/user");
+    navigate("/");
   };
 
   return (
