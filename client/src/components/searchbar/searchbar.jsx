@@ -1,21 +1,31 @@
-
+import React, {useState} from "react"; 
 import Select from 'react-select'; 
-import options from '../../assets/JSON/searchbarObj.js';
-
+import { planets } from '../../assets/JSON/planetsObj.js';
 import './searchbar.css'; 
 
+
 export const Searchbar = () => {
-    const handleChange = (selectedOption) => {
-        console.log("handleChange", selectedOption)
-    }; 
-    const list = options.map((option) => option.name)
+    const [selectOption, setOption] = useState('none'); 
+   
+    const handlePlanetSelect = e => {
+        setOption(e.value); 
+    };
+
+// const dropdown = planets.map((planet) => planet.name); 
     
     return (
         
-        <div className='dropdown'>
-       
+        <div className='dropdown'>      
          
-         return   <Select className='down' display={list} onChange={handleChange}/>
+         <Select 
+         className='down' 
+         options={planets} 
+         onChange={handlePlanetSelect} 
+         value={planets.filter(function(planet) { 
+            return planet.name === selectOption;
+            })} 
+        label="single select" 
+        />
        
         </div>
     )

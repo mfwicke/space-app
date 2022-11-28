@@ -5,8 +5,8 @@ import axios from "./../../util/axiosApiInstance.js";
 export const Login = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [errMsg, setErrMsg] = useState("");
-  const [success, setSuccess] = useState(false); //use react router to navigate to a page
+  // const [errMsg, setErrMsg] = useState("");
+  // const [success, setSuccess] = useState(false); //use react router to navigate to a page
 
   const url = "/api/users/login/";
 
