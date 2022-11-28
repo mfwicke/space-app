@@ -5,11 +5,8 @@
 }
 
 .footerBox {
-  backdrop-filter: blur(0.3rem);
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  border-top: 1px solid #ffffff;
   margin-top: 3em;
-  padding: 25px 25px;
+  padding: 5px 5px;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -20,7 +17,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
 
 .footerBox .social a {
@@ -42,7 +39,6 @@
 
 .footerList {
   margin-top: 0;
-  padding: 0 0 2rem;
   list-style: none;
   font-size: 18px;
   line-height: 1.6;
