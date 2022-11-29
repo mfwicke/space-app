@@ -5,40 +5,35 @@ import './searchbar.css';
 
 
 export const Searchbar = () => {
-    const [selectOption, setOption] = useState('none'); 
-   
+    const [selectOption, setOption] = useState('none');    
     const handlePlanetSelect = e => {
         setOption(e.value); 
     };
-    // const dropdown = planets.map((planet) => planet.name); 
-    const clone = [...planets]
-    
+    const customTheme = (theme) => {
+        return {
+            ...theme,
+            colors: {
+                ...theme.colors,
+                primary25: 'grey',
+                primary: 'lightgrey',
+            },
+        };
+    }
+
     return (
         
-        <div className='dropdown'>         
+        <div className='searchbar-container'>         
          <Select 
          className='down' 
-         options={clone} 
-         onChange={handlePlanetSelect} 
-         value={clone.map(function(planet) { 
-            return planet.name === selectOption;
-            })} 
-        label="single select" 
+         options={planets.map((planet) => ({
+            label: planet.name,
+            value: planet.name,
+         }))} 
+         theme={customTheme}
+         onChange={handlePlanetSelect}          
+         label="single select" 
         />       
         </div>
-        // <>
-        //     <Select 
-        //         options={clone}
-        //         onChange={handlePlanetSelect}
-        //         value={
-        //             clone.reduce((prevValue, currentValue) => prevValue + currentValue.name, 0)
-        //         }
-        //     />
-        // </>
+        
     )
 }
-
-
-
-
-//map((option, i) => option.img + i && option.name + i) 

@@ -1,14 +1,14 @@
-.dropdown {
+.searchbar-container {
+    min-height: 15rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     top: 10rem;
-    border: 2px solid green;
+    left: 45%;
+    border: 2px solid white;
+    border-radius: 5%;
     background-color: transparent;
-    color: black;
-}
-.down {
-    min-width: 30%;
-    color: black;
-    
+    backdrop-filter: blur(0.3rem);
 }
