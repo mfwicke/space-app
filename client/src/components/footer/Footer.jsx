@@ -13,23 +13,38 @@ export default function Footer() {
     navigate("/");
   };
 
-
   return (
     <footer className="footerBox">
-        <ul className="footerList">
-        <li><NavLink to="/">Job Opportunities</NavLink></li>
-        <li><NavLink to="/">Services</NavLink></li>
-        <li><NavLink to="/">Terms & Conditions</NavLink></li>
-        <li><NavLink to="/">Privacy Policy</NavLink></li>
+      <ul className="footerList">
+        <li>
+          <NavLink to="/">Job Opportunities</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">Services</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">Terms & Conditions</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">Privacy Policy</NavLink>
+        </li>
       </ul>
       <div className="social">
-        <NavLink to="/"><FaInstagramSquare /></NavLink>
-        <NavLink to="/"><FaSnapchatSquare /></NavLink>
-        <NavLink to="/"><FaTwitterSquare /></NavLink>
-        <NavLink to="/"><FaFacebookSquare /></NavLink>
+        <NavLink to="/">
+          <FaInstagramSquare className="footer-icon" />
+        </NavLink>
+        <NavLink to="/">
+          <FaSnapchatSquare className="footer-icon" />
+        </NavLink>
+        <NavLink to="/">
+          <FaTwitterSquare className="footer-icon" />
+        </NavLink>
+        <NavLink to="/">
+          <FaFacebookSquare className="footer-icon" />
+        </NavLink>
       </div>
       <div className="credits">
-      <h6>Copyright © 2022 STELLAR TRIPS Inc. All rights reserved.</h6>
+        <h6>Copyright © 2022 STELLAR TRIPS Inc. All rights reserved.</h6>
       </div>
     </footer>
   );
