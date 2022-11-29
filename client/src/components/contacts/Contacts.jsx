@@ -5,10 +5,9 @@ import { contacts } from "../../assets/JSON/contactsInfo.js";
 
 
 const Contacts = () => {
-  console.log(contacts);
   return (
     <>
-      <div className="contacts-wrapper">
+      <div className={`contacts-wrapper id${contacts.id}`}>
         {contacts.map((contact) => (
           <div className="contact">
             <h1>{contact.name}</h1>
