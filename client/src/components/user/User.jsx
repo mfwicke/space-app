@@ -8,7 +8,7 @@ const User = (props) => {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
 
-  const url = "/api/users/profile/:id";
+  const url = "/api/users/profile/";
 
   useEffect(() => {
     const fetchUser = async () => {

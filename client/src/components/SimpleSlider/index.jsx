@@ -7,6 +7,7 @@ import { planets } from "../../assets/JSON/planetsObj.js";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { SelectDropdown } from "../planetSelect/SelectDropdown";
 
 export const SimpleSlider = () => {
   const settings = {
@@ -48,11 +49,9 @@ export const SimpleSlider = () => {
 
   return (
     <>
+      <SelectDropdown />
       <div className="what">
         <Slider {...settings} className={"single_planet"}>
-        <div className="dropdown">
-          
-        </div>
           {planets.map((planet, i) => (
             <Planet planet={planet} key={i} />
           ))}
