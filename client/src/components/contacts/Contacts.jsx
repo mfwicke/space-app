@@ -9,9 +9,11 @@ import { ImGithub } from "@react-icons/all-files/im/ImGithub";
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { BsFillChatFill } from "@react-icons/all-files/bs/BsFillChatFill";
 
+
 const Contacts = () => {
   return (
     <>
+
       <div className="contacts-info-wrapper">
         <div className={`contacts-wrapper id${companyInfos.id}`}>
           {companyInfos.map((companyInfo, k) => (
@@ -39,6 +41,7 @@ const Contacts = () => {
             </div>
           ))}
         </div>
+
       </div>
     </>
   );

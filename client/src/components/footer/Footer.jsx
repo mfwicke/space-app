@@ -15,20 +15,6 @@ export default function Footer() {
 
   return (
     <footer className="footerBox">
-      <ul className="footerList">
-        <li>
-          <NavLink to="/">Job Opportunities</NavLink>
-        </li>
-        <li>
-          <NavLink to="/">Services</NavLink>
-        </li>
-        <li>
-          <NavLink to="/">Terms & Conditions</NavLink>
-        </li>
-        <li>
-          <NavLink to="/">Privacy Policy</NavLink>
-        </li>
-      </ul>
       <div className="social">
         <NavLink to="/">
           <FaInstagramSquare className="footer-icon" />
@@ -43,6 +29,20 @@ export default function Footer() {
           <FaFacebookSquare className="footer-icon" />
         </NavLink>
       </div>
+      <ul className="footerList">
+        <li>
+          <NavLink to="/">Job Opportunities</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">Services</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">Terms & Conditions</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">Privacy Policy</NavLink>
+        </li>
+      </ul>
       <div className="credits">
         <h6>Copyright © 2022 STELLAR TRIPS Inc. All rights reserved.</h6>
       </div>
