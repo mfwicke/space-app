@@ -23,6 +23,10 @@ export const SignIn = (props) => {
       <div className="auth-form-container">
         <h2>Sign up</h2>
         <form className="login-form" onSubmit={handleSubmit}>
+          <label>First Name</label>
+          <input htmlFor='text' placeholder='First Name'></input>
+          <label>Last Name</label>
+          <input htmlFor='text' placeholder='Last Name'></input>
           <label htmlFor="email">email</label>
           <input
             value={email}
