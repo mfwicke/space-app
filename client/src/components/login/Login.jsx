@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./login.css";
 import axios from "./../../util/axiosApiInstance.js";
-import Header from "../header/Header";
+import Loading from "../loading/Loading";
+import { AuthContext } from "../../context/authContext";
+import { useNavigate } from "react-router-dom";
 
 export const Login = (props) => {
   const [email, setEmail] = useState("");
@@ -11,10 +13,21 @@ export const Login = (props) => {
 
   const url = "/api/users/login/";
 
+  const navigate = useNavigate();
+
+  const { handleLogin } = useContext(AuthContext);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post(url, { email, password });
+      handleLogin(
+        true,
+        response.data.email,
+        response.data.firstName,
+        response.data.lastName
+      );
+      navigate("/profile");
     } catch (error) {
       console.log(error);
     }
