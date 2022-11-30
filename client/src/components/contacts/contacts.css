@@ -15,16 +15,61 @@ body {
   font-size: 1.6rem;
 }
 
-.contacts-wrapper {
+.contacts-info-wrapper {
   display: flex;
-  flex-direction: column;
-  margin: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 6.25em;
   height: calc(100vh - 13.75em);
   backdrop-filter: blur(0.3rem);
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid #ffffff;
   border-radius: 0.62rem;
   /* overflow: scroll; */
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact, .company-info {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-name, .company-info-name {
+  color: #FFFFFF;
+}
+
+.contacts-links-wrapper, .company-infos-links-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts-icon {
+  color: var(--color-light-1);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  text-align: center;
+  margin: 0 1.5em;
+}
+
+.contacts-icon:hover {
+  color: #1db702;
+}
+
+.art {
+  height: 12em;
 }
 
 /* .contacts-wrapper .id2 {
