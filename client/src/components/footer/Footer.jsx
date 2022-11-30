@@ -17,16 +17,16 @@ export default function Footer() {
     <footer className="footerBox">
       <div className="social">
         <NavLink to="/">
-          <FaInstagramSquare />
+          <FaInstagramSquare className="footer-icon" />
         </NavLink>
         <NavLink to="/">
-          <FaSnapchatSquare />
+          <FaSnapchatSquare className="footer-icon" />
         </NavLink>
         <NavLink to="/">
-          <FaTwitterSquare />
+          <FaTwitterSquare className="footer-icon" />
         </NavLink>
         <NavLink to="/">
-          <FaFacebookSquare />
+          <FaFacebookSquare className="footer-icon" />
         </NavLink>
       </div>
       <ul className="footerList">
