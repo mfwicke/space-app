@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./header.css";
 import { NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../context/authContext.js";
 
 export default function Header() {
   const navigate = useNavigate();
@@ -9,8 +10,8 @@ export default function Header() {
     navigate("/about", "/contacts", "/register", "/login", "/user");
   };
 
+  const { firstName, lastName } = useContext(AuthContext);
   return (
-
     <header class="header">
       <NavLink to="/">
         <div className="brandBox">
@@ -46,10 +47,9 @@ export default function Header() {
           <NavLink to="/login">Login</NavLink>
         </li>
         <li>
-          <NavLink to="/user">Welcome User</NavLink>
+          <NavLink to="/user">{`Welcome ${firstName} ${lastName}`}</NavLink>
         </li>
       </ul>
     </header>
-
   );
 }
