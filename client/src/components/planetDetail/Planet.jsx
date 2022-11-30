@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { planets } from "../../assets/JSON/planetsObj.js";
-import Header from "../header/Header.jsx";
 import Loading from "../loading/Loading.jsx";
 
 import "./planet.css";

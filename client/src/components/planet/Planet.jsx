@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SelectDropdown } from "../planetSelect/SelectDropdown";
 import "./Planet.css";
 
 // https://api.nasa.gov/planetary/apod?api_key=byb2SVHItXqFMSKowrZNpHv8Ufy2x2MWAbdvWtSe
@@ -10,7 +9,6 @@ import "./Planet.css";
 export const Planet = ({ planet }) => {
   return (
     <>
-     
       <div className={"slide"}>
         <h1>{`${planet.name}`}</h1>
         <Link to={`/planet/${planet.name.toLowerCase()}`}>

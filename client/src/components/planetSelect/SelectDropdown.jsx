@@ -4,6 +4,7 @@ import { planets } from "../../assets/JSON/planetsObj.js";
 import "./selectDropdown.css";
 
 export const SelectDropdown = ({ dropdownStyles }) => {
+  // eslint-disable-next-line
   const [selectOption, setOption] = useState(""); //selectOption not used!!!
   const handlePlanetSelect = (e) => {
     setOption(e.value);
