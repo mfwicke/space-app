@@ -1,23 +1,24 @@
 import React, {useState} from "react"; 
 import Select from 'react-select'; 
 import { planets } from '../../assets/JSON/planetsObj.js';
-import './searchbar.css'; 
+import './selectDropdown.css'; 
 
 
-export const Searchbar = () => {
-    const [selectOption, setOption] = useState('none');    
+export const SelectDropdown = ({dropdownStyles}) => {
+    const [selectOption, setOption] = useState('none');    //selectOption not used!!!
     const handlePlanetSelect = e => {
         setOption(e.value); 
     };
     const customTheme = (theme) => {
         return {
             ...theme,
-            colors: {
-                ...theme.colors,
-                primary25: 'grey',
-                primary: 'lightgrey',
+            color: '#1a2942',
+            cursor: 'pointer', 
+            ':hover': {
+                color: '#fff'
             },
-        };
+
+        }
     }
 
     return (
@@ -32,7 +33,10 @@ export const Searchbar = () => {
          theme={customTheme}
          onChange={handlePlanetSelect}          
          label="single select" 
-        />       
+        />    
+        <button type="submit" id="search-button">
+            Proceed
+          </button>   
         </div>
         
     )

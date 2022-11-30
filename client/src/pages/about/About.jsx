@@ -1,5 +1,5 @@
 import React from 'react'
-import { Searchbar } from '../../components/searchbar/searchbar'
+import { SelectDropdown } from '../../components/planetSelect/SelectDropdown'
 
 
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <h1>This is our About page!</h1>
       <div className="searchbarContainer">
-        <Searchbar />
+        <SelectDropdown />
       </div>
     </div>
   )
