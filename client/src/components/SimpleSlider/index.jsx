@@ -50,6 +50,9 @@ export const SimpleSlider = () => {
     <>
       <div className="what">
         <Slider {...settings} className={"single_planet"}>
+        <div className="dropdown">
+          
+        </div>
           {planets.map((planet, i) => (
             <Planet planet={planet} key={i} />
           ))}
