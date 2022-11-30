@@ -3,7 +3,6 @@ import React from "react";
 import "./contacts.css";
 import { contacts } from "../../assets/JSON/contactsInfo.js";
 
-
 const Contacts = () => {
   console.log(contacts);
   return (
@@ -14,6 +13,7 @@ const Contacts = () => {
             <h1>{contact.name}</h1>
             <p>{contact.info}</p>
             <p>{contact.email}</p>
+            <img src={contact.image} alt={contact.name} />
           </div>
         ))}
       </div>

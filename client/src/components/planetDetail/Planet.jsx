@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { planets } from "../../assets/JSON/planetsObj.js";
+import Header from "../header/Header.jsx";
 
 import "./planet.css";
 
@@ -9,6 +10,7 @@ const Planet = () => {
   const planet = planets.find((planet) => planet.name === name);
   return (
     <>
+      
       <h1>{`Welcome to ${planet.name}`}</h1>
       <div className="style">
         {planet.content.map((item, k) =>
