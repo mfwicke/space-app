@@ -49,7 +49,9 @@ export const SimpleSlider = () => {
 
   return (
     <>
-      <SelectDropdown />
+      <div className="searchbarContainer">
+        <SelectDropdown />
+      </div>
       <div className="what">
         <Slider {...settings} className={"single_planet"}>
           {planets.map((planet, i) => (
