@@ -12,22 +12,27 @@ import Planet from "./components/planetDetail/Planet.jsx";
 import Login from "./components/login/Login.jsx";
 import SignIn from "./components/sign-in/Sign-in.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import User from "./components/user/User.jsx";
+import { AuthProvider } from "./context/authContext.js";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Routes>
-        <Route path="/" element={<SimpleSlider />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contacts" element={<Contacts />} />
-        <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/planet/:name" element={<Planet />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<SignIn />} />
-      </Routes>
-      <Footer />
-      {/* <img src="./assets/Images/picture_one.jpg" alt="planet" /> */}
+      <AuthProvider>
+        <Header />
+        <Routes>
+          <Route path="/" element={<SimpleSlider />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/planet/:name" element={<Planet />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<SignIn />} />
+          <Route path="/user" element={<User />} />
+        </Routes>
+        <Footer />
+        {/* <img src="./assets/Images/picture_one.jpg" alt="planet" /> */}
+      </AuthProvider>
     </div>
   );
 }
