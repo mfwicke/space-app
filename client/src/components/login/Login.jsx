@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./login.css";
 import axios from "./../../util/axiosApiInstance.js";
-import Header from "../header/Header";
+import Loading from "../loading/Loading";
 
 export const Login = (props) => {
   const [email, setEmail] = useState("");
@@ -55,6 +55,7 @@ export const Login = (props) => {
           </button>
         </div>
       </div>
+      <Loading />
     </>
   );
 };
