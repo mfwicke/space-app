@@ -77,7 +77,7 @@
   height: 10px;
   width: 60px;
   background: rgba(0, 0, 0, 0.2);
-  background: #374d5c;
+  /* background: #374d5c; */
   border-radius: 100%;
 }
 .space .mars .planet {
