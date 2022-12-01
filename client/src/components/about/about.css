@@ -18,10 +18,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    padding: 1em;
 }
 
 .about-title {
     color: #FFFFFF;
-    margin: 2em;
+    margin: 1em;
 }
