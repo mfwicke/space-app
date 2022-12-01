@@ -1,40 +1,41 @@
-import React, { useState } from "react";
-import Select from "react-select";
-import { planets } from "../../assets/JSON/planetsObj.js";
-import "./selectDropdown.css";
+import React, { useState } from 'react';
+import {planets} from '../../assets/JSON/planetsObj'; 
+import './selectDropdown.css';  
 
-export const SelectDropdown = ({ dropdownStyles }) => {
-  // eslint-disable-next-line
-  const [selectOption, setOption] = useState(""); //selectOption not used!!!
-  const handlePlanetSelect = (e) => {
-    setOption(e.value);
-  };
-  const customTheme = (theme) => {
-    return {
-      ...theme,
-      color: "#1a2942",
-      cursor: "pointer",
-      ":hover": {
-        color: "#fff",
-      },
-    };
-  };
 
+
+export const SelectDropdown = () => {
+  const [isOpen, setOpen] = useState(false);
+  const [items, setItem] = useState(planets);
+  const [selectedItem, setSelectedItem] = useState(null);
+  
+  const toggleDropdown = () => setOpen(!isOpen);
+  
+  const handleItemClick = (name) => {
+    console.log("I got clicked", name)
+    selectedItem == name ? setSelectedItem(null) : setSelectedItem(name);
+    //useNavigate in here
+    setOpen(false); 
+  }
+ 
+  
   return (
-    <div className="searchbar-container">
-      <Select
-        className="down"
-        options={planets.map((planet) => ({
-          label: planet.name,
-          value: planet.name,
-        }))}
-        theme={customTheme}
-        onChange={handlePlanetSelect}
-        label="single select"
-      />
-      <button type="submit" id="search-button">
-        Proceed
-      </button>
+    <div className='dropdown'>
+      <div className='dropdown-header' onClick={toggleDropdown}>
+        {selectedItem ? selectedItem : "Select your Planet"}
+        <i className={`fa fa-chevron-right icon ${isOpen && "open"}`}></i>
+      </div>
+      <div className={`dropdown-body ${isOpen && 'open'}`}>
+
+        {items.map(item => (
+          <div className="dropdown-item" onClick={() => handleItemClick(item.name)} key={item.name} name={item.name}>
+            <span className={`dropdown-item-dot ${item.name == selectedItem && 'selected'}`}>• </span>
+            {item.name}
+          </div>
+        ))}
+
+      </div>
     </div>
-  );
-};
+  )
+}
+
