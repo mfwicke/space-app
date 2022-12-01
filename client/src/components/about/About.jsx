@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import { SelectDropdown } from "../planetSelect/SelectDropdown";
 import CompanyStory from "../companyStory/CompanyStory";
 import FoundersStory from "../foundersStory/FoundersStory"
 

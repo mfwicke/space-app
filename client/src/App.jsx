@@ -20,6 +20,7 @@ function App() {
     <div>
       <AuthProvider>
         <Header />
+        <div className="content">
         <Routes>
           <Route path="/" element={<SimpleSlider />} />
           <Route path="/about" element={<About />} />
@@ -30,6 +31,7 @@ function App() {
           <Route path="/register" element={<SignIn />} />
           <Route path="/user" element={<User />} />
         </Routes>
+        </div>
         <Footer />
         {/* <img src="./assets/Images/picture_one.jpg" alt="planet" /> */}
       </AuthProvider>
