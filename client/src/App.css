@@ -11,6 +11,11 @@
   margin: 0;
 }
 
+#root {
+  position: relative;
+  min-height: 95vh;
+}
+
 body {
   font-size: 1.6rem;
 }
@@ -25,6 +30,8 @@ body {
 }
 
 .content {
+
   margin-top: 7.5rem;
   margin-bottom: 10rem;
+
 }

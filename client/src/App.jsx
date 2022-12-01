@@ -21,19 +21,18 @@ function App() {
       <AuthProvider>
         <Header />
         <div className="content">
-        <Routes>
-          <Route path="/" element={<SimpleSlider />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="*" element={<Navigate to="/" />} />
-          <Route path="/planet/:name" element={<Planet />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<SignIn />} />
-          <Route path="/user" element={<User />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<SimpleSlider />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="/planet/:name" element={<Planet />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<SignIn />} />
+            <Route path="/user" element={<User />} />
+          </Routes>
         </div>
         <Footer />
-        {/* <img src="./assets/Images/picture_one.jpg" alt="planet" /> */}
       </AuthProvider>
     </div>
   );

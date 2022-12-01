@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import axios from "axios";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Loading from "../loading/Loading";
+import { AuthContext } from "../../context/authContext";
 
 const User = (props) => {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
 
   const url = "/api/users/profile/";
+  const { firstName, lastName } = useContext(AuthContext);
 
   useEffect(() => {
     const fetchUser = async () => {
@@ -21,12 +22,12 @@ const User = (props) => {
       }
     };
     fetchUser();
-  }, [user]);
+  }, [(user, navigate)]);
 
   return (
     <>
-      <h1>{`Hello ${props.user}, Welcome back`}</h1>
-      <p>{`This account was created on the ${props.dateCreated}`}</p>
+      <h1>{`Hello ${firstName}, Welcome back`}</h1>
+      <h2>{`Your last name is ${lastName}`}</h2>
     </>
   );
 };

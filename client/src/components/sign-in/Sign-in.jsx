@@ -53,7 +53,7 @@ export const SignIn = (props) => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
-            placeholder="********"
+            placeholder="password"
             id="password"
             name="password"
           />
@@ -62,7 +62,7 @@ export const SignIn = (props) => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
-            placeholder="********"
+            placeholder="password"
             id="password"
             name="password"
           />
