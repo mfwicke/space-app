@@ -4,14 +4,18 @@ import axios from "./../../util/axiosApiInstance.js";
 export const SignIn = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(
-        "/api/users/register",
-        { email, password }
-      );
+      const response = await axios.post("/api/users/register", {
+        firstName,
+        lastName,
+        email,
+        password,
+      });
     } catch (error) {
       console.log(error);
     }
@@ -23,6 +27,18 @@ export const SignIn = (props) => {
       <div className="auth-form-container">
         <h2>Sign up</h2>
         <form className="login-form" onSubmit={handleSubmit}>
+          <label>First Name</label>
+          <input
+            htmlFor="text"
+            placeholder="First Name"
+            onChange={(e) => setFirstName(e.target.value)}
+          ></input>
+          <label>Last Name</label>
+          <input
+            htmlFor="text"
+            placeholder="Last Name"
+            onChange={(e) => setLastName(e.target.value)}
+          ></input>
           <label htmlFor="email">email</label>
           <input
             value={email}
@@ -37,7 +53,7 @@ export const SignIn = (props) => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
-            placeholder="********"
+            placeholder="password"
             id="password"
             name="password"
           />
@@ -46,7 +62,7 @@ export const SignIn = (props) => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
-            placeholder="********"
+            placeholder="password"
             id="password"
             name="password"
           />

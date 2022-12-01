@@ -11,6 +11,11 @@
   margin: 0;
 }
 
+#root {
+  position: relative;
+  min-height: 95vh;
+}
+
 body {
   font-size: 1.6rem;
 }
@@ -22,4 +27,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+}
+
+.content {
+  margin-top: 9rem;
+  min-height: 80vh;
 }
