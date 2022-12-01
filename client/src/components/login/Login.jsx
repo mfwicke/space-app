@@ -21,11 +21,12 @@ export const Login = (props) => {
     e.preventDefault();
     try {
       const response = await axios.post(url, { email, password });
+      console.log(response);
       handleLogin(
         true,
-        response.data.email,
-        response.data.firstName,
-        response.data.lastName
+        response.data.result.email,
+        response.data.result.firstName,
+        response.data.result.lastName
       );
       navigate("/profile");
     } catch (error) {
