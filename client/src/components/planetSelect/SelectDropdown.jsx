@@ -20,6 +20,7 @@ export const SelectDropdown = () => {
  
   
   return (
+    <>
     <div className='dropdown'>
       <div className='dropdown-header' onClick={toggleDropdown}>
         {selectedItem ? selectedItem : "Select your Planet"}
@@ -36,6 +37,12 @@ export const SelectDropdown = () => {
 
       </div>
     </div>
+      <div className="dropdown-proceed">
+      <button type="submit" id="button-dropdown">
+              proceed
+            </button>
+      </div>
+      </>
   )
 }
 

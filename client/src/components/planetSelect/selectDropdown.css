@@ -1,14 +1,15 @@
 .searchbarContainer {
   display: flex;
   justify-content: center;
-  border: 2px white solid;
+  align-items: center;
 }
 .dropdown {
   width: 31rem;
   border-radius: 0.6rem;
   box-shadow: 0 0.6rem 1.5rem rgba(0,0,0,.1);
-  background-color: white;
+  background-color: transparent;
   position: relative;
+  height: 50%;
 }
 
 .dropdown-header {
@@ -17,8 +18,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black;
+  color: white;
+  background-color: transparent;
   
+}
+.dropdown-header:hover {
+  background-color: grey;
 }
 
 .dropdown-body {
@@ -46,6 +51,8 @@
 
 .dropdown-item:hover {
   cursor: pointer;
+  background-color: grey;
+  
 }
 
 .dropdown-item-dot {
@@ -67,4 +74,22 @@
 
 .icon.open {
   transform: rotate(90deg);
+}
+
+.dropdown-proceed {
+  /* position: relative; 
+  bottom: 2rem;
+  margin-left: 2rem; */
+  height: 50%;
+}
+
+#button-dropdown {
+  height: 0.1em; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.1rem;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
 }
