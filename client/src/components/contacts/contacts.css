@@ -21,13 +21,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 6.25em;
-  height: calc(100vh - 13.75em);
+  margin: 10.25em;
+  padding: auto;
   backdrop-filter: blur(0.3rem);
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid #ffffff;
   border-radius: 0.62rem;
-  /* overflow: scroll; */
 }
 
 .contacts-wrapper {
