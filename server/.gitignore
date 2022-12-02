@@ -1,9 +1,4 @@
-DB_USER=MFWA
-DB_PASS=laclavedemongo
-DB_HOST=cluster0.qwqv86e.mongodb.net
-DB_NAME=FullStackApp
-DB_PORT=4050
-SECRET=laclavedetoken
+
 
 .env
 node_modules
