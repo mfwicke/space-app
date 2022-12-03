@@ -73,6 +73,8 @@ body {
 .planet-photo {
   max-width: 80%;
   height: auto;
+  border: 1px solid #FFFFFF;
+  border-radius: 0.62rem;
   margin: 2em;
 }
 
