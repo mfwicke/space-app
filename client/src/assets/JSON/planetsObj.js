@@ -33,7 +33,7 @@ const planets = [
           "The Venus package is an intense experience, you can book three classes of accommodations.",
           "The “Limbo” is a low level package, which includes a basic love-hotel accommodation, with simple climatization with the possibility to book your custom massages and a spa access for the “Roman Baths.”",
           " “Lust” is the Star-Traveler-Package, it includes a beautiful Accommodation under a transparent roof, providing the traveler with a fine view to the dark colored sky, free entrance to the “Roman Baths” and a included station droid.",
-          "“Gluttony” is a first class package, which provides you with a Penthouse Suite and a view over the Facility and the planet. Included is a private Spa experience and a 24h access to the “Roman Baths”. Once a week there is a scientific surface trip organized by Stellar-Trips that you can join in a passenger-cabin. Droid-Service and a underground ticket for all Venus exclusive events are included.",
+          "“Gluttony” is a first class package, which provides you with a Penthouse Suite and a view over the Facility and the planet. Included is a private Spa experience and a 24h access to the “Roman Baths”. Once a week there is a scientific surface trip organized by Stellar Trips that you can join in a passenger-cabin. Droid-Service and a underground ticket for all Venus exclusive events are included.",
         ],
         img: [
           "https://img.welt.de/img/wissenschaft/mobile100644536/8352503157-ci102l-w1024/Venus-DW-Wissenschaft-Hamburg-jpg.jpg",
