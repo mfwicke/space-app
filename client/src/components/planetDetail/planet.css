@@ -41,10 +41,55 @@ body {
   cursor: pointer;
 }
 
-.style {
+.planet-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 6.25em;
+  backdrop-filter: blur(0.3rem);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #FFFFFF;
+  border-radius: 0.62rem;
+  padding: auto;
+}
+
+.planet-box {
+  margin: 2em;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.style, .planet-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-photo {
+  max-width: 80%;
+  height: auto;
+  border: 1px solid #FFFFFF;
+  border-radius: 0.62rem;
+  margin: 2em;
+}
+
+.planet-name {
+  color: #FFFFFF;
+}
+
+.planet-go-back-button {
+  color: #FFFFFF;
+  background-color: none;
+  background: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 0.62rem;
+  margin: 2em;
+  text-transform: uppercase;
 }
 
 .planet-neptune0 img {
