@@ -25,16 +25,21 @@ const planets = [
     name: "venus",
     content: [
       {
-        text: "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the second-brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and, rarely, is visible to the naked eye in broad daylight.",
+        text: "Several attempts of turning the inhabitable planet Venus - also known as “Hell-Planet” into a habitable earth like planet with huge water reservoirs and green vegetation, have failed miserably. The well planned and costly operation, based on the Theories of Carl Edward Sagan failed on multiple levels and after a decade of disappointments, even catastrophic results with a high amount of human losses led to the conviction of the impossibility of the project. Since then the operation has been buried. The only achievement of the cooperation between the Mars-Society and Stellar-Trips inc. was the “House Of Hades” a heat resistant modular Station that generates its own power and materials out of the same hell like environment surrounding it - until the day it is the most efficient station in the solar-system which explains its fast expansion. The initial insignificant status of this station turned fast into a sub cultural meet and greet and is even home to a couple of well known Rock and metal groups, who perform exclusive Events inside a huge transparent cupola under the firestorms of Venus and the shadows of the “House Of Hades” that hosts Venus travelers from all over the Solar system. The west branch of the station has it's own flair, with a clandestine atmosphere of coffee shops the famous red-light-district music clubs and restaurants. The opening of “The Roman Baths”, were an attempt to change the despicable reputation of the station but the extension of the spa area lead - due to employment shortages - to the merge of the red-light-district and the “Holiday Spa” areal.",
         img: "https://www.fr.de/bilder/2021/06/03/90787980/26262333-die-venus-birgt-noch-viele-geheimnisse-die-zwei-kuenftige-nasa-missionen-ihr-entlocken-sollen-das-bild-entstand-aus-daten-der-nasa-raumsonden-magellan-2xec.jpg",
       },
       {
-        text: "Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a bit before dawn. Venus orbits the Sun every 224.7 Earth days.",
+        text: [
+          "The Venus package is an intense experience, you can book three classes of accommodations.",
+          "The “Limbo” is a low level package, which includes a basic love-hotel accommodation, with simple climatization with the possibility to book your custom massages and a spa access for the “Roman Baths.”",
+          " “Lust” is the Star-Traveler-Package, it includes a beautiful Accommodation under a transparent roof, providing the traveler with a fine view to the dark colored sky, free entrance to the “Roman Baths” and a included station droid.",
+          "“Gluttony” is a first class package, which provides you with a Penthouse Suite and a view over the Facility and the planet. Included is a private Spa experience and a 24h access to the “Roman Baths”. Once a week there is a scientific surface trip organized by Stellar-Trips that you can join in a passenger-cabin. Droid-Service and a underground ticket for all Venus exclusive events are included.",
+        ],
         img: [
           "https://img.welt.de/img/wissenschaft/mobile100644536/8352503157-ci102l-w1024/Venus-DW-Wissenschaft-Hamburg-jpg.jpg",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
         img: "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/https://cosmosmagazine.com/wp-content/uploads/2021/10/Venus-oceans.jpg",
         text: "",
