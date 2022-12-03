@@ -21,6 +21,11 @@
   padding: 1em;
 }
 
+.about-title-container, .about-info {
+  width: 95%;
+  height: auto;
+}
+
 .about-title {
   color: #ffffff;
   margin: 1em;
