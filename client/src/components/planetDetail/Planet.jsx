@@ -30,10 +30,10 @@ const Planet = () => {
 
   return (
     <>
-      <div className="planet-wrapper">
-        <div className="planet-box">
-          {loadingComplete ? (
-            <>
+      {loadingComplete ? (
+        <>
+          <div className="planet-wrapper">
+            <div className="planet-box">
               <h1 className="planet-name">{`Welcome to ${planet.name}`}</h1>
               <div className="style">
                 {planet.content.map((item, k) =>
@@ -49,15 +49,15 @@ const Planet = () => {
                   )
                 )}
               </div>
-            </>
-          ) : (
-            <Loading />
-          )}
-          <button className="planet-go-back-button">
-            <NavLink to="/">Go back to planet selection</NavLink>
-          </button>
-        </div>
-      </div>
+              <button className="planet-go-back-button">
+                <NavLink to="/">Go back to planet selection</NavLink>
+              </button>
+            </div>
+          </div>
+        </>
+      ) : (
+        <Loading />
+      )}
     </>
   );
 };
