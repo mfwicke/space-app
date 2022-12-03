@@ -1,29 +1,13 @@
-:root {
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-size: 1.6rem;
-}
-
 .photo-neptune0 {
   opacity: 0.5;
 }
-.photo-mars1 {
+.photo-mercury1 {
+  opacity: 0.5;
 }
 .photo-mars3 {
 }
 
-.text-neptune1 {
+.planet .text-neptune1 {
   color: var(--color-light-1);
   font-size: 6rem;
   font-weight: 700;
@@ -50,7 +34,7 @@ body {
   margin: 6.25em;
   backdrop-filter: blur(0.3rem);
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 0.62rem;
   padding: auto;
 }
@@ -63,7 +47,8 @@ body {
   align-items: center;
 }
 
-.style, .planet-info {
+.style,
+.planet-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,20 +58,20 @@ body {
 .planet-photo {
   max-width: 80%;
   height: auto;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 0.62rem;
   margin: 2em;
 }
 
 .planet-name {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .planet-go-back-button {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: none;
   background: none;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 0.62rem;
   margin: 2em;
   text-transform: uppercase;

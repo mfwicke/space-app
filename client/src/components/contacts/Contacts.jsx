@@ -19,7 +19,7 @@ const Contacts = () => {
           {companyInfos.map((companyInfo, k) => (
             <div className="company-info">
               <img src={companyInfo.image} alt="" key={k} className="art" />
-              <h1 className="company-info-name">{companyInfo.name}</h1>
+              <h2 className="company-info-name">{companyInfo.name}</h2>
               <div className="company-infos-links-wrapper">
               <a href={`mailto:${companyInfo.email}`}><MdEmail className="contacts-icon" /></a>
               <a href={companyInfo.telephone} target="_blank" rel="noopener noreferrer"><FaPhoneAlt className="contacts-icon" /></a>
@@ -32,7 +32,7 @@ const Contacts = () => {
           {contacts.map((contact, k) => (
             <div className="contact">
               <img src={contact.image} alt="" key={k} className="art" />
-              <h1 className="contact-name">{contact.name}</h1>
+              <h2 className="contact-name">{contact.name}</h2>
               <div className="contacts-links-wrapper">
               <a href={`mailto:${contact.email}`}><MdEmail className="contacts-icon" /></a>
               <a href={contact.linkedin} target="_blank" rel="noopener noreferrer"><FaLinkedin className="contacts-icon" /></a>

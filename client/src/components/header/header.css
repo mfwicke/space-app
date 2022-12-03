@@ -174,7 +174,7 @@ body {
 /* 52.5em = 840px @ 16pt font */
 /* 71.75em = 1148 @ 16pt font */
 
-@media (min-width: 71.75em) {
+@media (min-width: 52.5em) {
   .header li {
     float: left;
   }

@@ -11,7 +11,7 @@ const CompanyStory = () => {
                         <div className="company-story-box">
                             <div className="company-story-info">
                                 <img src={companyInfo.image} alt="Company Logo" className="company-story-art" />
-                                <h1 className="company-story-name">{companyInfo.name}</h1>
+                                <h2 className="company-story-name">{companyInfo.name}</h2>
                             </div>
                             <div className="company-story-origin-box">
                                 <p className="company-story-origin">{companyInfo.info}</p>

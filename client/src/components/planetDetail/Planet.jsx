@@ -39,16 +39,24 @@ const Planet = () => {
                 {planet.content.map((item, k) =>
                   item.img && item.text ? (
                     <div className={`planet-${planet.name + k} planet-info`}>
-                      <img src={item.img} alt="" className="planet-photo" />
+                      <img
+                        src={item.img}
+                        alt=""
+                        className={`photo-${planet.name + k} planet-photo`}
+                      />
                       <p>{item.text}</p>
                     </div>
                   ) : item.img ? (
-                    <img src={item.img} alt="" className="planet-photo" />
+                    <img
+                      src={item.img}
+                      alt=""
+                      className={`photo-${planet.name + k} planet-photo`}
+                    />
                   ) : (
                     <p>{item.text}</p>
                   )
                 )}
-              </div>
+              </div>{" "}
               <button className="planet-go-back-button">
                 <NavLink to="/">Go back to planet selection</NavLink>
               </button>
