@@ -59,7 +59,7 @@ const planets = [
           "https://gruposaedal.com/wp-content/uploads/2022/09/Earths-First-Continents-Sank-Into-The-Planet-Before-Rising-Up.jpg",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
         img: "https://www.propeller.la/files/Earth%20Lil%20Dicky/earth-hug.png",
         text: "",
@@ -128,18 +128,36 @@ const planets = [
     name: "jupiter",
     content: [
       {
-        text: "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined.",
+        text: "We welcome you to the Kings-Station. As a category 5 Station, it is the largest orbital Center that contains a Tourist-destination just as much a place of transshipment to the stations on the Jupiter Moons.",
         img: "https://www.scinexx.de/wp-content/uploads/0/1/01-33573-jupiter.jpg",
       },
       {
-        text: "Jupiter is one of the brightest objects visible to the naked eye in the night sky, and has been known to ancient civilizations since before recorded history. It is named after the Roman god Jupiter.",
+        text: "The Kings-Station was initially just a transit station between Ganymede and Callisto and a hot-spot for shipments to the cryo-chambers of Ganymede. Rising needs for accommodations urged Stellar Trips to build a fleet of orbital hotel rooms, provided by the station but ready to dive into the wild atmosphere of Jupiter.",
         img: ["https://media.timeout.com/images/105903888/320/210/image.jpg"],
       },
-      { img: "", text: "hellooo" },
+      {
+        img: "",
+        text: "High Class accommodations and Suites are able to go close to the spectacular and turbulent atmosphere with a 360 degree view and a 24h mobile droid room service.",
+      },
       {
         img: "https://www.franz-ploetz.de/s/cc_images/teaserbox_20304591.jpg?t=1638989526",
         text: "",
       },
+      {
+        img: "",
+        text: "Middle and basic accommodation levels are staying close to the station, to maintain their exceptional service to our guests.",
+      },
+      {
+        img: "",
+        text: "Nearby Planets like Ganymede and Callisto are reachable via the main train platform of the Station.",
+      },
+      {
+        img: "",
+        text: "We offer day trips to Ganymede with the possibility to visit the largest Cryonic-Facility of the solar-System. Here you can take a time-out or escape difficulties you're discovered in your life. If you broke up with a loved one, maybe time can heal it, take a couple of hundred years to get over it in our Cryo-Chambers, we recommend you the morpheus package with included maintenance and insurance. We keep you save even when a meteor hits, if something is left of you - it get's transferred to a droid.",
+      },
+      { img: "", text: "Happy freezing." },
+      { img: "", text: "" },
+      { img: "", text: "" },
     ],
   },
   {
@@ -155,7 +173,7 @@ const planets = [
           "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
         img: "https://www.br-online.de/wissen-bildung/spacenight/sterngucker/foto/saturn-hubble-gr.jpg",
         text: "",
@@ -175,7 +193,7 @@ const planets = [
           "https://img.zeit.de/wissen/2022-04/uranus-planet-forschung-raumfahrt-nasa-raumsonde-bild/wide__1300x731",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
         img: "https://www.futurezone.de/wp-content/uploads/sites/11/2021/09/uranus.jpg",
         text: "",
@@ -195,7 +213,7 @@ const planets = [
           "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
         img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
         text: "",
