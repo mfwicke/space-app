@@ -71,13 +71,11 @@ const planets = [
     content: [
       {
         text: "What once began as the Mars Desert Research Station (MDRS), a small setup of research facilities on the surface of earth was after a few missions - struck with miss fortune and difficulties - successfully set up in the deserted area of Arcadia Planitia in the northern hemisphere of Mars. It soon transformed to the travel intensive Station that we know and that had become the sweet spot for space adventurers, for space-hikers and rover-enthusiasts and unnecessary to mention the famous free climbing space-cup on Olympus Mons.",
-        img: "https://www.planet-wissen.de/natur/weltall/mars/intromarsteleskopgjpg100~_v-gseapremiumxl.jpg",
+        img: "https://www.planet-wissen.de/natur/weltall/mars/tempxwfmarsgjpg100~_v-gseapremiumxl.jpg",
       },
       {
         text: "The MDRS slowly extended adding to the core-facility a vast area of accommodations and holiday-resort facilities in all budget levels below the surface of Arcadia Planitia. Possibilities on Mars are unique in our solar-system, a trip to the northern hemisphere will give you a vast and plain territory to explore with beautiful dusty and sandy wastelands. The station provides you, your friends and family with a Rover to explore the area to the limits of the amount of oxygen and gear you added to your package. Due to rough weather conditions, outdoor-camping is just recommended on the southern hemisphere, in the north you should spend your nights in the safety of the Rover a drink at hand and the stars above you,  or enjoy the onboard entertainment system and keep an eye to the actual weather-cast of the Mars nano-Orbiter.",
-        img: [
-          "https://www.planet-wissen.de/natur/weltall/mars/intromarspathfindergjpg100~_v-gseapremiumxl.jpg",
-        ],
+        img: "https://cms-api.galileo.tv/app/uploads/2021/02/nasa-marsbehausung-ai-spacefactory-mars-habitat-exterior-dust-storm.jpg",
       },
       {
         img: "https://www.planet-wissen.de/natur/weltall/mars/intromarsteleskopgjpg100~_v-gseapremiumxl.jpg",
@@ -217,7 +215,7 @@ const planets = [
     content: [
       {
         text: "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet.",
-        img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+        img: "https://www.konnecthq.com/wp-content/uploads/2019/07/Neptune-2-10-1.jpg?ezimgfmt=rs%3Adevice%2Frscb3-1",
       },
       {
         text: "Neptune is 17 times the mass of Earth and is slightly more massive than its near-twin Uranus, which is 15 times the mass of Earth. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere.",
