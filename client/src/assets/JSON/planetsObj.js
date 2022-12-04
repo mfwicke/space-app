@@ -114,7 +114,7 @@ const planets = [
         text: "Guided space tours to the Moons Phobos and Deimos in your own orbital spacecraft.",
       },
       {
-        img: "",
+        img: "https://cdn.mos.cms.futurecdn.net/4gwNj4dzxXmmRry9hYgfuC-970-80.jpg.webp",
         text: "Advices:",
       },
       {
