@@ -89,38 +89,50 @@ const planets = [
       },
       {
         img: "",
-        text: [
-          "After your journey in one of our ships to the red mystery that enrolls its beauty beyond the gates of the base station you can choose one of our packages either for the northern or southern hemisphere.",
-          "The Northern Hemisphere package:",
-          "Rover tours into the deserted wastelands.",
-          "Book your seats in our famous Desert-Rover-Races.",
-          "Skiing and Snowboarding trips on the frozen atmospheric carbon dioxide of the north pole in the winter-season  optional cruises in a B456 Snow-Rover.",
-        ],
+        text: "After your journey in one of our ships to the red mystery that enrolls its beauty beyond the gates of the base station you can choose one of our packages either for the northern or southern hemisphere.",
+      },
+      { img: "", text: "The Northern Hemisphere package:" },
+      { img: "", text: "Rover tours into the deserted wastelands." },
+      { img: "", text: "Book your seats in our famous Desert-Rover-Races." },
+      {
+        img: "",
+        text: "Skiing and Snowboarding trips on the frozen atmospheric carbon dioxide of the north pole in the winter-season  optional cruises in a B456 Snow-Rover.",
+      },
+      { img: "", text: "" },
+      {
+        img: "",
+        text: "The Southern Hemisphere package:",
       },
       {
         img: "",
-        text: [
-          "The Southern Hemisphere package:",
-          "Hiking Trips on extinct volcanos with pressure stabilized tents.",
-          "space gliding tour from olympus mons.",
-          "Crater Bubble bath and spa week in summertime.",
-          "Guided space tours to the Moons Phobos and Deimos in your own orbital spacecraft.",
-        ],
+        text: "Hiking Trips on extinct volcanos with pressure stabilized tents.",
+      },
+      { img: "", text: "space gliding tour from olympus mons." },
+      { img: "", text: "Crater Bubble bath and spa week in summertime." },
+      {
+        img: "",
+        text: "Guided space tours to the Moons Phobos and Deimos in your own orbital spacecraft.",
       },
       {
         img: "",
-        text: [
-          "Advices:",
-          "Mars is known as the destination in the solar system for its tourist-friendly and welcoming character. Be aware that the surface gravity on Mars is only about 38% of the surface gravity  on Earth. Overweight people can feel light as a butterfly. Mars is requiring a travel visa, so make sure about that on your home planet.",
-          "Please book enough oxygen before your trips. Mind that in case of strong weather conditions the stay can be prolonged up to three weeks.",
-        ],
+        text: "Advices:",
       },
       {
         img: "",
-        text: [
-          "Extra for the luxury plus package.",
-          "free fall on mars from the space-ship - including the latest space gear.",
-        ],
+        text: "Mars is known as the destination in the solar system for its tourist-friendly and welcoming character. Be aware that the surface gravity on Mars is only about 38% of the surface gravity  on Earth. Overweight people can feel light as a butterfly. Mars is requiring a travel visa, so make sure about that on your home planet.",
+      },
+      {
+        img: "",
+        text: "Please book enough oxygen before your trips. Mind that in case of strong weather conditions the stay can be prolonged up to three weeks.",
+      },
+
+      {
+        img: "",
+        text: "Extra for the luxury plus package.",
+      },
+      {
+        img: "",
+        text: "free fall on mars from the space-ship - including the latest space gear.",
       },
     ],
   },
