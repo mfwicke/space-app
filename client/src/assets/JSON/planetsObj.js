@@ -19,25 +19,6 @@ const planets = [
         text: "Warning: for the lack of an atmosphere the constant threat of meteorites and other dangers from space makes it necessary to make your testament before starting the voyage, optionally you can book a full coverage of insurance.",
       },
     ],
-    booking: [
-      {
-        title: 'mercury Package',
-        specification: [
-          {
-          id:'Budget Level', 
-          info: 'The budget level includes crater tours and night walks on the surface'
-          },
-          {
-          id: 'Budget-Plus Level',
-          info: 'The budget plus level includes the free entrance of the mineral museum and the hot bubble baths under the sun.'
-          },
-          {
-          id: 'Deluxe Level',
-          info: 'The deluxe level includes a flight over the heated surface, crater tour with guided diamond search and free entrance to the Mineral-Casino and night walks on the surface.'
-          },
-        ]
-      }
-    ]
   },
 
   {
