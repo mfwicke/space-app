@@ -29,7 +29,7 @@ const User = (props) => {
 
   return (
     <>
-      <h1>{`Hello ${firstName}, Welcome back`}</h1>
+      <h1 className="welcome-user">{`Hello ${firstName}, Welcome back`}</h1>
 
       <SelectDropdown />
     </>
