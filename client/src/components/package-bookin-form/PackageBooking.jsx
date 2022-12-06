@@ -1,9 +1,12 @@
 import React, {useState} from 'react'; 
+import { planets } from '../../assets/JSON/planetsObj';
 import './packageBooking.css'; 
 
 const packageData = [
   {
-    name: 'Mars Package 1', 
+    name: 'mars', 
+    title: 'mars package',
+    packages: ['Mars Package 1', 'Mars Package 2', 'Mars Package 3']
   },
   {
     name: 'Mars Package 2',
@@ -13,18 +16,20 @@ const packageData = [
   }
 ]
 
-
 export const PackageBooking = () => {
 
   const [isOpen, setOpen] = useState(false);
-  const [items, setItem] = useState(packageData);
+  const [items, setItem] = useState(planets);
   const [selectedItem, setSelectedItem] = useState(null);
   
   const toggleDropdown = () => setOpen(!isOpen);
+
+  const submenu = packageData.map((item => item))
   
   const handleItemClick = (name) => {
     console.log("I got clicked", name)
     selectedItem == name ? setSelectedItem(null) : setSelectedItem(name);
+
     //useNavigate in here
     setOpen(false); 
   }
@@ -41,15 +46,15 @@ export const PackageBooking = () => {
         <div className="dropdown-box">
 
           <div className='dropdown-header' onClick={toggleDropdown}>
-              {selectedItem ? selectedItem : "Select your Travel-Package:"}
-              <i className={`fa fa-chevron-right icon ${isOpen && "open"}`}></i>
+              {selectedItem ? selectedItem : "Select your Planet:"}
           </div>
 
           <div className={`dropdown-body ${isOpen && 'open'}`}>
             {items.map(item => (
               <div className="dropdown-item" onClick={() => handleItemClick(item.name)} key={item.name} name={item.name}>
-                <span className={`dropdown-item-dot ${item.name == selectedItem && 'selected'}`}>• </span>
+                <span className={`dropdown-item-dot ${item.name == selectedItem && 'selected'}`}></span>
                 {item.name}
+                {/* <span className="submenu">{item.name === item.submenu[0].name ? <span>{item.submenu[0].packages}</span> : ""}</span> */}
               </div>
               ))}
           </div>
