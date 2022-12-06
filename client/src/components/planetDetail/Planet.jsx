@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { planets } from "../../assets/JSON/planetsObj.js";
 import Loading from "../loading/Loading.jsx";
+import { NavLink, useNavigate } from "react-router-dom";
 
 import "./planet.css";
 
@@ -10,6 +11,12 @@ const Planet = () => {
   const planet = planets.find((planet) => planet.name === name);
 
   const [loadingComplete, setLoadingComplete] = useState(false);
+
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/about", "/contacts", "/register", "/login", "/user");
+  };
 
   useEffect(() => {
     function loadingComplete() {
@@ -23,29 +30,42 @@ const Planet = () => {
 
   return (
     <>
-      <div>
-        {loadingComplete ? (
-          <>
-            <h1>{`Welcome to ${planet.name}`}</h1>
-            <div className="style">
-              {planet.content.map((item, k) =>
-                item.img && item.text ? (
-                  <div className={`planet-${planet.name + k}`}>
-                    <img src={item.img} alt="" />
+      {loadingComplete ? (
+        <>
+          <div className="planet-wrapper">
+            <div className="planet-box">
+              <h1 className="planet-name">{`Welcome to ${planet.name}`}</h1>
+              <div className="style">
+                {planet.content.map((item, k) =>
+                  item.img && item.text ? (
+                    <div className={`planet-${planet.name + k} planet-info`}>
+                      <img
+                        src={item.img}
+                        alt=""
+                        className={`photo-${planet.name + k} planet-photo`}
+                      />
+                      <p>{item.text}</p>
+                    </div>
+                  ) : item.img ? (
+                    <img
+                      src={item.img}
+                      alt=""
+                      className={`photo-${planet.name + k} planet-photo`}
+                    />
+                  ) : (
                     <p>{item.text}</p>
-                  </div>
-                ) : item.img ? (
-                  <img src={item.img} alt="" />
-                ) : (
-                  <p>{item.text}</p>
-                )
-              )}
+                  )
+                )}
+              </div>{" "}
+              <button className="planet-go-back-button">
+                <NavLink to="/">Go back to planet selection</NavLink>
+              </button>
             </div>
-          </>
-        ) : (
-          <Loading />
-        )}
-      </div>
+          </div>
+        </>
+      ) : (
+        <Loading />
+      )}
     </>
   );
 };

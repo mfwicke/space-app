@@ -47,7 +47,7 @@ export default function Header() {
           <NavLink to="/login">Login</NavLink>
         </li>
         <li>
-          <NavLink to="/user">{`Welcome ${firstName} ${lastName}`}</NavLink>
+          <NavLink to="/user">{`Welcome ${firstName}`}</NavLink>
         </li>
       </ul>
     </header>

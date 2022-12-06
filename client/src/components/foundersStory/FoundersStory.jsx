@@ -11,7 +11,7 @@ const FoundersStory = () => {
                         <div className="founders-story-box">
                             <div className="founders-story-info">
                                 <img src={contact.image} alt={`${contact.name} portrait`} className="founders-story-art" />
-                                <h1 className="founders-story-name">{contact.name}</h1>
+                                <h2 className="founders-story-name">{contact.name}</h2>
                             </div>
                             <div className="founders-story-origin-box">
                                 <p className="founders-story-origin">{contact.info}</p>

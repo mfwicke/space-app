@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import "./login.css";
 import axios from "./../../util/axiosApiInstance.js";
-import Loading from "../loading/Loading";
+
 import { AuthContext } from "../../context/authContext";
 import { useNavigate } from "react-router-dom";
 

@@ -67,6 +67,7 @@ export const SignIn = (props) => {
             name="password"
           />
           <button type="submit" id="button">
+            {/* I think here we have to refer to other page like user or Home with the name  */}
             Sign up
           </button>
         </form>
