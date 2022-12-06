@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 import { SelectDropdown } from "../planetSelect/SelectDropdown";
 import { planets } from "../../assets/JSON/planetsObj";
+import "./user.css";
 
 const User = (props) => {
   const [user, setUser] = useState(null);

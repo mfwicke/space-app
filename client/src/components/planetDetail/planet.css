@@ -65,10 +65,12 @@
 
 .planet-name {
   color: #ffffff;
+  font-family: Imported-Bold;
 }
 
 .planet-go-back-button {
   color: #ffffff;
+  font-family: Imported-Bold;
   background-color: none;
   background: none;
   border: 1px solid #ffffff;
