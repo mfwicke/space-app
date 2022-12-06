@@ -1,17 +1,3 @@
-:root {
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
-}
-body {
-  font-size: 1.6rem;
-}
 .barContainer {
   width: 100%;
   display: flex;
@@ -52,17 +38,6 @@ a:hover {
 .logo {
   height: 5rem;
 }
-
-/* li {
-  text-decoration: none;
-  list-style: none;
-  display: inline;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 3px 10px;
-  margin: 0px 10px;
-  border-radius: 5px;
-} */
 
 body {
   margin: 0;

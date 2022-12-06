@@ -19,6 +19,15 @@ const planets = [
         text: "Warning: for the lack of an atmosphere the constant threat of meteorites and other dangers from space makes it necessary to make your testament before starting the voyage, optionally you can book a full coverage of insurance.",
       },
     ],
+    package: [
+      { name: "Basic", price: 1000, description: "Basic accommodation" },
+      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
+      },
+    ],
   },
 
   {
@@ -45,6 +54,15 @@ const planets = [
         text: "",
       },
     ],
+    package: [
+      { name: "Basic", price: 1000, description: "Basic accommodation" },
+      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
+      },
+    ],
   },
   {
     name: "earth",
@@ -63,6 +81,15 @@ const planets = [
       {
         img: "https://www.propeller.la/files/Earth%20Lil%20Dicky/earth-hug.png",
         text: "",
+      },
+    ],
+    package: [
+      { name: "Basic", price: 1000, description: "Basic accommodation" },
+      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
@@ -133,6 +160,15 @@ const planets = [
         text: "free fall on mars from the space-ship - including the latest space gear.",
       },
     ],
+    package: [
+      { name: "Basic", price: 1000, description: "Basic accommodation" },
+      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
+      },
+    ],
   },
   {
     name: "jupiter",
@@ -169,13 +205,22 @@ const planets = [
       { img: "", text: "" },
       { img: "", text: "" },
     ],
+    package: [
+      { name: "Basic", price: 1000, description: "Basic accommodation" },
+      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
+      },
+    ],
   },
   {
     name: "saturn",
     content: [
       {
         text: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth.",
-        img: "https://im.contentlounge.net/styles/manual_crop/s3/2022-02/imago_96778830-v1.jpg?im=AspectCrop%2Csize%3D%2816%2C9%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=90fd58fe960da0ae2c631c37d66221c1c9e676983cc3d9a79d59ecc26db1baf7",
+        img: "https://www.br-online.de/wissen-bildung/spacenight/sterngucker/foto/saturn-hubble-gr.jpg",
       },
       {
         text: "Saturn is named after the Roman god of agriculture; its astronomical symbol (♄) represents the god's sickle. Saturn is the only planet known to have rings, which were first seen in 1610.",
@@ -185,8 +230,17 @@ const planets = [
       },
       { img: "", text: "" },
       {
-        img: "https://www.br-online.de/wissen-bildung/spacenight/sterngucker/foto/saturn-hubble-gr.jpg",
+        img: "https://im.contentlounge.net/styles/manual_crop/s3/2022-02/imago_96778830-v1.jpg?im=AspectCrop%2Csize%3D%2816%2C9%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=90fd58fe960da0ae2c631c37d66221c1c9e676983cc3d9a79d59ecc26db1baf7",
         text: "",
+      },
+    ],
+    package: [
+      { name: "Basic", price: 1000, description: "Basic accommodation" },
+      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
@@ -209,6 +263,15 @@ const planets = [
         text: "",
       },
     ],
+    package: [
+      { name: "Basic", price: 1000, description: "Basic accommodation" },
+      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
+      },
+    ],
   },
   {
     name: "neptune",
@@ -227,6 +290,15 @@ const planets = [
       {
         img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
         text: "",
+      },
+    ],
+    package: [
+      { name: "Basic", price: 1000, description: "Basic accommodation" },
+      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
