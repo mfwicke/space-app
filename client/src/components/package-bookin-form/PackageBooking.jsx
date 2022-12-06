@@ -2,19 +2,7 @@ import React, {useState} from 'react';
 import { planets } from '../../assets/JSON/planetsObj';
 import './packageBooking.css'; 
 
-const packageData = [
-  {
-    name: 'mars', 
-    title: 'mars package',
-    packages: ['Mars Package 1', 'Mars Package 2', 'Mars Package 3']
-  },
-  {
-    name: 'Mars Package 2',
-  },
-  {
-    name: '`${lksd} Package 3`',
-  }
-]
+
 
 export const PackageBooking = () => {
 
@@ -24,7 +12,7 @@ export const PackageBooking = () => {
   
   const toggleDropdown = () => setOpen(!isOpen);
 
-  const submenu = packageData.map((item => item))
+  
   
   const handleItemClick = (name) => {
     console.log("I got clicked", name)
@@ -39,9 +27,9 @@ export const PackageBooking = () => {
     <>
       <div className="booking-form-container">
 
-        <h1 id='welcome-message'>Welcome To ...`$Your Planet`</h1>
+        <h1 id='welcome-message'>Welcome Traveller Book Your Planet</h1>
       
-      <div className="dropdown-and-btn">
+      
 
         <div className="dropdown-box">
 
@@ -60,14 +48,11 @@ export const PackageBooking = () => {
           </div>
           
         </div>
-
-        <div className="btn-proceed-box">
+        
           <span className="dropdown-package-proceed">
-            <button type="submit" id="package-dropdown-button">Book</button>
+            <button type="submit" id="package-dropdown-button">Proceed</button>
           </span>
-        </div>
-
-      </div>
+        
       </div>
     </>
   )

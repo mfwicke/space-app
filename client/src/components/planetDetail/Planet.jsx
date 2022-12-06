@@ -28,6 +28,8 @@ const Planet = () => {
     }, 10000);
   }, []);
 
+  
+
   return (
     <>
       {loadingComplete ? (
