@@ -171,11 +171,11 @@ const planets = [
     ],
     submenu: [
       {
-        name: 'mars',
-        title: 'mars Package',
-        packages: ['mars package 1', 'mars package 2', 'mars package 3']
-      }
-    ]
+        name: "mars",
+        title: "mars Package",
+        packages: ["mars package 1", "mars package 2", "mars package 3"],
+      },
+    ],
   },
   {
     name: "jupiter",
@@ -223,11 +223,15 @@ const planets = [
     ],
     submenu: [
       {
-        name: 'jupiter',
-        title: 'jupiter Package',
-        packages: ['jupiter package 1', 'jupiter package 2', 'jupiter package 3']
-      }
-    ]
+        name: "jupiter",
+        title: "jupiter Package",
+        packages: [
+          "jupiter package 1",
+          "jupiter package 2",
+          "jupiter package 3",
+        ],
+      },
+    ],
   },
   {
     name: "saturn",
@@ -296,13 +300,11 @@ const planets = [
       },
       {
         text: "Neptune is 17 times the mass of Earth and is slightly more massive than its near-twin Uranus, which is 15 times the mass of Earth. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere.",
-        img: [
-          "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
-        ],
+        img: "",
       },
       { img: "", text: "" },
       {
-        img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+        img: "",
         text: "",
       },
     ],

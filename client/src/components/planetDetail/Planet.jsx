@@ -28,8 +28,6 @@ const Planet = () => {
     }, 10000);
   }, []);
 
-  
-
   return (
     <>
       {loadingComplete ? (
@@ -44,7 +42,9 @@ const Planet = () => {
                       <img
                         src={item.img}
                         alt=""
-                        className={`photo-${planet.name + k} planet-photo`}
+                        className={`photo-${
+                          planet.name + k
+                        } photo-${k} planet-photo`}
                       />
                       <p>{item.text}</p>
                     </div>
@@ -52,7 +52,9 @@ const Planet = () => {
                     <img
                       src={item.img}
                       alt=""
-                      className={`photo-${planet.name + k} planet-photo`}
+                      className={`photo-${
+                        planet.name + k
+                      } photo-${k} planet-photo`}
                     />
                   ) : (
                     <p>{item.text}</p>
