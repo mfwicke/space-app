@@ -16,7 +16,7 @@ export const PackageBooking = () => {
   
   const handleItemClick = (name) => {
     console.log("I got clicked", name)
-    selectedItem == name ? setSelectedItem(null) : setSelectedItem(name);
+    selectedItem === name ? setSelectedItem(null) : setSelectedItem(name);
 
     //useNavigate in here
     setOpen(false); 
@@ -27,7 +27,7 @@ export const PackageBooking = () => {
     <>
       <div className="booking-form-container">
 
-        <h1 id='welcome-message'>Welcome Traveller Book Your Planet</h1>
+        <h1 id='welcome-message'>Welcome Traveler Book Your Planet</h1>
       
       
 
@@ -40,7 +40,7 @@ export const PackageBooking = () => {
           <div className={`dropdown-body ${isOpen && 'open'}`}>
             {items.map(item => (
               <div className="dropdown-item" onClick={() => handleItemClick(item.name)} key={item.name} name={item.name}>
-                <span className={`dropdown-item-dot ${item.name == selectedItem && 'selected'}`}></span>
+                <span className={`dropdown-item-dot ${item.name === selectedItem && 'selected'}`}></span>
                 {item.name}
                 {/* <span className="submenu">{item.name === item.submenu[0].name ? <span>{item.submenu[0].packages}</span> : ""}</span> */}
               </div>
