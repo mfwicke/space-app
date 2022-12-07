@@ -1,0 +1,56 @@
+.booking-form-container {
+    width: 70rem;
+    height: 60rem;
+    border: 2px white solid;
+    color: white;
+    font-size: 1rem;
+    background: transparent;
+    backdrop-filter: blur(0.3rem);
+    border-radius: 0.62rem;
+}
+
+.dropdown-header {
+    width: 31rem;
+    height: 5rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    border-radius: 0.62rem;
+    
+}
+
+.dropdown-body {
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+#welcome-message {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.dropdown-and-btn {
+    display: flex;
+    justify-content: space space-between;
+    width: 70%;
+    margin-left: 2rem;
+    border: 2px solid white;
+    border-radius: 0.62rem;
+}
+
+.dropdown-package-proceed {
+    position: relative;
+    top: 32rem;
+    left: 50rem;
+}
+
+#package-dropdown-button {
+    height: 4rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}

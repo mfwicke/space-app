@@ -169,6 +169,13 @@ const planets = [
         description: "High Class accommodation",
       },
     ],
+    submenu: [
+      {
+        name: 'mars',
+        title: 'mars Package',
+        packages: ['mars package 1', 'mars package 2', 'mars package 3']
+      }
+    ]
   },
   {
     name: "jupiter",
@@ -214,6 +221,13 @@ const planets = [
         description: "High Class accommodation",
       },
     ],
+    submenu: [
+      {
+        name: 'jupiter',
+        title: 'jupiter Package',
+        packages: ['jupiter package 1', 'jupiter package 2', 'jupiter package 3']
+      }
+    ]
   },
   {
     name: "saturn",
