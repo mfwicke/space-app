@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Imported;
+  src: url(../src/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Imported-Bold;
+  src: url(../src/fonts/Montserrat-Bold.ttf);
+}
+
 :root {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -14,19 +24,17 @@
 #root {
   position: relative;
   min-height: 95vh;
+  font-family: Imported;
 }
 
 body {
   font-size: 1.6rem;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
 }
 
 .content {

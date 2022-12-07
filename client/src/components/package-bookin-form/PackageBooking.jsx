@@ -38,7 +38,7 @@ export const PackageBooking = () => {
     <>
       <div className="booking-form-container">
 
-        <h1 id='welcome-message'>Welcome Traveller Book Your Planet</h1>
+        <h1 id='welcome-message'>Welcome Traveler Book Your Planet</h1>
       
       
 

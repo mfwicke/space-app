@@ -63,12 +63,18 @@
   margin: 2em;
 }
 
+.photo-0 {
+  max-width: 35%;
+}
+
 .planet-name {
   color: #ffffff;
+  font-family: Imported-Bold;
 }
 
 .planet-go-back-button {
   color: #ffffff;
+  font-family: Imported-Bold;
   background-color: none;
   background: none;
   border: 1px solid #ffffff;
