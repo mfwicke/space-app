@@ -304,7 +304,7 @@ const planets = [
       },
       { img: "", text: "" },
       {
-        img: "",
+        img: "https://xboxmedia.de/wp-content/uploads/coming-soon-940x500.jpg",
         text: "",
       },
     ],
