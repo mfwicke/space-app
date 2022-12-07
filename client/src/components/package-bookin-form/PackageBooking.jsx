@@ -13,7 +13,7 @@ export const PackageBooking = () => {
 
   const handleItemClick = (name) => {
     console.log("I got clicked", name);
-    selectedItem == name ? setSelectedItem(null) : setSelectedItem(name);
+    selectedItem === name ? setSelectedItem(null) : setSelectedItem(name);
 
     //useNavigate in here
     setOpen(false);
@@ -48,7 +48,7 @@ export const PackageBooking = () => {
               >
                 <span
                   className={`dropdown-item-dot ${
-                    item.name == selectedItem && "selected"
+                    item.name === selectedItem && "selected"
                   }`}
                 ></span>
                 {item.name}
