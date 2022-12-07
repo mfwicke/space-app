@@ -59,17 +59,21 @@ export const PackageBooking = () => {
 
           {selectedPlanet !== null ? 
                 <div className="redirect-form-container">
-                  <h1 id='welcome-message'>{`Welcome to ${selectedPlanet.name}`}</h1>
+                  <h1 id='redirect-message'>{`Welcome to ${selectedPlanet.name}`}</h1>
                   <div className="info">
                     {selectedPlanet.package.map((item => 
-                      <h4>
-                      {item.name}
-                      {item.price}
-                      {item.description}
+                      <h4 className='items'>
+                      Package: {item.name}, 
+                      Price: {item.price}
+                      Description: {item.description}
+                     <input type="checkbox" />
+                     <section className="checkbox">
+                     </section>
                       </h4>
+
                     ))}
                   </div>
-                    <span className="redirect-package-proceed">
+                    <span className="btn-book">
                       <button type="submit" id="package-redirect-button">Book</button>
                   </span>        
                 </div>
