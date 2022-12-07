@@ -9,6 +9,8 @@ export const PackageBooking = () => {
   const [isOpen, setOpen] = useState(false);
   const [items, setItem] = useState(planets);
   const [selectedItem, setSelectedItem] = useState(null);
+
+  const [selectedPlanet, setSelectedPlanet] = useState(null); 
   
   const toggleDropdown = () => setOpen(!isOpen);
 
@@ -17,11 +19,20 @@ export const PackageBooking = () => {
   const handleItemClick = (name) => {
     console.log("I got clicked", name)
     selectedItem == name ? setSelectedItem(null) : setSelectedItem(name);
-
+    
     //useNavigate in here
     setOpen(false); 
   }
  
+  const handleProceed = (e) => {
+    e.preventDefault();
+    console.log(selectedItem);
+    if(selectedItem !== null) {
+      const findPlanet = planets.find((planet) => planet.name === selectedItem); 
+      setSelectedPlanet(findPlanet); 
+      console.log(findPlanet)
+    } 
+  }
 
   return (
     <>
@@ -41,16 +52,33 @@ export const PackageBooking = () => {
             {items.map(item => (
               <div className="dropdown-item" onClick={() => handleItemClick(item.name)} key={item.name} name={item.name}>
                 <span className={`dropdown-item-dot ${item.name == selectedItem && 'selected'}`}></span>
-                {item.name}
-                {/* <span className="submenu">{item.name === item.submenu[0].name ? <span>{item.submenu[0].packages}</span> : ""}</span> */}
+                {item.name} 
               </div>
               ))}
           </div>
+
+          {selectedPlanet !== null ? 
+                <div className="redirect-form-container">
+                  <h1 id='welcome-message'>{`Welcome to ${selectedPlanet.name}`}</h1>
+                  <div className="info">
+                    {selectedPlanet.package.map((item => 
+                      <h4>
+                      {item.name}
+                      {item.price}
+                      {item.description}
+                      </h4>
+                    ))}
+                  </div>
+                    <span className="redirect-package-proceed">
+                      <button type="submit" id="package-redirect-button">Book</button>
+                  </span>        
+                </div>
+                : ""}; 
           
         </div>
         
           <span className="dropdown-package-proceed">
-            <button type="submit" id="package-dropdown-button">Proceed</button>
+            <button type="submit" id="package-dropdown-button" onClick={handleProceed} >Proceed</button>
           </span>
         
       </div>

@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 import { PackageBooking } from "../package-bookin-form/PackageBooking";
-import {SecondPackage} from "../package-bookin-form/PackageRedirect"; 
 import './user.css'; 
 
 const User = (props) => {
@@ -33,7 +32,6 @@ const User = (props) => {
       <h2>{`Your last name is ${lastName}`}</h2>
       <div className="package-booking-box">
         <PackageBooking />
-        <SecondPackage />
       </div>
     </>
   );
