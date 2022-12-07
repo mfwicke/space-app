@@ -20,8 +20,16 @@ const planets = [
       },
     ],
     package: [
-      { name: "Basic", price: 1000, description: "Basic accommodation" },
-      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
       {
         name: "High Class",
         price: 3000,
