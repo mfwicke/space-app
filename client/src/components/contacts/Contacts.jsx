@@ -8,6 +8,7 @@ import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { ImGithub } from "@react-icons/all-files/im/ImGithub";
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
 import { BsFillChatFill } from "@react-icons/all-files/bs/BsFillChatFill";
+import { ContactUs } from "../contactForm/ContactUs.jsx";
 
 
 const Contacts = () => {
@@ -41,7 +42,9 @@ const Contacts = () => {
             </div>
           ))}
         </div>
-
+        <div className="contact-form">
+          <ContactUs />
+        </div>
       </div>
     </>
   );

@@ -7,7 +7,7 @@
   align-items: center;
   /* width: 80%; */
   height: auto;
-  margin-top: 10.25em;
+  margin-top: 10.25em 2em 0 2em;
   padding: auto;
   backdrop-filter: blur(0.3rem);
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
@@ -60,5 +60,8 @@
   height: 12em;
 }
 
-
-
+.contact-form{
+  width: 25em;
+  height: auto;
+  padding: 2em;
+}
