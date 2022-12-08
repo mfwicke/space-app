@@ -21,17 +21,17 @@ const planets = [
     ],
     package: [
       { 
-        name: "Basic ", 
+        name: "Budget Level ", 
         price: 1000, 
         description: "Basic accommodation " 
       },
       { 
-        name: "Middle ", 
+        name: "Budget Plus Level ", 
         price: 2000, 
         description: "Middle accommodation " 
       },
       {
-        name: "High Class ",
+        name: "Deluxe Level ",
         price: 3000,
         description: "High Class accommodation ",
       },
@@ -63,8 +63,16 @@ const planets = [
       },
     ],
     package: [
-      { name: "Basic", price: 1000, description: "Basic accommodation" },
-      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
       {
         name: "High Class",
         price: 3000,
@@ -92,8 +100,16 @@ const planets = [
       },
     ],
     package: [
-      { name: "Basic", price: 1000, description: "Basic accommodation" },
-      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
       {
         name: "High Class",
         price: 3000,
@@ -169,19 +185,20 @@ const planets = [
       },
     ],
     package: [
-      { name: "Basic", price: 1000, description: "Basic accommodation" },
-      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
       {
         name: "High Class",
         price: 3000,
         description: "High Class accommodation",
-      },
-    ],
-    submenu: [
-      {
-        name: "mars",
-        title: "mars Package",
-        packages: ["mars package 1", "mars package 2", "mars package 3"],
       },
     ],
   },
@@ -221,23 +238,20 @@ const planets = [
       { img: "", text: "" },
     ],
     package: [
-      { name: "Basic", price: 1000, description: "Basic accommodation" },
-      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
       {
         name: "High Class",
         price: 3000,
         description: "High Class accommodation",
-      },
-    ],
-    submenu: [
-      {
-        name: "jupiter",
-        title: "jupiter Package",
-        packages: [
-          "jupiter package 1",
-          "jupiter package 2",
-          "jupiter package 3",
-        ],
       },
     ],
   },
@@ -261,8 +275,16 @@ const planets = [
       },
     ],
     package: [
-      { name: "Basic", price: 1000, description: "Basic accommodation" },
-      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
       {
         name: "High Class",
         price: 3000,
@@ -290,8 +312,16 @@ const planets = [
       },
     ],
     package: [
-      { name: "Basic", price: 1000, description: "Basic accommodation" },
-      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
       {
         name: "High Class",
         price: 3000,
@@ -317,8 +347,16 @@ const planets = [
       },
     ],
     package: [
-      { name: "Basic", price: 1000, description: "Basic accommodation" },
-      { name: "Middle", price: 2000, description: "Middle accommodation" },
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
       {
         name: "High Class",
         price: 3000,
