@@ -19,25 +19,64 @@ const planets = [
         text: "Warning: for the lack of an atmosphere the constant threat of meteorites and other dangers from space makes it necessary to make your testament before starting the voyage, optionally you can book a full coverage of insurance.",
       },
     ],
+    package: [
+      { 
+        name: "Budget Level ", 
+        price: 1000, 
+        description: "Basic accommodation " 
+      },
+      { 
+        name: "Budget Plus Level ", 
+        price: 2000, 
+        description: "Middle accommodation " 
+      },
+      {
+        name: "Deluxe Level ",
+        price: 3000,
+        description: "High Class accommodation ",
+      },
+    ],
   },
 
   {
     name: "venus",
     content: [
       {
-        text: "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the second-brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and, rarely, is visible to the naked eye in broad daylight.",
+        text: "Several attempts of turning the inhabitable planet Venus - also known as “Hell-Planet” into a habitable earth like planet with huge water reservoirs and green vegetation, have failed miserably. The well planned and costly operation, based on the Theories of Carl Edward Sagan failed on multiple levels and after a decade of disappointments, even catastrophic results with a high amount of human losses led to the conviction of the impossibility of the project. Since then the operation has been buried. The only achievement of the cooperation between the Mars-Society and Stellar-Trips inc. was the “House Of Hades” a heat resistant modular Station that generates its own power and materials out of the same hell like environment surrounding it - until the day it is the most efficient station in the solar-system which explains its fast expansion. The initial insignificant status of this station turned fast into a sub cultural meet and greet and is even home to a couple of well known Rock and metal groups, who perform exclusive Events inside a huge transparent cupola under the firestorms of Venus and the shadows of the “House Of Hades” that hosts Venus travelers from all over the Solar system. The west branch of the station has it's own flair, with a clandestine atmosphere of coffee shops the famous red-light-district music clubs and restaurants. The opening of “The Roman Baths”, were an attempt to change the despicable reputation of the station but the extension of the spa area lead - due to employment shortages - to the merge of the red-light-district and the “Holiday Spa” areal.",
         img: "https://www.fr.de/bilder/2021/06/03/90787980/26262333-die-venus-birgt-noch-viele-geheimnisse-die-zwei-kuenftige-nasa-missionen-ihr-entlocken-sollen-das-bild-entstand-aus-daten-der-nasa-raumsonden-magellan-2xec.jpg",
       },
       {
-        text: "Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a bit before dawn. Venus orbits the Sun every 224.7 Earth days.",
+        text: [
+          "The Venus package is an intense experience, you can book three classes of accommodations.",
+          "The “Limbo” is a low level package, which includes a basic love-hotel accommodation, with simple climatization with the possibility to book your custom massages and a spa access for the “Roman Baths.”",
+          " “Lust” is the Star-Traveler-Package, it includes a beautiful Accommodation under a transparent roof, providing the traveler with a fine view to the dark colored sky, free entrance to the “Roman Baths” and a included station droid.",
+          "“Gluttony” is a first class package, which provides you with a Penthouse Suite and a view over the Facility and the planet. Included is a private Spa experience and a 24h access to the “Roman Baths”. Once a week there is a scientific surface trip organized by Stellar Trips that you can join in a passenger-cabin. Droid-Service and a underground ticket for all Venus exclusive events are included.",
+        ],
         img: [
           "https://img.welt.de/img/wissenschaft/mobile100644536/8352503157-ci102l-w1024/Venus-DW-Wissenschaft-Hamburg-jpg.jpg",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
         img: "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/https://cosmosmagazine.com/wp-content/uploads/2021/10/Venus-oceans.jpg",
         text: "",
+      },
+    ],
+    package: [
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
@@ -54,10 +93,27 @@ const planets = [
           "https://gruposaedal.com/wp-content/uploads/2022/09/Earths-First-Continents-Sank-Into-The-Planet-Before-Rising-Up.jpg",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
         img: "https://www.propeller.la/files/Earth%20Lil%20Dicky/earth-hug.png",
         text: "",
+      },
+    ],
+    package: [
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
@@ -66,13 +122,11 @@ const planets = [
     content: [
       {
         text: "What once began as the Mars Desert Research Station (MDRS), a small setup of research facilities on the surface of earth was after a few missions - struck with miss fortune and difficulties - successfully set up in the deserted area of Arcadia Planitia in the northern hemisphere of Mars. It soon transformed to the travel intensive Station that we know and that had become the sweet spot for space adventurers, for space-hikers and rover-enthusiasts and unnecessary to mention the famous free climbing space-cup on Olympus Mons.",
-        img: "https://www.planet-wissen.de/natur/weltall/mars/intromarsteleskopgjpg100~_v-gseapremiumxl.jpg",
+        img: "https://www.planet-wissen.de/natur/weltall/mars/tempxwfmarsgjpg100~_v-gseapremiumxl.jpg",
       },
       {
         text: "The MDRS slowly extended adding to the core-facility a vast area of accommodations and holiday-resort facilities in all budget levels below the surface of Arcadia Planitia. Possibilities on Mars are unique in our solar-system, a trip to the northern hemisphere will give you a vast and plain territory to explore with beautiful dusty and sandy wastelands. The station provides you, your friends and family with a Rover to explore the area to the limits of the amount of oxygen and gear you added to your package. Due to rough weather conditions, outdoor-camping is just recommended on the southern hemisphere, in the north you should spend your nights in the safety of the Rover a drink at hand and the stars above you,  or enjoy the onboard entertainment system and keep an eye to the actual weather-cast of the Mars nano-Orbiter.",
-        img: [
-          "https://www.planet-wissen.de/natur/weltall/mars/intromarspathfindergjpg100~_v-gseapremiumxl.jpg",
-        ],
+        img: "https://cms-api.galileo.tv/app/uploads/2021/02/nasa-marsbehausung-ai-spacefactory-mars-habitat-exterior-dust-storm.jpg",
       },
       {
         img: "https://www.planet-wissen.de/natur/weltall/mars/intromarsteleskopgjpg100~_v-gseapremiumxl.jpg",
@@ -84,38 +138,67 @@ const planets = [
       },
       {
         img: "",
-        text: [
-          "After your journey in one of our ships to the red mystery that enrolls its beauty beyond the gates of the base station you can choose one of our packages either for the northern or southern hemisphere.",
-          "The Northern Hemisphere package:",
-          "Rover tours into the deserted wastelands.",
-          "Book your seats in our famous Desert-Rover-Races.",
-          "Skiing and Snowboarding trips on the frozen atmospheric carbon dioxide of the north pole in the winter-season  optional cruises in a B456 Snow-Rover.",
-        ],
+        text: "After your journey in one of our ships to the red mystery that enrolls its beauty beyond the gates of the base station you can choose one of our packages either for the northern or southern hemisphere.",
+      },
+      { img: "", text: "The Northern Hemisphere package:" },
+      { img: "", text: "Rover tours into the deserted wastelands." },
+      { img: "", text: "Book your seats in our famous Desert-Rover-Races." },
+      {
+        img: "",
+        text: "Skiing and Snowboarding trips on the frozen atmospheric carbon dioxide of the north pole in the winter-season  optional cruises in a B456 Snow-Rover.",
+      },
+      { img: "", text: "" },
+      {
+        img: "",
+        text: "The Southern Hemisphere package:",
       },
       {
         img: "",
-        text: [
-          "The Southern Hemisphere package:",
-          "Hiking Trips on extinct volcanos with pressure stabilized tents.",
-          "space gliding tour from olympus mons.",
-          "Crater Bubble bath and spa week in summertime.",
-          "Guided space tours to the Moons Phobos and Deimos in your own orbital spacecraft.",
-        ],
+        text: "Hiking Trips on extinct volcanos with pressure stabilized tents.",
+      },
+      { img: "", text: "space gliding tour from olympus mons." },
+      { img: "", text: "Crater Bubble bath and spa week in summertime." },
+      {
+        img: "",
+        text: "Guided space tours to the Moons Phobos and Deimos in your own orbital spacecraft.",
+      },
+      {
+        img: "https://cdn.mos.cms.futurecdn.net/4gwNj4dzxXmmRry9hYgfuC-970-80.jpg.webp",
+        text: "Advices:",
       },
       {
         img: "",
-        text: [
-          "Advices:",
-          "Mars is known as the destination in the solar system for its tourist-friendly and welcoming character. Be aware that the surface gravity on Mars is only about 38% of the surface gravity  on Earth. Overweight people can feel light as a butterfly. Mars is requiring a travel visa, so make sure about that on your home planet.",
-          "Please book enough oxygen before your trips. Mind that in case of strong weather conditions the stay can be prolonged up to three weeks.",
-        ],
+        text: "Mars is known as the destination in the solar system for its tourist-friendly and welcoming character. Be aware that the surface gravity on Mars is only about 38% of the surface gravity  on Earth. Overweight people can feel light as a butterfly. Mars is requiring a travel visa, so make sure about that on your home planet.",
       },
       {
         img: "",
-        text: [
-          "Extra for the luxury plus package.",
-          "free fall on mars from the space-ship - including the latest space gear.",
-        ],
+        text: "Please book enough oxygen before your trips. Mind that in case of strong weather conditions the stay can be prolonged up to three weeks.",
+      },
+
+      {
+        img: "",
+        text: "Extra for the luxury plus package.",
+      },
+      {
+        img: "",
+        text: "free fall on mars from the space-ship - including the latest space gear.",
+      },
+    ],
+    package: [
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
@@ -123,17 +206,52 @@ const planets = [
     name: "jupiter",
     content: [
       {
-        text: "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined.",
+        text: "We welcome you to the Kings-Station. As a category 5 Station, it is the largest orbital Center that contains a Tourist-destination just as much a place of transshipment to the stations on the Jupiter Moons.",
         img: "https://www.scinexx.de/wp-content/uploads/0/1/01-33573-jupiter.jpg",
       },
       {
-        text: "Jupiter is one of the brightest objects visible to the naked eye in the night sky, and has been known to ancient civilizations since before recorded history. It is named after the Roman god Jupiter.",
+        text: "The Kings-Station was initially just a transit station between Ganymede and Callisto and a hot-spot for shipments to the cryo-chambers of Ganymede. Rising needs for accommodations urged Stellar Trips to build a fleet of orbital hotel rooms, provided by the station but ready to dive into the wild atmosphere of Jupiter.",
         img: ["https://media.timeout.com/images/105903888/320/210/image.jpg"],
       },
-      { img: "", text: "hellooo" },
+      {
+        img: "",
+        text: "High Class accommodations and Suites are able to go close to the spectacular and turbulent atmosphere with a 360 degree view and a 24h mobile droid room service.",
+      },
       {
         img: "https://www.franz-ploetz.de/s/cc_images/teaserbox_20304591.jpg?t=1638989526",
         text: "",
+      },
+      {
+        img: "",
+        text: "Middle and basic accommodation levels are staying close to the station, to maintain their exceptional service to our guests.",
+      },
+      {
+        img: "",
+        text: "Nearby Planets like Ganymede and Callisto are reachable via the main train platform of the Station.",
+      },
+      {
+        img: "",
+        text: "We offer day trips to Ganymede with the possibility to visit the largest Cryonic-Facility of the solar-System. Here you can take a time-out or escape difficulties you're discovered in your life. If you broke up with a loved one, maybe time can heal it, take a couple of hundred years to get over it in our Cryo-Chambers, we recommend you the morpheus package with included maintenance and insurance. We keep you save even when a meteor hits, if something is left of you - it get's transferred to a droid.",
+      },
+      { img: "", text: "Happy freezing." },
+      { img: "", text: "" },
+      { img: "", text: "" },
+    ],
+    package: [
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
@@ -142,7 +260,7 @@ const planets = [
     content: [
       {
         text: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth.",
-        img: "https://im.contentlounge.net/styles/manual_crop/s3/2022-02/imago_96778830-v1.jpg?im=AspectCrop%2Csize%3D%2816%2C9%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=90fd58fe960da0ae2c631c37d66221c1c9e676983cc3d9a79d59ecc26db1baf7",
+        img: "https://www.br-online.de/wissen-bildung/spacenight/sterngucker/foto/saturn-hubble-gr.jpg",
       },
       {
         text: "Saturn is named after the Roman god of agriculture; its astronomical symbol (♄) represents the god's sickle. Saturn is the only planet known to have rings, which were first seen in 1610.",
@@ -150,10 +268,27 @@ const planets = [
           "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
-        img: "https://www.br-online.de/wissen-bildung/spacenight/sterngucker/foto/saturn-hubble-gr.jpg",
+        img: "https://im.contentlounge.net/styles/manual_crop/s3/2022-02/imago_96778830-v1.jpg?im=AspectCrop%2Csize%3D%2816%2C9%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=90fd58fe960da0ae2c631c37d66221c1c9e676983cc3d9a79d59ecc26db1baf7",
         text: "",
+      },
+    ],
+    package: [
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
@@ -170,10 +305,27 @@ const planets = [
           "https://img.zeit.de/wissen/2022-04/uranus-planet-forschung-raumfahrt-nasa-raumsonde-bild/wide__1300x731",
         ],
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
         img: "https://www.futurezone.de/wp-content/uploads/sites/11/2021/09/uranus.jpg",
         text: "",
+      },
+    ],
+    package: [
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },
@@ -182,18 +334,33 @@ const planets = [
     content: [
       {
         text: "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet.",
-        img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+        img: "https://www.konnecthq.com/wp-content/uploads/2019/07/Neptune-2-10-1.jpg?ezimgfmt=rs%3Adevice%2Frscb3-1",
       },
       {
         text: "Neptune is 17 times the mass of Earth and is slightly more massive than its near-twin Uranus, which is 15 times the mass of Earth. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere.",
-        img: [
-          "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
-        ],
+        img: "",
       },
-      { img: "", text: "hellooo" },
+      { img: "", text: "" },
       {
-        img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+        img: "https://xboxmedia.de/wp-content/uploads/coming-soon-940x500.jpg",
         text: "",
+      },
+    ],
+    package: [
+      { 
+        name: "Basic", 
+        price: 1000, 
+        description: "Basic accommodation" 
+      },
+      { 
+        name: "Middle", 
+        price: 2000, 
+        description: "Middle accommodation" 
+      },
+      {
+        name: "High Class",
+        price: 3000,
+        description: "High Class accommodation",
       },
     ],
   },

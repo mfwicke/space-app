@@ -1,0 +1,11 @@
+
+.package-booking-box {
+    width: 100vw;
+    height: 200rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid white;
+}
