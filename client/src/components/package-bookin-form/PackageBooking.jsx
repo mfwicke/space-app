@@ -41,7 +41,7 @@ export const PackageBooking = () => {
   const bookingSubmit = () => {
     console.log(packagesBooked)
     setIsBookingCompleted(true); 
-  }
+  }  
 
   return (
     <>
@@ -67,6 +67,7 @@ export const PackageBooking = () => {
                 ></span>
                 {item.name}
               </div>
+
             ))}
           </div>
           {selectedPlanet !== null && !isBookingCompleted ? (
