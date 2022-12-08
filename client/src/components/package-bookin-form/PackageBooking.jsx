@@ -6,28 +6,42 @@ export const PackageBooking = () => {
   const [isOpen, setOpen] = useState(false);
   const [items, setItem] = useState(planets);
   const [selectedItem, setSelectedItem] = useState(null);
-
   const [selectedPlanet, setSelectedPlanet] = useState(null);
+  const [isBookingCompleted, setIsBookingCompleted] = useState(false);
+  const [packagesBooked, setPackagesBooked] = useState([]); 
 
   const toggleDropdown = () => setOpen(!isOpen);
 
   const handleItemClick = (name) => {
-    console.log("I got clicked", name);
     selectedItem === name ? setSelectedItem(null) : setSelectedItem(name);
-
-    //useNavigate in here
     setOpen(false);
   };
 
   const handleProceed = (e) => {
     e.preventDefault();
-    console.log(selectedItem);
     if (selectedItem !== null) {
       const findPlanet = planets.find((planet) => planet.name === selectedItem);
       setSelectedPlanet(findPlanet);
-      console.log(findPlanet);
     }
   };
+
+  const addPackage = (packageSupplied) => {
+    console.log(packageSupplied)
+    let packageFound = packagesBooked.findIndex((p) => p.name === packageSupplied.name)
+    if(packageFound !== -1) {
+      console.log(packageFound)
+      let newArray = packagesBooked.filter((p) => p.name !== packageSupplied.name)
+      setPackagesBooked(newArray); 
+    }else {
+      console.log('adding booking')
+      setPackagesBooked([...packagesBooked, packageSupplied])
+    }
+  }
+
+  const bookingSubmit = () => {
+    console.log(packagesBooked)
+    setIsBookingCompleted(true); 
+  }
 
   return (
     <>
@@ -55,14 +69,14 @@ export const PackageBooking = () => {
               </div>
             ))}
           </div>
-          {selectedPlanet !== null ? (
+          {selectedPlanet !== null && !isBookingCompleted ? (
             <div className="redirect-form-container">
               <h1 id="redirect-message">{`Welcome to ${selectedPlanet.name}`}</h1>
               <div className="info">
                 {selectedPlanet.package.map((item) => (
                   <>
                     <h4 className="items">
-                      <input type="checkbox" />
+                      <input type="checkbox" onChange={() => addPackage(item)}/>
                       {` Package: ${item.name}, 
                       Price: ${item.price}, 
                       Description: ${item.description}`}
@@ -71,7 +85,7 @@ export const PackageBooking = () => {
                 ))}
               </div>
               <span className="btn-book">
-                <button type="submit" id="package-redirect-button">
+                <button type="button" id="package-redirect-button" onClick={bookingSubmit}>
                   Book
                 </button>
               </span>
@@ -81,7 +95,13 @@ export const PackageBooking = () => {
           )}
           ;
         </div>
-
+          {
+            isBookingCompleted ? (<div>
+            
+            <p>Booking completed</p>
+            {packagesBooked.map((p) => (<p>{p.name}</p>))}
+            </div>) : null
+          }
         <span className="dropdown-package-proceed">
           <button
             type="submit"
