@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Navigate, useNavigate } from 'react-router-dom'; 
 import { planets } from "../../assets/JSON/planetsObj";
 import "./selectDropdown.css";
 
@@ -15,6 +16,18 @@ export const SelectDropdown = () => {
     //useNavigate in here
     setOpen(false);
   };
+  
+  const navigate = useNavigate(); 
+  
+  const handleProceed = (e) => {
+    //i want to keep the state and bring it 
+    //to the package booking form
+    e.preventDefault();
+    if (selectedItem !== null) {
+      navigate('../')
+      
+    }
+  }
 
   return (
     <>
@@ -44,7 +57,7 @@ export const SelectDropdown = () => {
         </div>
       </div>
       <div className="dropdown-proceed">
-        <button type="submit" id="button-dropdown">
+        <button type="submit" id="button-dropdown" onClick={handleProceed}>
           PROCEED
         </button>
       </div>

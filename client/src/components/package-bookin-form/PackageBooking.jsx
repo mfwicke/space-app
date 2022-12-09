@@ -10,6 +10,7 @@ export const PackageBooking = () => {
   const [isBookingCompleted, setIsBookingCompleted] = useState(false);
   const [packagesBooked, setPackagesBooked] = useState([]);
 
+
   const toggleDropdown = () => setOpen(!isOpen);
 
   const handleItemClick = (name) => {
@@ -26,6 +27,7 @@ export const PackageBooking = () => {
   };
 
   const addPackage = (packageSupplied) => {
+
     console.log(packageSupplied);
     let packageFound = packagesBooked.findIndex(
       (p) => p.name === packageSupplied.name
@@ -63,6 +65,7 @@ export const PackageBooking = () => {
                 id="package-dropdown-button"
                 onClick={handleProceed}
               >
+
                 Proceed
               </button>
             </span>
