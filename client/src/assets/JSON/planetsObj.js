@@ -20,15 +20,15 @@ const planets = [
       },
     ],
     package: [
-      { 
-        name: "Budget Level ", 
-        price: 1000, 
-        description: "Basic accommodation " 
+      {
+        name: "Budget Level ",
+        price: 1000,
+        description: "Basic accommodation ",
       },
-      { 
-        name: "Budget Plus Level ", 
-        price: 2000, 
-        description: "Middle accommodation " 
+      {
+        name: "Budget Plus Level ",
+        price: 2000,
+        description: "Middle accommodation ",
       },
       {
         name: "Deluxe Level ",
@@ -63,15 +63,15 @@ const planets = [
       },
     ],
     package: [
-      { 
-        name: "Basic", 
-        price: 1000, 
-        description: "Basic accommodation" 
+      {
+        name: "Basic",
+        price: 1000,
+        description: "Basic accommodation",
       },
-      { 
-        name: "Middle", 
-        price: 2000, 
-        description: "Middle accommodation" 
+      {
+        name: "Middle",
+        price: 2000,
+        description: "Middle accommodation",
       },
       {
         name: "High Class",
@@ -84,15 +84,36 @@ const planets = [
     name: "earth",
     content: [
       {
-        text: "Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29.2% of Earth's surface is land consisting of continents and islands. The remaining 70.8% is covered with water, mostly by oceans but also lakes, rivers and other fresh water, which together constitute the hydrosphere.",
+        text: "Earth. The cradle of life, origin of Humanity. After the wars for domination, the environment was so deteriorated and the lands so acidic, that Humanity began its race to colonize space, which was almost completely unexplored. Cities became Crystal Domes where living conditions worsened dramatically, there were frequent shortages of food, less space and activities for young people, the crime rate skyrocketed, that’s why society became brutal and very unhealthy.",
         img: "https://spectrum.ieee.org/media-library/earth-in-space.jpg?id=27044580&width=1200&height=900",
       },
       {
-        text: "Earth's gravity interacts with other objects in space, especially the Sun and the Moon, Earth's only natural satellite. Earth revolves around the Sun in 365.26 days, a period known as an Earth year.",
+        text: "After the climatic disaster that led to the melting of the polar ice caps and rising sea levels, much of the Earth’s crust has been submerged, along with much of the land inhabited by man.",
         img: [
           "https://gruposaedal.com/wp-content/uploads/2022/09/Earths-First-Continents-Sank-Into-The-Planet-Before-Rising-Up.jpg",
         ],
       },
+      {
+        img: "",
+        text: "The few emerging lands still inhabited see cities protected by special domes with an artificial atmosphere inside them.",
+      },
+      {
+        img: "",
+        text: "The world government now resides in the underwater city of New Atlantis, the capital of the underwater kingdom and extends to the orbiting stations and the colony on the Earth’s natural satellite: the Moon.",
+      },
+      {
+        img: "",
+        text: "Stellar Trips gives you the chance to stay in a surface city to discover all that remains of previous centuries, and in old orbiting space stations to get a taste of the atmosphere experienced by early space travelers. Alternatively, you can explore its underwater beauty using the small submersible dolphins that leave at any hour of the day and night from Ariel Bay Station in New Atlantis.",
+      },
+      {
+        img: "",
+        text: "If you have music in your blood, and don’t want to miss the concerts of the stars of the moment, you can visit Base Luna, the first extraterrestrial human colony, or watch the many concerts and light shows at the Pink Floyd Arena on the dark side of the Moon.",
+      },
+      { img: "", text: "Choose from our packages:" },
+      { img: "", text: "" },
+      { img: "", text: "" },
+      { img: "", text: "" },
+      { img: "", text: "" },
       { img: "", text: "" },
       {
         img: "https://www.propeller.la/files/Earth%20Lil%20Dicky/earth-hug.png",
@@ -100,20 +121,20 @@ const planets = [
       },
     ],
     package: [
-      { 
-        name: "Basic", 
-        price: 1000, 
-        description: "Basic accommodation" 
-      },
-      { 
-        name: "Middle", 
-        price: 2000, 
-        description: "Middle accommodation" 
+      {
+        name: "Under the Sea",
+        price: 1000,
+        description: "Under the Sea accommodation",
       },
       {
-        name: "High Class",
+        name: "From the fire to the Stars",
+        price: 2000,
+        description: "From the fire to the Stars accommodation",
+      },
+      {
+        name: "Dancing in the Moonlight  Class",
         price: 3000,
-        description: "High Class accommodation",
+        description: "Dancing in the Moonlight accommodation",
       },
     ],
   },
@@ -185,15 +206,15 @@ const planets = [
       },
     ],
     package: [
-      { 
-        name: "Basic", 
-        price: 1000, 
-        description: "Basic accommodation" 
+      {
+        name: "Basic",
+        price: 1000,
+        description: "Basic accommodation",
       },
-      { 
-        name: "Middle", 
-        price: 2000, 
-        description: "Middle accommodation" 
+      {
+        name: "Middle",
+        price: 2000,
+        description: "Middle accommodation",
       },
       {
         name: "High Class",
@@ -238,15 +259,15 @@ const planets = [
       { img: "", text: "" },
     ],
     package: [
-      { 
-        name: "Basic", 
-        price: 1000, 
-        description: "Basic accommodation" 
+      {
+        name: "Basic",
+        price: 1000,
+        description: "Basic accommodation",
       },
-      { 
-        name: "Middle", 
-        price: 2000, 
-        description: "Middle accommodation" 
+      {
+        name: "Middle",
+        price: 2000,
+        description: "Middle accommodation",
       },
       {
         name: "High Class",
@@ -275,15 +296,15 @@ const planets = [
       },
     ],
     package: [
-      { 
-        name: "Basic", 
-        price: 1000, 
-        description: "Basic accommodation" 
+      {
+        name: "Basic",
+        price: 1000,
+        description: "Basic accommodation",
       },
-      { 
-        name: "Middle", 
-        price: 2000, 
-        description: "Middle accommodation" 
+      {
+        name: "Middle",
+        price: 2000,
+        description: "Middle accommodation",
       },
       {
         name: "High Class",
@@ -312,15 +333,15 @@ const planets = [
       },
     ],
     package: [
-      { 
-        name: "Basic", 
-        price: 1000, 
-        description: "Basic accommodation" 
+      {
+        name: "Basic",
+        price: 1000,
+        description: "Basic accommodation",
       },
-      { 
-        name: "Middle", 
-        price: 2000, 
-        description: "Middle accommodation" 
+      {
+        name: "Middle",
+        price: 2000,
+        description: "Middle accommodation",
       },
       {
         name: "High Class",
@@ -347,15 +368,15 @@ const planets = [
       },
     ],
     package: [
-      { 
-        name: "Basic", 
-        price: 1000, 
-        description: "Basic accommodation" 
+      {
+        name: "Basic",
+        price: 1000,
+        description: "Basic accommodation",
       },
-      { 
-        name: "Middle", 
-        price: 2000, 
-        description: "Middle accommodation" 
+      {
+        name: "Middle",
+        price: 2000,
+        description: "Middle accommodation",
       },
       {
         name: "High Class",
