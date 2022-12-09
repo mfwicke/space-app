@@ -1,12 +1,14 @@
 .booking-form-container {
     width: 90%;
     height: 30%;
-    border: 2px white solid;
     color: white;
     font-size: 1rem;
-    background: transparent;
-    backdrop-filter: blur(0.3rem);
-    border-radius: 0.62rem;
+}
+
+.dropdown-box {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
 }
 
 .dropdown-header {
@@ -14,7 +16,8 @@
     height: 5rem;
     margin-left: 2rem;
     font-size: 2rem;
-    border-radius: 0.62rem;    
+    border-radius: 0.62rem;
+    border: none;
 }
 
 .dropdown-body {
@@ -34,7 +37,13 @@
     left: 50rem;
 }
 
-#package-dropdown-button {
+.main-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#package-dropdown-button, #package-redirect-button, .dropdown-package-refresh-button {
     height: 4rem;
     width: 10rem;
     display: flex;
@@ -42,18 +51,24 @@
     align-items: center;
     background-color: transparent;
     border: 2px solid white;
+    border-radius: 0.62rem;
     color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0.5em;
 }
 
 .redirect-form-container {
     position: relative;
-    left: 35rem;
-    bottom: 3.8rem;
-    width: 50%;
-    height: 30rem;    
+    /* left: 25rem; */
+    bottom: -5rem;
+    width: 100%;
+    height: auto;    
     display: flex;
     flex-direction: column;
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    padding: 1em;
 
 }
 
@@ -74,15 +89,19 @@
     display: inline;
 }
 
-#package-redirect-button {
+.booking-confirmation{
+    font-size: 1.5em;
+    margin: 0.5rem;
+}
+
+/* #package-redirect-button {
     position: relative;
-    left: 70%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-color: transparent;
     color: white;
     border: 2px solid white;
     height: 1rem;
     top: 3rem;
-}
+} */
