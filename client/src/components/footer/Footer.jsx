@@ -5,6 +5,9 @@ import {FaInstagramSquare} from "@react-icons/all-files/fa/FaInstagramSquare";
 import {FaSnapchatSquare} from "@react-icons/all-files/fa/FaSnapchatSquare";
 import {FaTwitterSquare} from "@react-icons/all-files/fa/FaTwitterSquare";
 import {FaFacebookSquare} from "@react-icons/all-files/fa/FaFacebookSquare";
+import {FaYoutubeSquare} from "@react-icons/all-files/fa/FaYoutubeSquare";
+import {FaPinterestSquare} from "@react-icons/all-files/fa/FaPinterestSquare";
+import {FaMastodon} from "@react-icons/all-files/fa/FaMastodon";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -17,16 +20,25 @@ export default function Footer() {
     <footer className="footerBox">
       <div className="social">
         <NavLink to="/">
-          <FaInstagramSquare className="footer-icon" />
-        </NavLink>
-        <NavLink to="/">
-          <FaSnapchatSquare className="footer-icon" />
+          <FaYoutubeSquare className="footer-icon" />
         </NavLink>
         <NavLink to="/">
           <FaTwitterSquare className="footer-icon" />
         </NavLink>
         <NavLink to="/">
+          <FaMastodon className="footer-icon" />
+        </NavLink>
+        <NavLink to="/">
           <FaFacebookSquare className="footer-icon" />
+        </NavLink>
+        <NavLink to="/">
+          <FaInstagramSquare className="footer-icon" />
+        </NavLink>
+        <NavLink to="/">
+          <FaPinterestSquare className="footer-icon" />
+        </NavLink>
+        <NavLink to="/">
+          <FaSnapchatSquare className="footer-icon" />
         </NavLink>
       </div>
       <ul className="footerList">

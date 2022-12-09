@@ -30,13 +30,13 @@ const User = (props) => {
 
   return (
     <>
-
-      <h1>{`Hello ${firstName}, Welcome back`}</h1>
-      <h2>{`Your last name is ${lastName}`}</h2>
-      <div className="package-booking-box">
-        <PackageBooking />
+      <div className="user-packages-box">
+        <h1>{`Hello ${firstName}, Welcome back`}</h1>
+        <h2>{`Your last name is ${lastName}`}</h2>
+        <div className="package-booking-box">
+          <PackageBooking />
+        </div>
       </div>
-
     </>
   );
 };
