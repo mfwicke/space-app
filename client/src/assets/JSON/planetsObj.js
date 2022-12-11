@@ -384,19 +384,20 @@ const planets = [
     ],
     package: [
       {
-        name: "Basic",
+        name: "Frozen Star",
         price: 1000,
-        description: "Frozen Star",
+        description: "Budget Hotel - Inside the medical center.",
       },
       {
-        name: "Middle",
+        name: "Winter Sports",
         price: 2000,
-        description: "Winter Sports",
+        description:
+          "Mid-Range Hotel - Inside the habitats below the planet's surface",
       },
       {
-        name: "High Class",
+        name: "Healthy Ice",
         price: 3000,
-        description: "Healthy Ice",
+        description: "Luxury Hotel - Inside the 7th Heaven station.",
       },
     ],
   },
