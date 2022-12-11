@@ -284,12 +284,33 @@ const planets = [
         img: "https://www.br-online.de/wissen-bildung/spacenight/sterngucker/foto/saturn-hubble-gr.jpg",
       },
       {
-        text: "Saturn is named after the Roman god of agriculture; its astronomical symbol (♄) represents the god's sickle. Saturn is the only planet known to have rings, which were first seen in 1610.",
-        img: [
-          "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
-        ],
+        text: "Our Orbital Saturn-Station “Dream Chaser” is a high frequented place for gourmet Honeymoons ballet dance and countless exclusive events. The first thing we recommend you to do, is to take a walk through the famous Dream Chaser Strip, it doesn't need neon signs and exclusive lightning shows, it has the Stars and Planets surrounding you on that 4 Km long walk under the cupola. You will find a couple of well rated hotels on your way besides the famous line of Saturn Casinos. But we bet you are not here to find your place to sleep, before you filled your belly to your hearts content. There are uncountable restaurants one as famous as the other and in case you are a gourmand we offer you the “Big Feast” package that provides you with a carefully picked list of restaurants and a carrier service that brings you from one menu card to the other without you have to move a toe. If you're up for it let your spoiled palates dive into a 4 kilometers stretched kaleidoscope of culinary delights or if you are culturally attentive visit the famous Life-Beyond-Museum. With a broad funding from several planets the museum shows you a variety of diverse forms of life from the vast cosmic wilderness, found on different planets inside and beyond the borders of our solar-System. New discoveries in the underground oceans of the Jupiter moons have lead the museum to build a new aquarium that is close to open its gates for visitors.",
+        img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
       },
-      { img: "", text: "" },
+      {
+        img: "",
+        text: "The Dream Chaser Station has a lot to offer, all our Hotels provide our guests with a service that is most similar to their home planet. If you are used to martian or lunar gravity, if you are injured and prefer micro gravity we adjust our service to your needs.",
+      },
+      {
+        img: "",
+        text: "If you might decide to stay and lead an idle life of pleasure our final destination Ticket reserves you a room until your mortal existence exceeds, and your physical pleasures coagulate into androidian desires.",
+      },
+      {
+        img: "",
+        text: "We provide you with highly rated Hotels in great locations, in each of them you are free to book cultural events, restaurants, day trips (including the Saturn moons).",
+      },
+      {
+        img: "",
+        text: "Package 1: The Bellagio – Luxury Hotel – located on the Dream Chaser Strip",
+      },
+      {
+        img: "",
+        text: "Package 2: Palazzo Parigi - Mid-Range Hotel – located close to the Dream Chaser Strip",
+      },
+      {
+        img: "",
+        text: "Package 3: The Maple Hotel – Budget Hotel – shuttle service to the Dream Chaser Strip",
+      },
       {
         img: "https://im.contentlounge.net/styles/manual_crop/s3/2022-02/imago_96778830-v1.jpg?im=AspectCrop%2Csize%3D%2816%2C9%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=90fd58fe960da0ae2c631c37d66221c1c9e676983cc3d9a79d59ecc26db1baf7",
         text: "",
@@ -297,19 +318,19 @@ const planets = [
     ],
     package: [
       {
-        name: "Basic",
+        name: "Budget Hotel",
         price: 1000,
-        description: "Basic accommodation",
+        description: "Shuttle service to the Dream Chaser Strip",
       },
       {
-        name: "Middle",
+        name: "Mid-Range Hotel",
         price: 2000,
-        description: "Middle accommodation",
+        description: "Located close to the Dream Chaser Stripn",
       },
       {
-        name: "High Class",
+        name: "The Bellagio",
         price: 3000,
-        description: "High Class accommodation",
+        description: "Luxury Hotel – located on the Dream Chaser Strip",
       },
     ],
   },
