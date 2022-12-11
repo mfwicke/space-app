@@ -88,7 +88,7 @@ const planets = [
         img: "https://spectrum.ieee.org/media-library/earth-in-space.jpg?id=27044580&width=1200&height=900",
       },
       {
-        text: "After the climatic disaster that led to the melting of the polar ice caps and rising sea levels, much of the Earth’s crust has been submerged, along with much of the land inhabited by man.",
+        text: "After the climatic disaster that led to the melting of the polar ice caps and rising sea levels, much of the Earth's crust has been submerged, along with much of the land inhabited by man.",
         img: [
           "https://gruposaedal.com/wp-content/uploads/2022/09/Earths-First-Continents-Sank-Into-The-Planet-Before-Rising-Up.jpg",
         ],
@@ -99,7 +99,7 @@ const planets = [
       },
       {
         img: "",
-        text: "The world government now resides in the underwater city of New Atlantis, the capital of the underwater kingdom and extends to the orbiting stations and the colony on the Earth’s natural satellite: the Moon.",
+        text: "The world government now resides in the underwater city of New Atlantis, the capital of the underwater kingdom and extends to the orbiting stations and the colony on the Earth's natural satellite: the Moon.",
       },
       {
         img: "",
@@ -107,12 +107,12 @@ const planets = [
       },
       {
         img: "",
-        text: "If you have music in your blood, and don’t want to miss the concerts of the stars of the moment, you can visit Base Luna, the first extraterrestrial human colony, or watch the many concerts and light shows at the Pink Floyd Arena on the dark side of the Moon.",
+        text: "If you have music in your blood, and don't want to miss the concerts of the stars of the moment, you can visit Base Luna, the first extraterrestrial human colony, or watch the many concerts and light shows at the Pink Floyd Arena on the dark side of the Moon.",
       },
       { img: "", text: "Choose from our packages:" },
-      { img: "", text: "" },
-      { img: "", text: "" },
-      { img: "", text: "" },
+      { img: "", text: "Under the Sea" },
+      { img: "", text: "From the fire to the Stars" },
+      { img: "", text: "Dancing in the Moonlight" },
       { img: "", text: "" },
       { img: "", text: "" },
       {
@@ -280,7 +280,7 @@ const planets = [
     name: "saturn",
     content: [
       {
-        text: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth.",
+        text: "You think Jupiter is the King of Planets, better take a careful look at those rings of Saturn. They are breathtakingly smooth and actual pieces of a scattered moon - they look like french lemon tart sprinkled with chopped and caramelized nuts and chocolate grater, orbiting a giant ball of black-diamond Ice cream.",
         img: "https://www.br-online.de/wissen-bildung/spacenight/sterngucker/foto/saturn-hubble-gr.jpg",
       },
       {

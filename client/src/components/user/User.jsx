@@ -5,8 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 
 import { PackageBooking } from "../package-bookin-form/PackageBooking";
-import './user.css'; 
-
+import "./user.css";
 
 const User = (props) => {
   const [user, setUser] = useState(null);
