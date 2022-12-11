@@ -338,15 +338,44 @@ const planets = [
     name: "uranus",
     content: [
       {
-        text: "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn.",
+        text: "In ancient Rome Uranus was considered the God of the Sky, son and husband of the Mother Goddess of Earth, Gaea or Gaia, father of the Titans, Cyclopes, some Nymphs, and (according to some sources) some Gods including Aphrodite. A very fruitful God, some of his progeny were generated traditionally, some by his blood and others by the falling into the sea of his penis after Kronos, his son and father of the gods, emasculated and killed him.",
         img: "https://www.wissenschaft.de/wp-content/uploads/u/r/uranus_lp.jpg",
       },
       {
-        text: "Uranus's atmosphere is similar to Jupiter's and Saturn's in its primary composition of hydrogen and helium, but it contains more 'ices' such as water, ammonia, and methane, along with traces of other hydrocarbons. It is the coldest planetary atmosphere in the Solar System, with a minimum temperature of 49 K (−224 °C; −371 °F).",
+        text: "Historically and astronomically, the planet was only discovered in 1783-British astronomer William Herschel noted that, what had previously been regarded as one of the stars in the constellation Taurus, was now a real planet to which, at first, he gave the name Georgian Planet in honor of King George III.",
         img: [
           "https://img.zeit.de/wissen/2022-04/uranus-planet-forschung-raumfahrt-nasa-raumsonde-bild/wide__1300x731",
         ],
       },
+      {
+        img: "",
+        text: "It was not until the first half of the 9th century that the Monthly Notices of the Royal Astronomical Society noted that the most commonly used name was that of Uranus, first mentioned in the Berliner Astronomisches Jahrbuch by Johann Elert Bode of Berlin.",
+      },
+      {
+        img: "",
+        text: "After a series of difficult reconnaissance expeditions, scientists were able to discover the composition of the atmosphere of the planet's mass. While the first one consists of gases such as water and ammonia, the second one is mainly composed of ice and rock.",
+      },
+      {
+        img: "",
+        text: "We have prepared for you a structure in orbit between the planet and the first of its five moons and his rings: the 7th Heaven Station. From here depart the many train-shuttle caravans with which one can take long tours of the planet's atmosphere. The extremely low temperatures do not allow the surface to be visited, but STELLAR TRIPS has provided the cars with special insulation panels so that the most comfortable environmental conditions are maintained inside.",
+      },
+      {
+        img: "",
+        text: "The station is equipped with all kinds of comforts, theaters, cinemas, concert halls, and restaurants offering all kinds of cuisine, thanks to the various greenhouses and gardens where all species of plants and vegetables present in the Earth's ecosystem before climate disasters are grown.",
+      },
+      {
+        img: "",
+        text: "Below the surface of the planet, we have created some habitats built like small villages connected to the outside world by a series of tunnels dug into the rock and ice. In each village it is possible to engage in all winter sports.",
+      },
+      {
+        img: "",
+        text: "Present on board is the largest medical center in the entire galaxy, whose fertility and birth support department has attracted thousands of families from across the solar system in recent years.",
+      },
+      { img: "", text: "Feel free to choose from our packages:" },
+      { img: "", text: "- Frozen Star" },
+      { img: "", text: "- Winter Sports" },
+      { img: "", text: "- Healthy Ice" },
+      { img: "", text: "" },
       { img: "", text: "" },
       {
         img: "https://www.futurezone.de/wp-content/uploads/sites/11/2021/09/uranus.jpg",
@@ -357,17 +386,17 @@ const planets = [
       {
         name: "Basic",
         price: 1000,
-        description: "Basic accommodation",
+        description: "Frozen Star",
       },
       {
         name: "Middle",
         price: 2000,
-        description: "Middle accommodation",
+        description: "Winter Sports",
       },
       {
         name: "High Class",
         price: 3000,
-        description: "High Class accommodation",
+        description: "Healthy Ice",
       },
     ],
   },
