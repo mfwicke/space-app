@@ -77,17 +77,17 @@ const planets = [
     ],
     package: [
       {
-        name: "Basic",
+        name: "The “Limbo",
         price: 1000,
         description: "Basic accommodation",
       },
       {
-        name: "Middle",
+        name: "Lust",
         price: 2000,
         description: "Middle accommodation",
       },
       {
-        name: "High Class",
+        name: "Gluttony",
         price: 3000,
         description: "High Class accommodation",
       },
