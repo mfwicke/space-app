@@ -3,7 +3,7 @@ export const contacts = [
     name: "Lorenz Schmid",
     id: 0,
     image: "../../../assets/Images/dci-martians-lorenz-schmid.png",
-    info: "lorem ipsum dolor sit amet",
+    info: "Born in times before private space-travel and bios-enhancement, Lorenz Schmid managed to freeze his remains with a certain optimism for future technological development. After a successful rescue of parts of his neuronal structure he had his first contact with space-travel through the funding of a small news agency, responsible for spreading information throughout the solar-System. After a couple of cerebral malfunctions, Doctors urged the implementation of recent neuro-biological implants. Short after a successful surgery Lorenz Schmid sold his enterprise and went for the funding of Stellar Trips with his colleges and Friends Vincenzo Arena and Miguel Wicke, the company managed to grow unexpectedly fast and has since then a de facto monopolistic status in space travel. Lorenz Schmid developed the space communication operating system and is deeply involved in securing the IT structure of the Intra-Solar-Network from constant threats. ",
     github: "https://github.com/Lorenzzschmid",
     linkedin: "https://www.linkedin.com/in/lorenz-schmid-0a8b8a24b/",
     email: "mighty.lo.schmid@gmail.com",
