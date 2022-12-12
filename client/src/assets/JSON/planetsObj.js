@@ -331,12 +331,12 @@ const planets = [
     ],
     package: [
       {
-        name: "Budget Hotel",
+        name: "The Maple Hotel",
         price: 1000,
         description: "Shuttle service to the Dream Chaser Strip",
       },
       {
-        name: "Mid-Range Hotel",
+        name: "Palazzo Parigi",
         price: 2000,
         description: "Located close to the Dream Chaser Strip",
       },
@@ -362,7 +362,7 @@ const planets = [
       },
       {
         img: "",
-        text: "It was not until the first half of the 19th century that the Monthly Notices of the Royal Astronomical Society noted that the most commonly used name was that of Uranus, first mentioned in the Berliner Astronomisches Jahrbuch by Johann Elert Bode of Berlin.",
+        text: "It was not until the first half of the 9th century that the Monthly Notices of the Royal Astronomical Society noted that the most commonly used name was that of Uranus, first mentioned in the Berliner Astronomisches Jahrbuch by Johann Elert Bode of Berlin.",
       },
       {
         img: "",
