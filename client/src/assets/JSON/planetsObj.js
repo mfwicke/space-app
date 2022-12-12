@@ -331,12 +331,12 @@ const planets = [
     ],
     package: [
       {
-        name: "Budget Hotel",
+        name: "The Maple Hotel",
         price: 1000,
         description: "Shuttle service to the Dream Chaser Strip",
       },
       {
-        name: "Mid-Range Hotel",
+        name: "Palazzo Parigi",
         price: 2000,
         description: "Located close to the Dream Chaser Strip",
       },
