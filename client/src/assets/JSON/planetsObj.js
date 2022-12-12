@@ -42,20 +42,33 @@ const planets = [
     name: "venus",
     content: [
       {
-        text: "Several attempts of turning the inhabitable planet Venus - also known as “Hell-Planet” into a habitable earth like planet with huge water reservoirs and green vegetation, have failed miserably. The well planned and costly operation, based on the Theories of Carl Edward Sagan failed on multiple levels and after a decade of disappointments, even catastrophic results with a high amount of human losses led to the conviction of the impossibility of the project. Since then the operation has been buried. The only achievement of the cooperation between the Mars-Society and Stellar-Trips inc. was the “House Of Hades” a heat resistant modular Station that generates its own power and materials out of the same hell like environment surrounding it - until the day it is the most efficient station in the solar-system which explains its fast expansion. The initial insignificant status of this station turned fast into a sub cultural meet and greet and is even home to a couple of well known Rock and metal groups, who perform exclusive Events inside a huge transparent cupola under the firestorms of Venus and the shadows of the “House Of Hades” that hosts Venus travelers from all over the Solar system. The west branch of the station has it's own flair, with a clandestine atmosphere of coffee shops the famous red-light-district music clubs and restaurants. The opening of “The Roman Baths”, were an attempt to change the despicable reputation of the station but the extension of the spa area lead - due to employment shortages - to the merge of the red-light-district and the “Holiday Spa” areal.",
+        text: "Several attempts of turning the inhabitable planet Venus - also known as “Hell-Planet” into a habitable earth like planet with huge water reservoirs and green vegetation, have failed miserably. The well planned and costly operation, based on the Theories of Carl Edward Sagan failed on multiple levels and after a decade of disappointments, even catastrophic results with a high amount of human losses led to the conviction of the impossibility of the project. Since then the operation has been buried. The only achievement of the cooperation between the Mars-Society and Stellar-Trips inc. was the “House Of Hades” a heat resistant modular Station that generates its own power and materials out of the same hell like environment surrounding it - until the day it is the most efficient station in the solar-system which explains its fast expansion. The initial insignificant status of this station turned fast into a sub cultural meet and greet and is even home to a couple of well known Rock and metal groups, who perform exclusive Events inside a huge transparent cupola under the firestorms of Venus and the shadows of the “House Of Vulcan” that hosts Venus travelers from all over the Solar system. The west branch of the station has it's own flair, with a clandestine atmosphere of coffee shops the famous red-light-district music clubs and restaurants. The opening of “The Roman Baths”, were an attempt to change the despicable reputation of the station but the extension of the spa area lead - due to employment shortages - to the merge of the red-light-district and the “Holiday Spa” areal.",
         img: "https://www.fr.de/bilder/2021/06/03/90787980/26262333-die-venus-birgt-noch-viele-geheimnisse-die-zwei-kuenftige-nasa-missionen-ihr-entlocken-sollen-das-bild-entstand-aus-daten-der-nasa-raumsonden-magellan-2xec.jpg",
       },
       {
-        text: [
-          "The Venus package is an intense experience, you can book three classes of accommodations.",
-          "The “Limbo” is a low level package, which includes a basic love-hotel accommodation, with simple climatization with the possibility to book your custom massages and a spa access for the “Roman Baths.”",
-          " “Lust” is the Star-Traveler-Package, it includes a beautiful Accommodation under a transparent roof, providing the traveler with a fine view to the dark colored sky, free entrance to the “Roman Baths” and a included station droid.",
-          "“Gluttony” is a first class package, which provides you with a Penthouse Suite and a view over the Facility and the planet. Included is a private Spa experience and a 24h access to the “Roman Baths”. Once a week there is a scientific surface trip organized by Stellar Trips that you can join in a passenger-cabin. Droid-Service and a underground ticket for all Venus exclusive events are included.",
-        ],
-        img: [
-          "https://img.welt.de/img/wissenschaft/mobile100644536/8352503157-ci102l-w1024/Venus-DW-Wissenschaft-Hamburg-jpg.jpg",
-        ],
+        text: "The Venus package is an intense experience, you can book three classes of accommodations.",
+
+        img: "https://img.welt.de/img/wissenschaft/mobile100644536/8352503157-ci102l-w1024/Venus-DW-Wissenschaft-Hamburg-jpg.jpg",
       },
+      {
+        img: "",
+        text: "The “Limbo” is a low level package, which includes a basic love-hotel accommodation, with simple climatization with the possibility to book your custom massages and a spa access for the “Roman Baths.”",
+      },
+      {
+        img: "",
+        text: " “Lust” is the Star-Traveler-Package, it includes a beautiful Accommodation under a transparent roof, providing the traveler with a fine view to the dark colored sky, free entrance to the “Roman Baths” and a included station droid.",
+      },
+      {
+        img: "",
+        text: "“Gluttony” is a first class package, which provides you with a Penthouse Suite and a view over the Facility and the planet. Included is a private Spa experience and a 24h access to the “Roman Baths”. Once a week there is a scientific surface trip organized by Stellar Trips that you can join in a passenger-cabin. Droid-Service and a underground ticket for all Venus exclusive events are included.",
+      },
+      { img: "", text: "" },
+      { img: "", text: "" },
+      { img: "", text: "" },
+      { img: "", text: "" },
+      { img: "", text: "" },
+      { img: "", text: "" },
+      { img: "", text: "" },
       { img: "", text: "" },
       {
         img: "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/https://cosmosmagazine.com/wp-content/uploads/2021/10/Venus-oceans.jpg",
@@ -325,7 +338,7 @@ const planets = [
       {
         name: "Mid-Range Hotel",
         price: 2000,
-        description: "Located close to the Dream Chaser Stripn",
+        description: "Located close to the Dream Chaser Strip",
       },
       {
         name: "The Bellagio",
@@ -405,13 +418,33 @@ const planets = [
     name: "neptune",
     content: [
       {
-        text: "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet.",
+        text: "Aboard the great orbiting station Trident gather all the explorers of the cosmos in search of new life forms, new habitable planets, or simply hunting for resources and new forms of energy. There is also a large presence of bounty hunters who frequent the station's many bars in search of new assignments. Many smugglers engage in the black market of rare items, as the station is also a famous trading center.",
         img: "https://www.konnecthq.com/wp-content/uploads/2019/07/Neptune-2-10-1.jpg?ezimgfmt=rs%3Adevice%2Frscb3-1",
       },
       {
-        text: "Neptune is 17 times the mass of Earth and is slightly more massive than its near-twin Uranus, which is 15 times the mass of Earth. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere.",
+        text: "Inside the station is the headquarters of the Solar System Defense Force (SSDF) where it is possible to enlist at the pilot training academy, in the advanced scientific research sector, and for medical and military rescue missions. The pilot training center also offers a dedicated training course for civilian personnel where it is possible to earn a Star Pilot's license.",
         img: "",
       },
+      {
+        img: "",
+        text: "Another attraction at the Trident station is the Natural History Museum, whose marine biology department has specimens from all over the Solar System, while the comparative exobiology department has exhibits concerning life forms that do not come from planet Earth, and other life forms of unknown origin. Through the Museum's research center, it is possible to visit research laboratories located in habitats, built beneath the surface of the planet below, aboard education shuttles.",
+      },
+      { img: "", text: "Go ahead and choose your package:" },
+      {
+        img: "",
+        text: "- Last Defense - 1000 - Budget Hotel - Inside the headquarters of the SSDF (Solar System Defense Force).",
+      },
+      {
+        img: "",
+        text: "- Last Resort - 2000 - Mid-Range Hotel - Aboard the Trident station.",
+      },
+      {
+        img: "",
+        text: "- Last Research - 3000 - Luxury Hotels - Inside the habitats beneath the planet's surface.",
+      },
+      { img: "", text: "" },
+      { img: "", text: "" },
+      { img: "", text: "" },
       { img: "", text: "" },
       {
         img: "https://xboxmedia.de/wp-content/uploads/coming-soon-940x500.jpg",
@@ -420,19 +453,21 @@ const planets = [
     ],
     package: [
       {
-        name: "Basic",
+        name: "Last Defense",
         price: 1000,
-        description: "Basic accommodation",
+        description:
+          "Budget Hotel - Inside the headquarters of the SSDF (Solar System Defense Force).",
       },
       {
-        name: "Middle",
+        name: "Last Resort",
         price: 2000,
-        description: "Middle accommodation",
+        description: "Mid-Range Hotel - Aboard the Trident station.",
       },
       {
-        name: "High Class",
+        name: "Last Research",
         price: 3000,
-        description: "High Class accommodation",
+        description:
+          "Luxury Hotels - Inside the habitats beneath the planet's surface.",
       },
     ],
   },
