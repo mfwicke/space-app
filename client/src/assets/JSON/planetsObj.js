@@ -385,9 +385,9 @@ const planets = [
         text: "Present on board is the largest medical center in the entire galaxy, whose fertility and birth support department has attracted thousands of families from across the solar system in recent years.",
       },
       { img: "", text: "Feel free to choose from our packages:" },
-      { img: "", text: "- Frozen Star" },
-      { img: "", text: "- Winter Sports" },
       { img: "", text: "- Healthy Ice" },
+      { img: "", text: "- Winter Sports" },
+      { img: "", text: "- Frozen Star" },
       { img: "", text: "" },
       { img: "", text: "" },
       {
@@ -397,7 +397,7 @@ const planets = [
     ],
     package: [
       {
-        name: "Frozen Star",
+        name: "Healthy Ice",
         price: 1000,
         description: "Budget Hotel - Inside the medical center.",
       },
@@ -408,7 +408,7 @@ const planets = [
           "Mid-Range Hotel - Inside the habitats below the planet's surface",
       },
       {
-        name: "Healthy Ice",
+        name: "Frozen Star",
         price: 3000,
         description: "Luxury Hotel - Inside the 7th Heaven station.",
       },
