@@ -4,18 +4,18 @@ const planets = [
     content: [
       {
         text: "If you like contrasts Mercury is the best place for you, roasting temperatures of up to 450°C on the Dayside and freezing -170°C on the Night side. Our recently updated mobile Mercury-Station Themis 2.0 is located were the two worlds of darkness and light overlap and create an mystical twilight. The station constantly moves against the spinning direction of the planet on the edge of shadow with the glimmering heat of the Sun flickering on the horizon. We even manage to have our mobile gardens safely positioned moving in front of the station where enough light makes them grow and heat is still bearable. This facility provides our guests with an endless sunset or if you prefer an endless dawn. Our moving hotel facility “Dusk til Dawn” comes with three types of accommodations, Budget, Plus and Deluxe.",
-        img: "https://s3.amazonaws.com/cms.ipressroom.com/173/files/20146/53d0396e299b5059f6001964_Mercury+%28enhanced+color+image%2C+based+on+MESSENGER+measurements%2C+credit+NASA%29/Mercury+%28enhanced+color+image%2C+based+on+MESSENGER+measurements%2C+credit+NASA%29_1875e677-1471-4a45-ae88-e650fbd5d07a-prv.jpg",
+        img: "/assets/planets/01-mercury/mercury-001.jpg",
       },
       {
         text: "The budget level includes crater tours and night walks on the surface.The budget-plus-level includes the free entrance of the Mineral museum and the hot-bubble baths under the sun.",
-        img: "https://s3.amazonaws.com/cms.ipressroom.com/173/files/20146/53d03a08bd26f560b700268d_Mercury+image+%28credit%2C+NASA-Johns+Hopkins+University+Applied+Physics+Laboratory-Carnegie+Institution+of+Washington%29/Mercury+image+%28credit%2C+NASA-Johns+Hopkins+University+Applied+Physics+Laboratory-Carnegie+Institution+of+Washington%29_c4cb4245-54f8-4b21-bcd1-b6915e8cd97f-prv.jpg",
+        img: "/assets/planets/01-mercury/mercury-002.jpg",
       },
       {
         img: "",
         text: "The Deluxe Level includes a flight over the heated surface, crater tour with guided diamond search, and free entrance to the Mineral-Casino and night walks on the surface.",
       },
       {
-        img: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/msnbc/Components/Photo_StoryLevel/080114/080114-mercury-hmed-10a.jpg",
+        img: "/assets/planets/01-mercury/mercury-003.jpg",
         text: "Warning: for the lack of an atmosphere the constant threat of meteorites and other dangers from space makes it necessary to make your testament before starting the voyage, optionally you can book a full coverage of insurance.",
       },
     ],
@@ -43,12 +43,12 @@ const planets = [
     content: [
       {
         text: "Several attempts of turning the inhabitable planet Venus - also known as “Hell-Planet” into a habitable earth like planet with huge water reservoirs and green vegetation, have failed miserably. The well planned and costly operation, based on the Theories of Carl Edward Sagan failed on multiple levels and after a decade of disappointments, even catastrophic results with a high amount of human losses led to the conviction of the impossibility of the project. Since then the operation has been buried. The only achievement of the cooperation between the Mars-Society and Stellar-Trips inc. was the “House Of Hades” a heat resistant modular Station that generates its own power and materials out of the same hell like environment surrounding it - until the day it is the most efficient station in the solar-system which explains its fast expansion. The initial insignificant status of this station turned fast into a sub cultural meet and greet and is even home to a couple of well known Rock and metal groups, who perform exclusive Events inside a huge transparent cupola under the firestorms of Venus and the shadows of the “House Of Vulcan” that hosts Venus travelers from all over the Solar system. The west branch of the station has it's own flair, with a clandestine atmosphere of coffee shops the famous red-light-district music clubs and restaurants. The opening of “The Roman Baths”, were an attempt to change the despicable reputation of the station but the extension of the spa area lead - due to employment shortages - to the merge of the red-light-district and the “Holiday Spa” areal.",
-        img: "https://www.fr.de/bilder/2021/06/03/90787980/26262333-die-venus-birgt-noch-viele-geheimnisse-die-zwei-kuenftige-nasa-missionen-ihr-entlocken-sollen-das-bild-entstand-aus-daten-der-nasa-raumsonden-magellan-2xec.jpg",
+        img: "/assets/planets/02-venus/venus-001.jpg",
       },
       {
         text: "The Venus package is an intense experience, you can book three classes of accommodations.",
 
-        img: "https://img.welt.de/img/wissenschaft/mobile100644536/8352503157-ci102l-w1024/Venus-DW-Wissenschaft-Hamburg-jpg.jpg",
+        img: "/assets/planets/02-venus/venus-002.jpg",
       },
       {
         img: "",
@@ -71,7 +71,7 @@ const planets = [
       { img: "", text: "" },
       { img: "", text: "" },
       {
-        img: "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/https://cosmosmagazine.com/wp-content/uploads/2021/10/Venus-oceans.jpg",
+        img: "/assets/planets/02-venus/venus-003.jpg",
         text: "",
       },
     ],
@@ -98,12 +98,12 @@ const planets = [
     content: [
       {
         text: "Earth. The cradle of life, origin of Humanity. After the wars for domination, the environment was so deteriorated and the lands so acidic, that Humanity began its race to colonize space, which was almost completely unexplored. Cities became Crystal Domes where living conditions worsened dramatically, there were frequent shortages of food, less space and activities for young people, the crime rate skyrocketed, that’s why society became brutal and very unhealthy.",
-        img: "https://spectrum.ieee.org/media-library/earth-in-space.jpg?id=27044580&width=1200&height=900",
+        img: "/assets/planets/03-earth/earth-001.jpg",
       },
       {
         text: "After the climatic disaster that led to the melting of the polar ice caps and rising sea levels, much of the Earth's crust has been submerged, along with much of the land inhabited by man.",
         img: [
-          "https://gruposaedal.com/wp-content/uploads/2022/09/Earths-First-Continents-Sank-Into-The-Planet-Before-Rising-Up.jpg",
+          "/assets/planets/03-earth/earth-002.jpg",
         ],
       },
       {
@@ -115,7 +115,7 @@ const planets = [
         text: "The world government now resides in the underwater city of New Atlantis, the capital of the underwater kingdom and extends to the orbiting stations and the colony on the Earth's natural satellite: the Moon.",
       },
       {
-        img: "",
+        img: "/assets/planets/03-earth/earth-004-old-station.png",
         text: "Stellar Trips gives you the chance to stay in a surface city to discover all that remains of previous centuries, and in old orbiting space stations to get a taste of the atmosphere experienced by early space travelers. Alternatively, you can explore its underwater beauty using the small submersible dolphins that leave at any hour of the day and night from Ariel Bay Station in New Atlantis.",
       },
       {
@@ -129,7 +129,7 @@ const planets = [
       { img: "", text: "" },
       { img: "", text: "" },
       {
-        img: "https://www.propeller.la/files/Earth%20Lil%20Dicky/earth-hug.png",
+        img: "/assets/planets/03-earth/earth-003.png",
         text: "",
       },
     ],
@@ -156,18 +156,18 @@ const planets = [
     content: [
       {
         text: "What once began as the Mars Desert Research Station (MDRS), a small setup of research facilities on the surface of earth was after a few missions - struck with miss fortune and difficulties - successfully set up in the deserted area of Arcadia Planitia in the northern hemisphere of Mars. It soon transformed to the travel intensive Station that we know and that had become the sweet spot for space adventurers, for space-hikers and rover-enthusiasts and unnecessary to mention the famous free climbing space-cup on Olympus Mons.",
-        img: "https://www.planet-wissen.de/natur/weltall/mars/tempxwfmarsgjpg100~_v-gseapremiumxl.jpg",
+        img: "/assets/planets/04-mars/mars-001.jpg",
       },
       {
         text: "The MDRS slowly extended adding to the core-facility a vast area of accommodations and holiday-resort facilities in all budget levels below the surface of Arcadia Planitia. Possibilities on Mars are unique in our solar-system, a trip to the northern hemisphere will give you a vast and plain territory to explore with beautiful dusty and sandy wastelands. The station provides you, your friends and family with a Rover to explore the area to the limits of the amount of oxygen and gear you added to your package. Due to rough weather conditions, outdoor-camping is just recommended on the southern hemisphere, in the north you should spend your nights in the safety of the Rover a drink at hand and the stars above you,  or enjoy the onboard entertainment system and keep an eye to the actual weather-cast of the Mars nano-Orbiter.",
-        img: "https://cms-api.galileo.tv/app/uploads/2021/02/nasa-marsbehausung-ai-spacefactory-mars-habitat-exterior-dust-storm.jpg",
+        img: "/assets/planets/04-mars/mars-002.jpg",
       },
       {
-        img: "https://www.planet-wissen.de/natur/weltall/mars/intromarsteleskopgjpg100~_v-gseapremiumxl.jpg",
+        img: "/assets/planets/04-mars/mars-003.jpg",
         text: "In the Southern Hemisphere you can go for extended hiking trips. In the mountain areas you can take advantage of the calmer zones in the shadows of the huge mountains. You can bring a pressure stabilized tent instead of a compressed air chamber. Beautiful canyons, craters and rusty mountain giants stretching into the dusty sky. Dried-up riverbeds and extinct Volcanoes creating an enchanted landscape open for exploration. ",
       },
       {
-        img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+        img: "/assets/planets/04-mars/mars-004.jpg",
         text: "",
       },
       {
@@ -197,7 +197,7 @@ const planets = [
         text: "Guided space tours to the Moons Phobos and Deimos in your own orbital spacecraft.",
       },
       {
-        img: "https://cdn.mos.cms.futurecdn.net/4gwNj4dzxXmmRry9hYgfuC-970-80.jpg.webp",
+        img: "/assets/planets/04-mars/mars-005.jpg",
         text: "Advices:",
       },
       {
@@ -205,7 +205,7 @@ const planets = [
         text: "Mars is known as the destination in the solar system for its tourist-friendly and welcoming character. Be aware that the surface gravity on Mars is only about 38% of the surface gravity  on Earth. Overweight people can feel light as a butterfly. Mars is requiring a travel visa, so make sure about that on your home planet.",
       },
       {
-        img: "",
+        img: "/assets/planets/04-mars/mars-006-base-or-power-plant.jpg",
         text: "Please book enough oxygen before your trips. Mind that in case of strong weather conditions the stay can be prolonged up to three weeks.",
       },
 
@@ -241,18 +241,18 @@ const planets = [
     content: [
       {
         text: "We welcome you to the Kings-Station. As a category 5 Station, it is the largest orbital Center that contains a Tourist-destination just as much a place of transshipment to the stations on the Jupiter Moons.",
-        img: "https://www.scinexx.de/wp-content/uploads/0/1/01-33573-jupiter.jpg",
+        img: "/assets/planets/05-jupiter/jupiter-001.jpg",
       },
       {
         text: "The Kings-Station was initially just a transit station between Ganymede and Callisto and a hot-spot for shipments to the cryo-chambers of Ganymede. Rising needs for accommodations urged Stellar Trips to build a fleet of orbital hotel rooms, provided by the station but ready to dive into the wild atmosphere of Jupiter.",
-        img: ["https://media.timeout.com/images/105903888/320/210/image.jpg"],
+        img: "/assets/planets/05-jupiter/jupiter-002.jpg",
       },
       {
-        img: "",
+        img: "/assets/planets/05-jupiter/jupiter-004-kings-station.jpg",
         text: "High Class accommodations and Suites are able to go close to the spectacular and turbulent atmosphere with a 360 degree view and a 24h mobile droid room service.",
       },
       {
-        img: "https://www.franz-ploetz.de/s/cc_images/teaserbox_20304591.jpg?t=1638989526",
+        img: "/assets/planets/05-jupiter/jupiter-003.jpg",
         text: "",
       },
       {
@@ -294,11 +294,11 @@ const planets = [
     content: [
       {
         text: "You think Jupiter is the King of Planets, better take a careful look at those rings of Saturn. They are breathtakingly smooth and actual pieces of a scattered moon - they look like french lemon tart sprinkled with chopped and caramelized nuts and chocolate grater, orbiting a giant ball of black-diamond Ice cream.",
-        img: "https://www.br-online.de/wissen-bildung/spacenight/sterngucker/foto/saturn-hubble-gr.jpg",
+        img: "/assets/planets/06-saturn/saturn-001.jpg",
       },
       {
         text: "Our Orbital Saturn-Station “Dream Chaser” is a high frequented place for gourmet Honeymoons ballet dance and countless exclusive events. The first thing we recommend you to do, is to take a walk through the famous Dream Chaser Strip, it doesn't need neon signs and exclusive lightning shows, it has the Stars and Planets surrounding you on that 4 Km long walk under the cupola. You will find a couple of well rated hotels on your way besides the famous line of Saturn Casinos. But we bet you are not here to find your place to sleep, before you filled your belly to your hearts content. There are uncountable restaurants one as famous as the other and in case you are a gourmand we offer you the “Big Feast” package that provides you with a carefully picked list of restaurants and a carrier service that brings you from one menu card to the other without you have to move a toe. If you're up for it let your spoiled palates dive into a 4 kilometers stretched kaleidoscope of culinary delights or if you are culturally attentive visit the famous Life-Beyond-Museum. With a broad funding from several planets the museum shows you a variety of diverse forms of life from the vast cosmic wilderness, found on different planets inside and beyond the borders of our solar-System. New discoveries in the underground oceans of the Jupiter moons have lead the museum to build a new aquarium that is close to open its gates for visitors.",
-        img: "https://photographylife.com/wp-content/uploads/2019/03/Canon-EOS-R-Image-Sample-19-960x640.jpg",
+        img: "/assets/planets/06-saturn/saturn-002.jpg",
       },
       {
         img: "",
@@ -325,7 +325,7 @@ const planets = [
         text: "Package 3: The Maple Hotel – Budget Hotel – shuttle service to the Dream Chaser Strip",
       },
       {
-        img: "https://im.contentlounge.net/styles/manual_crop/s3/2022-02/imago_96778830-v1.jpg?im=AspectCrop%2Csize%3D%2816%2C9%29%2Cgravity%3DCenter%2CallowExpansion%2CBackgroundColor%2Ccolor%3Dtransparent&hash=90fd58fe960da0ae2c631c37d66221c1c9e676983cc3d9a79d59ecc26db1baf7",
+        img: "/assets/planets/06-saturn/saturn-003.jpg",
         text: "",
       },
     ],
@@ -352,12 +352,12 @@ const planets = [
     content: [
       {
         text: "In ancient Rome Uranus was considered the God of the Sky, son and husband of the Mother Goddess of Earth, Gaea or Gaia, father of the Titans, Cyclopes, some Nymphs, and (according to some sources) some Gods including Aphrodite. A very fruitful God, some of his progeny were generated traditionally, some by his blood and others by the falling into the sea of his penis after Kronos, his son and father of the gods, emasculated and killed him.",
-        img: "https://www.wissenschaft.de/wp-content/uploads/u/r/uranus_lp.jpg",
+        img: "/assets/planets/07-uranus/uranus-001.jpg",
       },
       {
         text: "Historically and astronomically, the planet was only discovered in 1783-British astronomer William Herschel noted that, what had previously been regarded as one of the stars in the constellation Taurus, was now a real planet to which, at first, he gave the name Georgian Planet in honor of King George III.",
         img: [
-          "https://img.zeit.de/wissen/2022-04/uranus-planet-forschung-raumfahrt-nasa-raumsonde-bild/wide__1300x731",
+          "/assets/planets/07-uranus/uranus-002.jpg",
         ],
       },
       {
@@ -391,7 +391,7 @@ const planets = [
       { img: "", text: "" },
       { img: "", text: "" },
       {
-        img: "https://www.futurezone.de/wp-content/uploads/sites/11/2021/09/uranus.jpg",
+        img: "/assets/planets/07-uranus/uranus-003.jpg",
         text: "",
       },
     ],
@@ -419,11 +419,11 @@ const planets = [
     content: [
       {
         text: "Aboard the great orbiting station Trident gather all the explorers of the cosmos in search of new life forms, new habitable planets, or simply hunting for resources and new forms of energy. There is also a large presence of bounty hunters who frequent the station's many bars in search of new assignments. Many smugglers engage in the black market of rare items, as the station is also a famous trading center.",
-        img: "https://www.konnecthq.com/wp-content/uploads/2019/07/Neptune-2-10-1.jpg?ezimgfmt=rs%3Adevice%2Frscb3-1",
+        img: "/assets/planets/08-neptune/neptune-001.jpg",
       },
       {
         text: "Inside the station is the headquarters of the Solar System Defense Force (SSDF) where it is possible to enlist at the pilot training academy, in the advanced scientific research sector, and for medical and military rescue missions. The pilot training center also offers a dedicated training course for civilian personnel where it is possible to earn a Star Pilot's license.",
-        img: "",
+        img: "/assets/planets/08-neptune/neptune-002-orbital-station.jpg",
       },
       {
         img: "",
@@ -447,7 +447,7 @@ const planets = [
       { img: "", text: "" },
       { img: "", text: "" },
       {
-        img: "https://xboxmedia.de/wp-content/uploads/coming-soon-940x500.jpg",
+        img: "",
         text: "",
       },
     ],
