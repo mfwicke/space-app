@@ -301,7 +301,7 @@ const planets = [
         img: "/assets/planets/06-saturn/saturn-002.jpg",
       },
       {
-        img: "",
+        img: "/assets/planets/06-saturn/saturn-003.jpg",
         text: "The Dream Chaser Station has a lot to offer, all our Hotels provide our guests with a service that is most similar to their home planet. If you are used to martian or lunar gravity, if you are injured and prefer micro gravity we adjust our service to your needs.",
       },
       {
@@ -325,7 +325,7 @@ const planets = [
         text: "Package 3: The Maple Hotel – Budget Hotel – shuttle service to the Dream Chaser Strip",
       },
       {
-        img: "/assets/planets/06-saturn/saturn-003.jpg",
+        img: "/assets/planets/06-saturn/saturn-004.jpg",
         text: "",
       },
     ],
@@ -369,8 +369,8 @@ const planets = [
         text: "After a series of difficult reconnaissance expeditions, scientists were able to discover the composition of the atmosphere of the planet's mass. While the first one consists of gases such as water and ammonia, the second one is mainly composed of ice and rock.",
       },
       {
-        img: "",
-        text: "We have prepared for you a structure in orbit between the planet and the first of its five moons and his rings: the 7th Heaven Station. From here depart the many train-shuttle caravans with which one can take long tours of the planet's atmosphere. The extremely low temperatures do not allow the surface to be visited, but STELLAR TRIPS has provided the cars with special insulation panels so that the most comfortable environmental conditions are maintained inside.",
+        img: "/assets/planets/07-uranus/uranus-004.jpg",
+        text: "We have prepared for you a structure in orbit surrounding and connecter to the first of its five moons: the 7th Heaven Station. From here depart the many train-shuttle caravans with which one can take long tours of the planet's atmosphere. The extremely low temperatures do not allow the surface to be visited, but STELLAR TRIPS has provided the cars with special insulation panels so that the most comfortable environmental conditions are maintained inside.",
       },
       {
         img: "",
