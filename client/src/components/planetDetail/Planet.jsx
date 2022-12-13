@@ -40,7 +40,7 @@ const Planet = () => {
                   item.img && item.text ? (
                     <div className={`planet-${planet.name + k} planet-info`}>
                       <img
-                        src={item.img}
+                        src={process.env.PUBLIC_URL + item.img}
                         alt=""
                         className={`photo-${
                           planet.name + k
