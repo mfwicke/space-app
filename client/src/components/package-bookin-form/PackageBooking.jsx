@@ -10,7 +10,6 @@ export const PackageBooking = () => {
   const [isBookingCompleted, setIsBookingCompleted] = useState(false);
   const [packagesBooked, setPackagesBooked] = useState([]);
 
-
   const toggleDropdown = () => setOpen(!isOpen);
 
   const handleItemClick = (name) => {
@@ -27,7 +26,6 @@ export const PackageBooking = () => {
   };
 
   const addPackage = (packageSupplied) => {
-
     console.log(packageSupplied);
     let packageFound = packagesBooked.findIndex(
       (p) => p.name === packageSupplied.name
@@ -65,7 +63,6 @@ export const PackageBooking = () => {
                 id="package-dropdown-button"
                 onClick={handleProceed}
               >
-
                 Proceed
               </button>
             </span>
@@ -102,12 +99,12 @@ export const PackageBooking = () => {
             <div className="info">
               {selectedPlanet.package.map((item) => (
                 <>
-                  <h4 className="items">
+                  <h2 className="items">
                     <input type="checkbox" onChange={() => addPackage(item)} />
-                    {` Package: ${item.name}, 
-                      Price: ${item.price}, 
-                      Description: ${item.description}`}
-                  </h4>
+                    {` Name of the Package ${item.name}, 
+
+                      Description ${item.description}`}
+                  </h2>
                 </>
               ))}
             </div>
