@@ -21,7 +21,6 @@ const { DB_USER, DB_PASS, DB_HOST, DB_NAME } = process.env;
 const dbConnectionString = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_HOST}/${DB_NAME}?retryWrites=true&w=majority`;
 
 const port = process.env.DB_PORT || 5000;
-console.log("We're here", dbConnectionString)
 
 mongoose
   .connect(dbConnectionString)

@@ -30,8 +30,8 @@ const User = (props) => {
   return (
     <>
       <div className="user-packages-box">
-        <h1>{`Hello ${firstName}, Welcome back`}</h1>
-        <h2>{`Your last name is ${lastName}`}</h2>
+        <h1>{`Hello ${firstName}, Welcome.`}</h1>
+
         <div className="package-booking-box">
           <PackageBooking />
         </div>
