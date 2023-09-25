@@ -74,4 +74,5 @@ const Planet = () => {
   );
 };
 
+// aqui
 export default Planet;
